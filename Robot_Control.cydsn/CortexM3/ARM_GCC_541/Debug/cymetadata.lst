@@ -1,0 +1,2576 @@
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccbAJkfz.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m3
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"cymetadata.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.global	cy_metadata
+  20              		.global	cy_meta_flashprotect
+  21              		.global	cy_meta_wonvl
+  22              		.global	cy_meta_custnvl
+  23              		.global	cy_meta_configecc
+  24              		.section	.cyconfigecc,"a",%progbits
+  25              		.align	2
+  26              		.type	cy_meta_configecc, %object
+  27              		.size	cy_meta_configecc, 1968
+  28              	cy_meta_configecc:
+  29 0000 06       		.byte	6
+  30 0001 52       		.byte	82
+  31 0002 00       		.byte	0
+  32 0003 40       		.byte	64
+  33 0004 04       		.byte	4
+  34 0005 64       		.byte	100
+  35 0006 00       		.byte	0
+  36 0007 40       		.byte	64
+  37 0008 04       		.byte	4
+  38 0009 65       		.byte	101
+  39 000a 00       		.byte	0
+  40 000b 40       		.byte	64
+  41 000c 45       		.byte	69
+  42 000d 04       		.byte	4
+  43 000e 01       		.byte	1
+  44 000f 40       		.byte	64
+  45 0010 23       		.byte	35
+  46 0011 05       		.byte	5
+  47 0012 01       		.byte	1
+  48 0013 40       		.byte	64
+  49 0014 44       		.byte	68
+  50 0015 06       		.byte	6
+  51 0016 01       		.byte	1
+  52 0017 40       		.byte	64
+  53 0018 22       		.byte	34
+  54 0019 07       		.byte	7
+  55 001a 01       		.byte	1
+  56 001b 40       		.byte	64
+  57 001c 45       		.byte	69
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccbAJkfz.s 			page 2
+
+
+  58 001d 08       		.byte	8
+  59 001e 01       		.byte	1
+  60 001f 40       		.byte	64
+  61 0020 24       		.byte	36
+  62 0021 09       		.byte	9
+  63 0022 01       		.byte	1
+  64 0023 40       		.byte	64
+  65 0024 42       		.byte	66
+  66 0025 0A       		.byte	10
+  67 0026 01       		.byte	1
+  68 0027 40       		.byte	64
+  69 0028 23       		.byte	35
+  70 0029 0B       		.byte	11
+  71 002a 01       		.byte	1
+  72 002b 40       		.byte	64
+  73 002c 45       		.byte	69
+  74 002d 14       		.byte	20
+  75 002e 01       		.byte	1
+  76 002f 40       		.byte	64
+  77 0030 24       		.byte	36
+  78 0031 15       		.byte	21
+  79 0032 01       		.byte	1
+  80 0033 40       		.byte	64
+  81 0034 45       		.byte	69
+  82 0035 16       		.byte	22
+  83 0036 01       		.byte	1
+  84 0037 40       		.byte	64
+  85 0038 21       		.byte	33
+  86 0039 17       		.byte	23
+  87 003a 01       		.byte	1
+  88 003b 40       		.byte	64
+  89 003c 45       		.byte	69
+  90 003d 18       		.byte	24
+  91 003e 01       		.byte	1
+  92 003f 40       		.byte	64
+  93 0040 20       		.byte	32
+  94 0041 19       		.byte	25
+  95 0042 01       		.byte	1
+  96 0043 40       		.byte	64
+  97 0044 45       		.byte	69
+  98 0045 1A       		.byte	26
+  99 0046 01       		.byte	1
+ 100 0047 40       		.byte	64
+ 101 0048 27       		.byte	39
+ 102 0049 1B       		.byte	27
+ 103 004a 01       		.byte	1
+ 104 004b 40       		.byte	64
+ 105 004c 0B       		.byte	11
+ 106 004d 41       		.byte	65
+ 107 004e 01       		.byte	1
+ 108 004f 40       		.byte	64
+ 109 0050 09       		.byte	9
+ 110 0051 42       		.byte	66
+ 111 0052 01       		.byte	1
+ 112 0053 40       		.byte	64
+ 113 0054 08       		.byte	8
+ 114 0055 43       		.byte	67
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccbAJkfz.s 			page 3
+
+
+ 115 0056 01       		.byte	1
+ 116 0057 40       		.byte	64
+ 117 0058 04       		.byte	4
+ 118 0059 45       		.byte	69
+ 119 005a 01       		.byte	1
+ 120 005b 40       		.byte	64
+ 121 005c 02       		.byte	2
+ 122 005d 46       		.byte	70
+ 123 005e 01       		.byte	1
+ 124 005f 40       		.byte	64
+ 125 0060 06       		.byte	6
+ 126 0061 47       		.byte	71
+ 127 0062 01       		.byte	1
+ 128 0063 40       		.byte	64
+ 129 0064 05       		.byte	5
+ 130 0065 48       		.byte	72
+ 131 0066 01       		.byte	1
+ 132 0067 40       		.byte	64
+ 133 0068 02       		.byte	2
+ 134 0069 49       		.byte	73
+ 135 006a 01       		.byte	1
+ 136 006b 40       		.byte	64
+ 137 006c 0B       		.byte	11
+ 138 006d 4C       		.byte	76
+ 139 006e 01       		.byte	1
+ 140 006f 40       		.byte	64
+ 141 0070 05       		.byte	5
+ 142 0071 4D       		.byte	77
+ 143 0072 01       		.byte	1
+ 144 0073 40       		.byte	64
+ 145 0074 06       		.byte	6
+ 146 0075 50       		.byte	80
+ 147 0076 01       		.byte	1
+ 148 0077 40       		.byte	64
+ 149 0078 00       		.byte	0
+ 150 0079 A9       		.byte	-87
+ 151 007a 01       		.byte	1
+ 152 007b C3       		.byte	-61
+ 153 007c 08       		.byte	8
+ 154 007d 34       		.byte	52
+ 155 007e 09       		.byte	9
+ 156 007f 90       		.byte	-112
+ 157 0080 10       		.byte	16
+ 158 0081 05       		.byte	5
+ 159 0082 11       		.byte	17
+ 160 0083 06       		.byte	6
+ 161 0084 85       		.byte	-123
+ 162 0085 0F       		.byte	15
+ 163 0086 87       		.byte	-121
+ 164 0087 0F       		.byte	15
+ 165 0088 89       		.byte	-119
+ 166 0089 0F       		.byte	15
+ 167 008a 8B       		.byte	-117
+ 168 008b 0F       		.byte	15
+ 169 008c 85       		.byte	-123
+ 170 008d 0F       		.byte	15
+ 171 008e 87       		.byte	-121
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccbAJkfz.s 			page 4
+
+
+ 172 008f 0F       		.byte	15
+ 173 0090 89       		.byte	-119
+ 174 0091 0F       		.byte	15
+ 175 0092 8B       		.byte	-117
+ 176 0093 0F       		.byte	15
+ 177 0094 40       		.byte	64
+ 178 0095 30       		.byte	48
+ 179 0096 41       		.byte	65
+ 180 0097 02       		.byte	2
+ 181 0098 49       		.byte	73
+ 182 0099 FF       		.byte	-1
+ 183 009a 4A       		.byte	74
+ 184 009b FF       		.byte	-1
+ 185 009c 4B       		.byte	75
+ 186 009d FF       		.byte	-1
+ 187 009e 4D       		.byte	77
+ 188 009f A0       		.byte	-96
+ 189 00a0 4F       		.byte	79
+ 190 00a1 04       		.byte	4
+ 191 00a2 50       		.byte	80
+ 192 00a3 18       		.byte	24
+ 193 00a4 5A       		.byte	90
+ 194 00a5 04       		.byte	4
+ 195 00a6 5D       		.byte	93
+ 196 00a7 03       		.byte	3
+ 197 00a8 5F       		.byte	95
+ 198 00a9 01       		.byte	1
+ 199 00aa 60       		.byte	96
+ 200 00ab 40       		.byte	64
+ 201 00ac 62       		.byte	98
+ 202 00ad C0       		.byte	-64
+ 203 00ae 64       		.byte	100
+ 204 00af 40       		.byte	64
+ 205 00b0 65       		.byte	101
+ 206 00b1 40       		.byte	64
+ 207 00b2 66       		.byte	102
+ 208 00b3 C0       		.byte	-64
+ 209 00b4 68       		.byte	104
+ 210 00b5 C0       		.byte	-64
+ 211 00b6 6A       		.byte	106
+ 212 00b7 C0       		.byte	-64
+ 213 00b8 6C       		.byte	108
+ 214 00b9 C0       		.byte	-64
+ 215 00ba 6E       		.byte	110
+ 216 00bb C0       		.byte	-64
+ 217 00bc 83       		.byte	-125
+ 218 00bd 0C       		.byte	12
+ 219 00be 87       		.byte	-121
+ 220 00bf 03       		.byte	3
+ 221 00c0 8A       		.byte	-118
+ 222 00c1 0E       		.byte	14
+ 223 00c2 91       		.byte	-111
+ 224 00c3 02       		.byte	2
+ 225 00c4 96       		.byte	-106
+ 226 00c5 02       		.byte	2
+ 227 00c6 99       		.byte	-103
+ 228 00c7 08       		.byte	8
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccbAJkfz.s 			page 5
+
+
+ 229 00c8 9E       		.byte	-98
+ 230 00c9 08       		.byte	8
+ 231 00ca AA       		.byte	-86
+ 232 00cb 04       		.byte	4
+ 233 00cc AE       		.byte	-82
+ 234 00cd 01       		.byte	1
+ 235 00ce B0       		.byte	-80
+ 236 00cf 04       		.byte	4
+ 237 00d0 B1       		.byte	-79
+ 238 00d1 02       		.byte	2
+ 239 00d2 B2       		.byte	-78
+ 240 00d3 01       		.byte	1
+ 241 00d4 B3       		.byte	-77
+ 242 00d5 08       		.byte	8
+ 243 00d6 B4       		.byte	-76
+ 244 00d7 02       		.byte	2
+ 245 00d8 B5       		.byte	-75
+ 246 00d9 04       		.byte	4
+ 247 00da B6       		.byte	-74
+ 248 00db 08       		.byte	8
+ 249 00dc B7       		.byte	-73
+ 250 00dd 01       		.byte	1
+ 251 00de BE       		.byte	-66
+ 252 00df 10       		.byte	16
+ 253 00e0 C0       		.byte	-64
+ 254 00e1 30       		.byte	48
+ 255 00e2 C1       		.byte	-63
+ 256 00e3 02       		.byte	2
+ 257 00e4 C5       		.byte	-59
+ 258 00e5 D0       		.byte	-48
+ 259 00e6 C6       		.byte	-58
+ 260 00e7 20       		.byte	32
+ 261 00e8 C7       		.byte	-57
+ 262 00e9 51       		.byte	81
+ 263 00ea C8       		.byte	-56
+ 264 00eb 3A       		.byte	58
+ 265 00ec C9       		.byte	-55
+ 266 00ed FF       		.byte	-1
+ 267 00ee CA       		.byte	-54
+ 268 00ef FF       		.byte	-1
+ 269 00f0 CB       		.byte	-53
+ 270 00f1 FF       		.byte	-1
+ 271 00f2 CD       		.byte	-51
+ 272 00f3 AF       		.byte	-81
+ 273 00f4 CE       		.byte	-50
+ 274 00f5 0F       		.byte	15
+ 275 00f6 CF       		.byte	-49
+ 276 00f7 04       		.byte	4
+ 277 00f8 D0       		.byte	-48
+ 278 00f9 18       		.byte	24
+ 279 00fa D2       		.byte	-46
+ 280 00fb 80       		.byte	-128
+ 281 00fc D4       		.byte	-44
+ 282 00fd 07       		.byte	7
+ 283 00fe D8       		.byte	-40
+ 284 00ff 04       		.byte	4
+ 285 0100 D9       		.byte	-39
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccbAJkfz.s 			page 6
+
+
+ 286 0101 04       		.byte	4
+ 287 0102 DA       		.byte	-38
+ 288 0103 04       		.byte	4
+ 289 0104 DB       		.byte	-37
+ 290 0105 04       		.byte	4
+ 291 0106 DC       		.byte	-36
+ 292 0107 33       		.byte	51
+ 293 0108 DD       		.byte	-35
+ 294 0109 33       		.byte	51
+ 295 010a DF       		.byte	-33
+ 296 010b 01       		.byte	1
+ 297 010c E0       		.byte	-32
+ 298 010d 40       		.byte	64
+ 299 010e E2       		.byte	-30
+ 300 010f C0       		.byte	-64
+ 301 0110 E4       		.byte	-28
+ 302 0111 40       		.byte	64
+ 303 0112 E5       		.byte	-27
+ 304 0113 40       		.byte	64
+ 305 0114 E6       		.byte	-26
+ 306 0115 C0       		.byte	-64
+ 307 0116 E8       		.byte	-24
+ 308 0117 C0       		.byte	-64
+ 309 0118 EA       		.byte	-22
+ 310 0119 C0       		.byte	-64
+ 311 011a EC       		.byte	-20
+ 312 011b C0       		.byte	-64
+ 313 011c EE       		.byte	-18
+ 314 011d C0       		.byte	-64
+ 315 011e 04       		.byte	4
+ 316 011f 10       		.byte	16
+ 317 0120 0F       		.byte	15
+ 318 0121 22       		.byte	34
+ 319 0122 16       		.byte	22
+ 320 0123 08       		.byte	8
+ 321 0124 17       		.byte	23
+ 322 0125 40       		.byte	64
+ 323 0126 1C       		.byte	28
+ 324 0127 10       		.byte	16
+ 325 0128 1D       		.byte	29
+ 326 0129 88       		.byte	-120
+ 327 012a 1E       		.byte	30
+ 328 012b 08       		.byte	8
+ 329 012c 1F       		.byte	31
+ 330 012d 01       		.byte	1
+ 331 012e 24       		.byte	36
+ 332 012f 40       		.byte	64
+ 333 0130 26       		.byte	38
+ 334 0131 20       		.byte	32
+ 335 0132 27       		.byte	39
+ 336 0133 22       		.byte	34
+ 337 0134 36       		.byte	54
+ 338 0135 20       		.byte	32
+ 339 0136 37       		.byte	55
+ 340 0137 02       		.byte	2
+ 341 0138 3E       		.byte	62
+ 342 0139 08       		.byte	8
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccbAJkfz.s 			page 7
+
+
+ 343 013a 3F       		.byte	63
+ 344 013b 02       		.byte	2
+ 345 013c 40       		.byte	64
+ 346 013d 10       		.byte	16
+ 347 013e 41       		.byte	65
+ 348 013f 20       		.byte	32
+ 349 0140 45       		.byte	69
+ 350 0141 28       		.byte	40
+ 351 0142 4F       		.byte	79
+ 352 0143 01       		.byte	1
+ 353 0144 55       		.byte	85
+ 354 0145 20       		.byte	32
+ 355 0146 56       		.byte	86
+ 356 0147 08       		.byte	8
+ 357 0148 57       		.byte	87
+ 358 0149 11       		.byte	17
+ 359 014a 5C       		.byte	92
+ 360 014b 40       		.byte	64
+ 361 014c 5E       		.byte	94
+ 362 014d 08       		.byte	8
+ 363 014e 5F       		.byte	95
+ 364 014f 21       		.byte	33
+ 365 0150 77       		.byte	119
+ 366 0151 40       		.byte	64
+ 367 0152 83       		.byte	-125
+ 368 0153 01       		.byte	1
+ 369 0154 85       		.byte	-123
+ 370 0155 80       		.byte	-128
+ 371 0156 C0       		.byte	-64
+ 372 0157 40       		.byte	64
+ 373 0158 C2       		.byte	-62
+ 374 0159 A0       		.byte	-96
+ 375 015a C4       		.byte	-60
+ 376 015b C0       		.byte	-64
+ 377 015c CC       		.byte	-52
+ 378 015d A0       		.byte	-96
+ 379 015e CE       		.byte	-50
+ 380 015f C0       		.byte	-64
+ 381 0160 D0       		.byte	-48
+ 382 0161 66       		.byte	102
+ 383 0162 D6       		.byte	-42
+ 384 0163 F0       		.byte	-16
+ 385 0164 40       		.byte	64
+ 386 0165 60       		.byte	96
+ 387 0166 41       		.byte	65
+ 388 0167 05       		.byte	5
+ 389 0168 49       		.byte	73
+ 390 0169 FF       		.byte	-1
+ 391 016a 4A       		.byte	74
+ 392 016b FF       		.byte	-1
+ 393 016c 4B       		.byte	75
+ 394 016d FF       		.byte	-1
+ 395 016e 4D       		.byte	77
+ 396 016f A0       		.byte	-96
+ 397 0170 4F       		.byte	79
+ 398 0171 04       		.byte	4
+ 399 0172 50       		.byte	80
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccbAJkfz.s 			page 8
+
+
+ 400 0173 18       		.byte	24
+ 401 0174 5A       		.byte	90
+ 402 0175 04       		.byte	4
+ 403 0176 5D       		.byte	93
+ 404 0177 01       		.byte	1
+ 405 0178 5F       		.byte	95
+ 406 0179 01       		.byte	1
+ 407 017a 60       		.byte	96
+ 408 017b 40       		.byte	64
+ 409 017c 62       		.byte	98
+ 410 017d C0       		.byte	-64
+ 411 017e 64       		.byte	100
+ 412 017f 40       		.byte	64
+ 413 0180 65       		.byte	101
+ 414 0181 40       		.byte	64
+ 415 0182 66       		.byte	102
+ 416 0183 C0       		.byte	-64
+ 417 0184 68       		.byte	104
+ 418 0185 C0       		.byte	-64
+ 419 0186 6A       		.byte	106
+ 420 0187 C0       		.byte	-64
+ 421 0188 6C       		.byte	108
+ 422 0189 C0       		.byte	-64
+ 423 018a 6E       		.byte	110
+ 424 018b C0       		.byte	-64
+ 425 018c 89       		.byte	-119
+ 426 018d 02       		.byte	2
+ 427 018e 8D       		.byte	-115
+ 428 018f 08       		.byte	8
+ 429 0190 8E       		.byte	-114
+ 430 0191 02       		.byte	2
+ 431 0192 92       		.byte	-110
+ 432 0193 01       		.byte	1
+ 433 0194 97       		.byte	-105
+ 434 0195 03       		.byte	3
+ 435 0196 9A       		.byte	-102
+ 436 0197 0E       		.byte	14
+ 437 0198 9B       		.byte	-101
+ 438 0199 0C       		.byte	12
+ 439 019a A6       		.byte	-90
+ 440 019b 08       		.byte	8
+ 441 019c AA       		.byte	-86
+ 442 019d 04       		.byte	4
+ 443 019e B0       		.byte	-80
+ 444 019f 04       		.byte	4
+ 445 01a0 B1       		.byte	-79
+ 446 01a1 04       		.byte	4
+ 447 01a2 B2       		.byte	-78
+ 448 01a3 02       		.byte	2
+ 449 01a4 B3       		.byte	-77
+ 450 01a5 01       		.byte	1
+ 451 01a6 B4       		.byte	-76
+ 452 01a7 01       		.byte	1
+ 453 01a8 B5       		.byte	-75
+ 454 01a9 08       		.byte	8
+ 455 01aa B6       		.byte	-74
+ 456 01ab 08       		.byte	8
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccbAJkfz.s 			page 9
+
+
+ 457 01ac B7       		.byte	-73
+ 458 01ad 02       		.byte	2
+ 459 01ae BE       		.byte	-66
+ 460 01af 04       		.byte	4
+ 461 01b0 C0       		.byte	-64
+ 462 01b1 20       		.byte	32
+ 463 01b2 C1       		.byte	-63
+ 464 01b3 05       		.byte	5
+ 465 01b4 C5       		.byte	-59
+ 466 01b5 D5       		.byte	-43
+ 467 01b6 C7       		.byte	-57
+ 468 01b7 21       		.byte	33
+ 469 01b8 C8       		.byte	-56
+ 470 01b9 33       		.byte	51
+ 471 01ba C9       		.byte	-55
+ 472 01bb FF       		.byte	-1
+ 473 01bc CA       		.byte	-54
+ 474 01bd FF       		.byte	-1
+ 475 01be CB       		.byte	-53
+ 476 01bf FF       		.byte	-1
+ 477 01c0 CD       		.byte	-51
+ 478 01c1 AF       		.byte	-81
+ 479 01c2 CE       		.byte	-50
+ 480 01c3 0F       		.byte	15
+ 481 01c4 CF       		.byte	-49
+ 482 01c5 04       		.byte	4
+ 483 01c6 D0       		.byte	-48
+ 484 01c7 18       		.byte	24
+ 485 01c8 D2       		.byte	-46
+ 486 01c9 80       		.byte	-128
+ 487 01ca D4       		.byte	-44
+ 488 01cb 07       		.byte	7
+ 489 01cc D8       		.byte	-40
+ 490 01cd 04       		.byte	4
+ 491 01ce D9       		.byte	-39
+ 492 01cf 04       		.byte	4
+ 493 01d0 DA       		.byte	-38
+ 494 01d1 04       		.byte	4
+ 495 01d2 DB       		.byte	-37
+ 496 01d3 04       		.byte	4
+ 497 01d4 DC       		.byte	-36
+ 498 01d5 11       		.byte	17
+ 499 01d6 DD       		.byte	-35
+ 500 01d7 11       		.byte	17
+ 501 01d8 DF       		.byte	-33
+ 502 01d9 01       		.byte	1
+ 503 01da E0       		.byte	-32
+ 504 01db 40       		.byte	64
+ 505 01dc E2       		.byte	-30
+ 506 01dd C0       		.byte	-64
+ 507 01de E4       		.byte	-28
+ 508 01df 40       		.byte	64
+ 509 01e0 E5       		.byte	-27
+ 510 01e1 40       		.byte	64
+ 511 01e2 E6       		.byte	-26
+ 512 01e3 C0       		.byte	-64
+ 513 01e4 E8       		.byte	-24
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccbAJkfz.s 			page 10
+
+
+ 514 01e5 C0       		.byte	-64
+ 515 01e6 EA       		.byte	-22
+ 516 01e7 C0       		.byte	-64
+ 517 01e8 EC       		.byte	-20
+ 518 01e9 C0       		.byte	-64
+ 519 01ea EE       		.byte	-18
+ 520 01eb C0       		.byte	-64
+ 521 01ec 02       		.byte	2
+ 522 01ed 02       		.byte	2
+ 523 01ee 0A       		.byte	10
+ 524 01ef 44       		.byte	68
+ 525 01f0 10       		.byte	16
+ 526 01f1 28       		.byte	40
+ 527 01f2 19       		.byte	25
+ 528 01f3 84       		.byte	-124
+ 529 01f4 1A       		.byte	26
+ 530 01f5 04       		.byte	4
+ 531 01f6 1B       		.byte	27
+ 532 01f7 12       		.byte	18
+ 533 01f8 20       		.byte	32
+ 534 01f9 50       		.byte	80
+ 535 01fa 22       		.byte	34
+ 536 01fb 50       		.byte	80
+ 537 01fc 30       		.byte	48
+ 538 01fd 28       		.byte	40
+ 539 01fe 38       		.byte	56
+ 540 01ff 50       		.byte	80
+ 541 0200 42       		.byte	66
+ 542 0201 04       		.byte	4
+ 543 0202 48       		.byte	72
+ 544 0203 20       		.byte	32
+ 545 0204 49       		.byte	73
+ 546 0205 01       		.byte	1
+ 547 0206 4A       		.byte	74
+ 548 0207 02       		.byte	2
+ 549 0208 4E       		.byte	78
+ 550 0209 02       		.byte	2
+ 551 020a 4F       		.byte	79
+ 552 020b 20       		.byte	32
+ 553 020c 50       		.byte	80
+ 554 020d 08       		.byte	8
+ 555 020e 52       		.byte	82
+ 556 020f 02       		.byte	2
+ 557 0210 59       		.byte	89
+ 558 0211 05       		.byte	5
+ 559 0212 5A       		.byte	90
+ 560 0213 A0       		.byte	-96
+ 561 0214 72       		.byte	114
+ 562 0215 40       		.byte	64
+ 563 0216 85       		.byte	-123
+ 564 0217 80       		.byte	-128
+ 565 0218 89       		.byte	-119
+ 566 0219 80       		.byte	-128
+ 567 021a 8F       		.byte	-113
+ 568 021b 02       		.byte	2
+ 569 021c C0       		.byte	-64
+ 570 021d 01       		.byte	1
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccbAJkfz.s 			page 11
+
+
+ 571 021e C2       		.byte	-62
+ 572 021f 0A       		.byte	10
+ 573 0220 C4       		.byte	-60
+ 574 0221 06       		.byte	6
+ 575 0222 CC       		.byte	-52
+ 576 0223 06       		.byte	6
+ 577 0224 CE       		.byte	-50
+ 578 0225 0C       		.byte	12
+ 579 0226 D0       		.byte	-48
+ 580 0227 04       		.byte	4
+ 581 0228 D2       		.byte	-46
+ 582 0229 38       		.byte	56
+ 583 022a D6       		.byte	-42
+ 584 022b 0F       		.byte	15
+ 585 022c E2       		.byte	-30
+ 586 022d 20       		.byte	32
+ 587 022e E6       		.byte	-26
+ 588 022f 40       		.byte	64
+ 589 0230 40       		.byte	64
+ 590 0231 60       		.byte	96
+ 591 0232 41       		.byte	65
+ 592 0233 02       		.byte	2
+ 593 0234 49       		.byte	73
+ 594 0235 FF       		.byte	-1
+ 595 0236 4A       		.byte	74
+ 596 0237 FF       		.byte	-1
+ 597 0238 4B       		.byte	75
+ 598 0239 FF       		.byte	-1
+ 599 023a 4D       		.byte	77
+ 600 023b A0       		.byte	-96
+ 601 023c 4F       		.byte	79
+ 602 023d 04       		.byte	4
+ 603 023e 50       		.byte	80
+ 604 023f 18       		.byte	24
+ 605 0240 5A       		.byte	90
+ 606 0241 04       		.byte	4
+ 607 0242 5D       		.byte	93
+ 608 0243 05       		.byte	5
+ 609 0244 5F       		.byte	95
+ 610 0245 01       		.byte	1
+ 611 0246 60       		.byte	96
+ 612 0247 40       		.byte	64
+ 613 0248 62       		.byte	98
+ 614 0249 C0       		.byte	-64
+ 615 024a 64       		.byte	100
+ 616 024b 40       		.byte	64
+ 617 024c 65       		.byte	101
+ 618 024d 40       		.byte	64
+ 619 024e 66       		.byte	102
+ 620 024f C0       		.byte	-64
+ 621 0250 68       		.byte	104
+ 622 0251 C0       		.byte	-64
+ 623 0252 6A       		.byte	106
+ 624 0253 C0       		.byte	-64
+ 625 0254 6C       		.byte	108
+ 626 0255 C0       		.byte	-64
+ 627 0256 6E       		.byte	110
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccbAJkfz.s 			page 12
+
+
+ 628 0257 C0       		.byte	-64
+ 629 0258 8D       		.byte	-115
+ 630 0259 08       		.byte	8
+ 631 025a 92       		.byte	-110
+ 632 025b 01       		.byte	1
+ 633 025c 95       		.byte	-107
+ 634 025d 02       		.byte	2
+ 635 025e 9A       		.byte	-102
+ 636 025f 0E       		.byte	14
+ 637 0260 9B       		.byte	-101
+ 638 0261 0C       		.byte	12
+ 639 0262 9F       		.byte	-97
+ 640 0263 03       		.byte	3
+ 641 0264 A2       		.byte	-94
+ 642 0265 04       		.byte	4
+ 643 0266 A6       		.byte	-90
+ 644 0267 08       		.byte	8
+ 645 0268 AA       		.byte	-86
+ 646 0269 02       		.byte	2
+ 647 026a B0       		.byte	-80
+ 648 026b 04       		.byte	4
+ 649 026c B1       		.byte	-79
+ 650 026d 04       		.byte	4
+ 651 026e B2       		.byte	-78
+ 652 026f 02       		.byte	2
+ 653 0270 B3       		.byte	-77
+ 654 0271 01       		.byte	1
+ 655 0272 B4       		.byte	-76
+ 656 0273 01       		.byte	1
+ 657 0274 B5       		.byte	-75
+ 658 0275 08       		.byte	8
+ 659 0276 B6       		.byte	-74
+ 660 0277 08       		.byte	8
+ 661 0278 B7       		.byte	-73
+ 662 0279 02       		.byte	2
+ 663 027a BE       		.byte	-66
+ 664 027b 04       		.byte	4
+ 665 027c C0       		.byte	-64
+ 666 027d 20       		.byte	32
+ 667 027e C1       		.byte	-63
+ 668 027f 06       		.byte	6
+ 669 0280 C5       		.byte	-59
+ 670 0281 D5       		.byte	-43
+ 671 0282 C6       		.byte	-58
+ 672 0283 01       		.byte	1
+ 673 0284 C7       		.byte	-57
+ 674 0285 02       		.byte	2
+ 675 0286 C8       		.byte	-56
+ 676 0287 17       		.byte	23
+ 677 0288 C9       		.byte	-55
+ 678 0289 FF       		.byte	-1
+ 679 028a CA       		.byte	-54
+ 680 028b FF       		.byte	-1
+ 681 028c CB       		.byte	-53
+ 682 028d FF       		.byte	-1
+ 683 028e CD       		.byte	-51
+ 684 028f AF       		.byte	-81
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccbAJkfz.s 			page 13
+
+
+ 685 0290 CE       		.byte	-50
+ 686 0291 0F       		.byte	15
+ 687 0292 CF       		.byte	-49
+ 688 0293 04       		.byte	4
+ 689 0294 D0       		.byte	-48
+ 690 0295 18       		.byte	24
+ 691 0296 D2       		.byte	-46
+ 692 0297 80       		.byte	-128
+ 693 0298 D4       		.byte	-44
+ 694 0299 07       		.byte	7
+ 695 029a D8       		.byte	-40
+ 696 029b 04       		.byte	4
+ 697 029c D9       		.byte	-39
+ 698 029d 04       		.byte	4
+ 699 029e DA       		.byte	-38
+ 700 029f 04       		.byte	4
+ 701 02a0 DB       		.byte	-37
+ 702 02a1 04       		.byte	4
+ 703 02a2 DC       		.byte	-36
+ 704 02a3 55       		.byte	85
+ 705 02a4 DD       		.byte	-35
+ 706 02a5 55       		.byte	85
+ 707 02a6 DF       		.byte	-33
+ 708 02a7 01       		.byte	1
+ 709 02a8 E0       		.byte	-32
+ 710 02a9 40       		.byte	64
+ 711 02aa E2       		.byte	-30
+ 712 02ab C0       		.byte	-64
+ 713 02ac E4       		.byte	-28
+ 714 02ad 40       		.byte	64
+ 715 02ae E5       		.byte	-27
+ 716 02af 40       		.byte	64
+ 717 02b0 E6       		.byte	-26
+ 718 02b1 C0       		.byte	-64
+ 719 02b2 E8       		.byte	-24
+ 720 02b3 C0       		.byte	-64
+ 721 02b4 EA       		.byte	-22
+ 722 02b5 C0       		.byte	-64
+ 723 02b6 EC       		.byte	-20
+ 724 02b7 C0       		.byte	-64
+ 725 02b8 EE       		.byte	-18
+ 726 02b9 C0       		.byte	-64
+ 727 02ba 0A       		.byte	10
+ 728 02bb 44       		.byte	68
+ 729 02bc 10       		.byte	16
+ 730 02bd A0       		.byte	-96
+ 731 02be 12       		.byte	18
+ 732 02bf 04       		.byte	4
+ 733 02c0 19       		.byte	25
+ 734 02c1 04       		.byte	4
+ 735 02c2 1A       		.byte	26
+ 736 02c3 04       		.byte	4
+ 737 02c4 1B       		.byte	27
+ 738 02c5 52       		.byte	82
+ 739 02c6 20       		.byte	32
+ 740 02c7 40       		.byte	64
+ 741 02c8 21       		.byte	33
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccbAJkfz.s 			page 14
+
+
+ 742 02c9 08       		.byte	8
+ 743 02ca 22       		.byte	34
+ 744 02cb 50       		.byte	80
+ 745 02cc 30       		.byte	48
+ 746 02cd A0       		.byte	-96
+ 747 02ce 31       		.byte	49
+ 748 02cf 08       		.byte	8
+ 749 02d0 38       		.byte	56
+ 750 02d1 40       		.byte	64
+ 751 02d2 42       		.byte	66
+ 752 02d3 04       		.byte	4
+ 753 02d4 46       		.byte	70
+ 754 02d5 04       		.byte	4
+ 755 02d6 48       		.byte	72
+ 756 02d7 28       		.byte	40
+ 757 02d8 49       		.byte	73
+ 758 02d9 01       		.byte	1
+ 759 02da 4F       		.byte	79
+ 760 02db 20       		.byte	32
+ 761 02dc 50       		.byte	80
+ 762 02dd 88       		.byte	-120
+ 763 02de 52       		.byte	82
+ 764 02df 04       		.byte	4
+ 765 02e0 59       		.byte	89
+ 766 02e1 05       		.byte	5
+ 767 02e2 5A       		.byte	90
+ 768 02e3 A0       		.byte	-96
+ 769 02e4 72       		.byte	114
+ 770 02e5 40       		.byte	64
+ 771 02e6 83       		.byte	-125
+ 772 02e7 02       		.byte	2
+ 773 02e8 8B       		.byte	-117
+ 774 02e9 04       		.byte	4
+ 775 02ea 93       		.byte	-109
+ 776 02eb 08       		.byte	8
+ 777 02ec A7       		.byte	-89
+ 778 02ed 80       		.byte	-128
+ 779 02ee AF       		.byte	-81
+ 780 02ef 02       		.byte	2
+ 781 02f0 C2       		.byte	-62
+ 782 02f1 0A       		.byte	10
+ 783 02f2 C4       		.byte	-60
+ 784 02f3 0E       		.byte	14
+ 785 02f4 CC       		.byte	-52
+ 786 02f5 0E       		.byte	14
+ 787 02f6 CE       		.byte	-50
+ 788 02f7 08       		.byte	8
+ 789 02f8 D0       		.byte	-48
+ 790 02f9 24       		.byte	36
+ 791 02fa D2       		.byte	-46
+ 792 02fb 24       		.byte	36
+ 793 02fc D6       		.byte	-42
+ 794 02fd 0F       		.byte	15
+ 795 02fe E0       		.byte	-32
+ 796 02ff 04       		.byte	4
+ 797 0300 E8       		.byte	-24
+ 798 0301 08       		.byte	8
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccbAJkfz.s 			page 15
+
+
+ 799 0302 40       		.byte	64
+ 800 0303 10       		.byte	16
+ 801 0304 41       		.byte	65
+ 802 0305 02       		.byte	2
+ 803 0306 49       		.byte	73
+ 804 0307 FF       		.byte	-1
+ 805 0308 4A       		.byte	74
+ 806 0309 FF       		.byte	-1
+ 807 030a 4B       		.byte	75
+ 808 030b FF       		.byte	-1
+ 809 030c 4D       		.byte	77
+ 810 030d A0       		.byte	-96
+ 811 030e 4F       		.byte	79
+ 812 030f 04       		.byte	4
+ 813 0310 50       		.byte	80
+ 814 0311 18       		.byte	24
+ 815 0312 5A       		.byte	90
+ 816 0313 04       		.byte	4
+ 817 0314 5F       		.byte	95
+ 818 0315 01       		.byte	1
+ 819 0316 60       		.byte	96
+ 820 0317 40       		.byte	64
+ 821 0318 62       		.byte	98
+ 822 0319 C0       		.byte	-64
+ 823 031a 64       		.byte	100
+ 824 031b 40       		.byte	64
+ 825 031c 65       		.byte	101
+ 826 031d 40       		.byte	64
+ 827 031e 66       		.byte	102
+ 828 031f C0       		.byte	-64
+ 829 0320 68       		.byte	104
+ 830 0321 C0       		.byte	-64
+ 831 0322 6A       		.byte	106
+ 832 0323 C0       		.byte	-64
+ 833 0324 6C       		.byte	108
+ 834 0325 C0       		.byte	-64
+ 835 0326 6E       		.byte	110
+ 836 0327 C0       		.byte	-64
+ 837 0328 82       		.byte	-126
+ 838 0329 0E       		.byte	14
+ 839 032a 83       		.byte	-125
+ 840 032b 0C       		.byte	12
+ 841 032c 87       		.byte	-121
+ 842 032d 03       		.byte	3
+ 843 032e 91       		.byte	-111
+ 844 032f 02       		.byte	2
+ 845 0330 99       		.byte	-103
+ 846 0331 08       		.byte	8
+ 847 0332 9E       		.byte	-98
+ 848 0333 08       		.byte	8
+ 849 0334 A6       		.byte	-90
+ 850 0335 02       		.byte	2
+ 851 0336 AA       		.byte	-86
+ 852 0337 04       		.byte	4
+ 853 0338 AE       		.byte	-82
+ 854 0339 01       		.byte	1
+ 855 033a B0       		.byte	-80
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccbAJkfz.s 			page 16
+
+
+ 856 033b 04       		.byte	4
+ 857 033c B1       		.byte	-79
+ 858 033d 02       		.byte	2
+ 859 033e B2       		.byte	-78
+ 860 033f 08       		.byte	8
+ 861 0340 B3       		.byte	-77
+ 862 0341 08       		.byte	8
+ 863 0342 B4       		.byte	-76
+ 864 0343 02       		.byte	2
+ 865 0344 B5       		.byte	-75
+ 866 0345 04       		.byte	4
+ 867 0346 B6       		.byte	-74
+ 868 0347 01       		.byte	1
+ 869 0348 B7       		.byte	-73
+ 870 0349 01       		.byte	1
+ 871 034a BE       		.byte	-66
+ 872 034b 10       		.byte	16
+ 873 034c C0       		.byte	-64
+ 874 034d 10       		.byte	16
+ 875 034e C1       		.byte	-63
+ 876 034f 02       		.byte	2
+ 877 0350 C5       		.byte	-59
+ 878 0351 D0       		.byte	-48
+ 879 0352 C6       		.byte	-58
+ 880 0353 20       		.byte	32
+ 881 0354 C7       		.byte	-57
+ 882 0355 51       		.byte	81
+ 883 0356 C8       		.byte	-56
+ 884 0357 3A       		.byte	58
+ 885 0358 C9       		.byte	-55
+ 886 0359 FF       		.byte	-1
+ 887 035a CA       		.byte	-54
+ 888 035b FF       		.byte	-1
+ 889 035c CB       		.byte	-53
+ 890 035d FF       		.byte	-1
+ 891 035e CD       		.byte	-51
+ 892 035f AF       		.byte	-81
+ 893 0360 CE       		.byte	-50
+ 894 0361 0F       		.byte	15
+ 895 0362 CF       		.byte	-49
+ 896 0363 04       		.byte	4
+ 897 0364 D0       		.byte	-48
+ 898 0365 18       		.byte	24
+ 899 0366 D2       		.byte	-46
+ 900 0367 80       		.byte	-128
+ 901 0368 D4       		.byte	-44
+ 902 0369 07       		.byte	7
+ 903 036a D8       		.byte	-40
+ 904 036b 04       		.byte	4
+ 905 036c D9       		.byte	-39
+ 906 036d 04       		.byte	4
+ 907 036e DA       		.byte	-38
+ 908 036f 04       		.byte	4
+ 909 0370 DB       		.byte	-37
+ 910 0371 04       		.byte	4
+ 911 0372 DF       		.byte	-33
+ 912 0373 01       		.byte	1
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccbAJkfz.s 			page 17
+
+
+ 913 0374 E0       		.byte	-32
+ 914 0375 40       		.byte	64
+ 915 0376 E2       		.byte	-30
+ 916 0377 C0       		.byte	-64
+ 917 0378 E4       		.byte	-28
+ 918 0379 40       		.byte	64
+ 919 037a E5       		.byte	-27
+ 920 037b 40       		.byte	64
+ 921 037c E6       		.byte	-26
+ 922 037d C0       		.byte	-64
+ 923 037e E8       		.byte	-24
+ 924 037f C0       		.byte	-64
+ 925 0380 EA       		.byte	-22
+ 926 0381 C0       		.byte	-64
+ 927 0382 EC       		.byte	-20
+ 928 0383 C0       		.byte	-64
+ 929 0384 EE       		.byte	-18
+ 930 0385 C0       		.byte	-64
+ 931 0386 04       		.byte	4
+ 932 0387 01       		.byte	1
+ 933 0388 0F       		.byte	15
+ 934 0389 02       		.byte	2
+ 935 038a 16       		.byte	22
+ 936 038b 28       		.byte	40
+ 937 038c 17       		.byte	23
+ 938 038d 40       		.byte	64
+ 939 038e 1C       		.byte	28
+ 940 038f 01       		.byte	1
+ 941 0390 1D       		.byte	29
+ 942 0391 80       		.byte	-128
+ 943 0392 1E       		.byte	30
+ 944 0393 08       		.byte	8
+ 945 0394 1F       		.byte	31
+ 946 0395 06       		.byte	6
+ 947 0396 24       		.byte	36
+ 948 0397 40       		.byte	64
+ 949 0398 26       		.byte	38
+ 950 0399 20       		.byte	32
+ 951 039a 27       		.byte	39
+ 952 039b 22       		.byte	34
+ 953 039c 36       		.byte	54
+ 954 039d 20       		.byte	32
+ 955 039e 37       		.byte	55
+ 956 039f 02       		.byte	2
+ 957 03a0 3E       		.byte	62
+ 958 03a1 08       		.byte	8
+ 959 03a2 3F       		.byte	63
+ 960 03a3 02       		.byte	2
+ 961 03a4 40       		.byte	64
+ 962 03a5 01       		.byte	1
+ 963 03a6 41       		.byte	65
+ 964 03a7 20       		.byte	32
+ 965 03a8 45       		.byte	69
+ 966 03a9 A0       		.byte	-96
+ 967 03aa 4F       		.byte	79
+ 968 03ab 01       		.byte	1
+ 969 03ac 55       		.byte	85
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccbAJkfz.s 			page 18
+
+
+ 970 03ad 20       		.byte	32
+ 971 03ae 56       		.byte	86
+ 972 03af 28       		.byte	40
+ 973 03b0 57       		.byte	87
+ 974 03b1 01       		.byte	1
+ 975 03b2 5C       		.byte	92
+ 976 03b3 40       		.byte	64
+ 977 03b4 5E       		.byte	94
+ 978 03b5 08       		.byte	8
+ 979 03b6 5F       		.byte	95
+ 980 03b7 21       		.byte	33
+ 981 03b8 77       		.byte	119
+ 982 03b9 40       		.byte	64
+ 983 03ba 87       		.byte	-121
+ 984 03bb 80       		.byte	-128
+ 985 03bc C0       		.byte	-64
+ 986 03bd 10       		.byte	16
+ 987 03be C2       		.byte	-62
+ 988 03bf 80       		.byte	-128
+ 989 03c0 C4       		.byte	-60
+ 990 03c1 E0       		.byte	-32
+ 991 03c2 CC       		.byte	-52
+ 992 03c3 A0       		.byte	-96
+ 993 03c4 CE       		.byte	-50
+ 994 03c5 C0       		.byte	-64
+ 995 03c6 D0       		.byte	-48
+ 996 03c7 3C       		.byte	60
+ 997 03c8 D6       		.byte	-42
+ 998 03c9 F0       		.byte	-16
+ 999 03ca E4       		.byte	-28
+ 1000 03cb 08       		.byte	8
+ 1001 03cc 40       		.byte	64
+ 1002 03cd 30       		.byte	48
+ 1003 03ce 41       		.byte	65
+ 1004 03cf 02       		.byte	2
+ 1005 03d0 49       		.byte	73
+ 1006 03d1 FF       		.byte	-1
+ 1007 03d2 4A       		.byte	74
+ 1008 03d3 FF       		.byte	-1
+ 1009 03d4 4B       		.byte	75
+ 1010 03d5 FF       		.byte	-1
+ 1011 03d6 4D       		.byte	77
+ 1012 03d7 A0       		.byte	-96
+ 1013 03d8 4F       		.byte	79
+ 1014 03d9 04       		.byte	4
+ 1015 03da 50       		.byte	80
+ 1016 03db 18       		.byte	24
+ 1017 03dc 5A       		.byte	90
+ 1018 03dd 04       		.byte	4
+ 1019 03de 5D       		.byte	93
+ 1020 03df 04       		.byte	4
+ 1021 03e0 5F       		.byte	95
+ 1022 03e1 01       		.byte	1
+ 1023 03e2 60       		.byte	96
+ 1024 03e3 40       		.byte	64
+ 1025 03e4 62       		.byte	98
+ 1026 03e5 C0       		.byte	-64
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccbAJkfz.s 			page 19
+
+
+ 1027 03e6 64       		.byte	100
+ 1028 03e7 40       		.byte	64
+ 1029 03e8 65       		.byte	101
+ 1030 03e9 40       		.byte	64
+ 1031 03ea 66       		.byte	102
+ 1032 03eb C0       		.byte	-64
+ 1033 03ec 68       		.byte	104
+ 1034 03ed C0       		.byte	-64
+ 1035 03ee 6A       		.byte	106
+ 1036 03ef C0       		.byte	-64
+ 1037 03f0 6C       		.byte	108
+ 1038 03f1 C0       		.byte	-64
+ 1039 03f2 6E       		.byte	110
+ 1040 03f3 C0       		.byte	-64
+ 1041 03f4 83       		.byte	-125
+ 1042 03f5 0C       		.byte	12
+ 1043 03f6 87       		.byte	-121
+ 1044 03f7 03       		.byte	3
+ 1045 03f8 8A       		.byte	-118
+ 1046 03f9 0E       		.byte	14
+ 1047 03fa 91       		.byte	-111
+ 1048 03fb 02       		.byte	2
+ 1049 03fc 99       		.byte	-103
+ 1050 03fd 08       		.byte	8
+ 1051 03fe 9E       		.byte	-98
+ 1052 03ff 08       		.byte	8
+ 1053 0400 A6       		.byte	-90
+ 1054 0401 02       		.byte	2
+ 1055 0402 AA       		.byte	-86
+ 1056 0403 04       		.byte	4
+ 1057 0404 AE       		.byte	-82
+ 1058 0405 01       		.byte	1
+ 1059 0406 B0       		.byte	-80
+ 1060 0407 04       		.byte	4
+ 1061 0408 B1       		.byte	-79
+ 1062 0409 02       		.byte	2
+ 1063 040a B2       		.byte	-78
+ 1064 040b 01       		.byte	1
+ 1065 040c B3       		.byte	-77
+ 1066 040d 08       		.byte	8
+ 1067 040e B4       		.byte	-76
+ 1068 040f 02       		.byte	2
+ 1069 0410 B5       		.byte	-75
+ 1070 0411 04       		.byte	4
+ 1071 0412 B6       		.byte	-74
+ 1072 0413 08       		.byte	8
+ 1073 0414 B7       		.byte	-73
+ 1074 0415 01       		.byte	1
+ 1075 0416 BE       		.byte	-66
+ 1076 0417 10       		.byte	16
+ 1077 0418 C0       		.byte	-64
+ 1078 0419 30       		.byte	48
+ 1079 041a C1       		.byte	-63
+ 1080 041b 02       		.byte	2
+ 1081 041c C5       		.byte	-59
+ 1082 041d D0       		.byte	-48
+ 1083 041e C6       		.byte	-58
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccbAJkfz.s 			page 20
+
+
+ 1084 041f 20       		.byte	32
+ 1085 0420 C7       		.byte	-57
+ 1086 0421 51       		.byte	81
+ 1087 0422 C8       		.byte	-56
+ 1088 0423 3A       		.byte	58
+ 1089 0424 C9       		.byte	-55
+ 1090 0425 FF       		.byte	-1
+ 1091 0426 CA       		.byte	-54
+ 1092 0427 FF       		.byte	-1
+ 1093 0428 CB       		.byte	-53
+ 1094 0429 FF       		.byte	-1
+ 1095 042a CD       		.byte	-51
+ 1096 042b AF       		.byte	-81
+ 1097 042c CE       		.byte	-50
+ 1098 042d 0F       		.byte	15
+ 1099 042e CF       		.byte	-49
+ 1100 042f 04       		.byte	4
+ 1101 0430 D0       		.byte	-48
+ 1102 0431 18       		.byte	24
+ 1103 0432 D2       		.byte	-46
+ 1104 0433 80       		.byte	-128
+ 1105 0434 D4       		.byte	-44
+ 1106 0435 07       		.byte	7
+ 1107 0436 D8       		.byte	-40
+ 1108 0437 04       		.byte	4
+ 1109 0438 D9       		.byte	-39
+ 1110 0439 04       		.byte	4
+ 1111 043a DA       		.byte	-38
+ 1112 043b 04       		.byte	4
+ 1113 043c DB       		.byte	-37
+ 1114 043d 04       		.byte	4
+ 1115 043e DC       		.byte	-36
+ 1116 043f 44       		.byte	68
+ 1117 0440 DD       		.byte	-35
+ 1118 0441 44       		.byte	68
+ 1119 0442 DF       		.byte	-33
+ 1120 0443 01       		.byte	1
+ 1121 0444 E0       		.byte	-32
+ 1122 0445 40       		.byte	64
+ 1123 0446 E2       		.byte	-30
+ 1124 0447 C0       		.byte	-64
+ 1125 0448 E4       		.byte	-28
+ 1126 0449 40       		.byte	64
+ 1127 044a E5       		.byte	-27
+ 1128 044b 40       		.byte	64
+ 1129 044c E6       		.byte	-26
+ 1130 044d C0       		.byte	-64
+ 1131 044e E8       		.byte	-24
+ 1132 044f C0       		.byte	-64
+ 1133 0450 EA       		.byte	-22
+ 1134 0451 C0       		.byte	-64
+ 1135 0452 EC       		.byte	-20
+ 1136 0453 C0       		.byte	-64
+ 1137 0454 EE       		.byte	-18
+ 1138 0455 C0       		.byte	-64
+ 1139 0456 04       		.byte	4
+ 1140 0457 10       		.byte	16
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccbAJkfz.s 			page 21
+
+
+ 1141 0458 0F       		.byte	15
+ 1142 0459 02       		.byte	2
+ 1143 045a 16       		.byte	22
+ 1144 045b 28       		.byte	40
+ 1145 045c 17       		.byte	23
+ 1146 045d 40       		.byte	64
+ 1147 045e 1C       		.byte	28
+ 1148 045f 10       		.byte	16
+ 1149 0460 1D       		.byte	29
+ 1150 0461 88       		.byte	-120
+ 1151 0462 1E       		.byte	30
+ 1152 0463 08       		.byte	8
+ 1153 0464 1F       		.byte	31
+ 1154 0465 01       		.byte	1
+ 1155 0466 24       		.byte	36
+ 1156 0467 40       		.byte	64
+ 1157 0468 26       		.byte	38
+ 1158 0469 20       		.byte	32
+ 1159 046a 27       		.byte	39
+ 1160 046b 22       		.byte	34
+ 1161 046c 36       		.byte	54
+ 1162 046d 20       		.byte	32
+ 1163 046e 37       		.byte	55
+ 1164 046f 02       		.byte	2
+ 1165 0470 3E       		.byte	62
+ 1166 0471 08       		.byte	8
+ 1167 0472 3F       		.byte	63
+ 1168 0473 02       		.byte	2
+ 1169 0474 40       		.byte	64
+ 1170 0475 10       		.byte	16
+ 1171 0476 41       		.byte	65
+ 1172 0477 20       		.byte	32
+ 1173 0478 45       		.byte	69
+ 1174 0479 28       		.byte	40
+ 1175 047a 4F       		.byte	79
+ 1176 047b 01       		.byte	1
+ 1177 047c 55       		.byte	85
+ 1178 047d 20       		.byte	32
+ 1179 047e 56       		.byte	86
+ 1180 047f 28       		.byte	40
+ 1181 0480 57       		.byte	87
+ 1182 0481 01       		.byte	1
+ 1183 0482 5C       		.byte	92
+ 1184 0483 40       		.byte	64
+ 1185 0484 5E       		.byte	94
+ 1186 0485 08       		.byte	8
+ 1187 0486 5F       		.byte	95
+ 1188 0487 21       		.byte	33
+ 1189 0488 77       		.byte	119
+ 1190 0489 40       		.byte	64
+ 1191 048a 8F       		.byte	-113
+ 1192 048b 01       		.byte	1
+ 1193 048c A5       		.byte	-91
+ 1194 048d 80       		.byte	-128
+ 1195 048e C0       		.byte	-64
+ 1196 048f 40       		.byte	64
+ 1197 0490 C2       		.byte	-62
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccbAJkfz.s 			page 22
+
+
+ 1198 0491 80       		.byte	-128
+ 1199 0492 C4       		.byte	-60
+ 1200 0493 E0       		.byte	-32
+ 1201 0494 CC       		.byte	-52
+ 1202 0495 A0       		.byte	-96
+ 1203 0496 CE       		.byte	-50
+ 1204 0497 C0       		.byte	-64
+ 1205 0498 D0       		.byte	-48
+ 1206 0499 66       		.byte	102
+ 1207 049a D6       		.byte	-42
+ 1208 049b F0       		.byte	-16
+ 1209 049c E2       		.byte	-30
+ 1210 049d 40       		.byte	64
+ 1211 049e 40       		.byte	64
+ 1212 049f 60       		.byte	96
+ 1213 04a0 41       		.byte	65
+ 1214 04a1 02       		.byte	2
+ 1215 04a2 49       		.byte	73
+ 1216 04a3 FF       		.byte	-1
+ 1217 04a4 4A       		.byte	74
+ 1218 04a5 FF       		.byte	-1
+ 1219 04a6 4B       		.byte	75
+ 1220 04a7 FF       		.byte	-1
+ 1221 04a8 4D       		.byte	77
+ 1222 04a9 A0       		.byte	-96
+ 1223 04aa 4F       		.byte	79
+ 1224 04ab 04       		.byte	4
+ 1225 04ac 50       		.byte	80
+ 1226 04ad 18       		.byte	24
+ 1227 04ae 5A       		.byte	90
+ 1228 04af 04       		.byte	4
+ 1229 04b0 5D       		.byte	93
+ 1230 04b1 07       		.byte	7
+ 1231 04b2 5F       		.byte	95
+ 1232 04b3 01       		.byte	1
+ 1233 04b4 60       		.byte	96
+ 1234 04b5 40       		.byte	64
+ 1235 04b6 62       		.byte	98
+ 1236 04b7 C0       		.byte	-64
+ 1237 04b8 64       		.byte	100
+ 1238 04b9 40       		.byte	64
+ 1239 04ba 65       		.byte	101
+ 1240 04bb 40       		.byte	64
+ 1241 04bc 66       		.byte	102
+ 1242 04bd C0       		.byte	-64
+ 1243 04be 68       		.byte	104
+ 1244 04bf C0       		.byte	-64
+ 1245 04c0 6A       		.byte	106
+ 1246 04c1 C0       		.byte	-64
+ 1247 04c2 6C       		.byte	108
+ 1248 04c3 C0       		.byte	-64
+ 1249 04c4 6E       		.byte	110
+ 1250 04c5 C0       		.byte	-64
+ 1251 04c6 8D       		.byte	-115
+ 1252 04c7 08       		.byte	8
+ 1253 04c8 92       		.byte	-110
+ 1254 04c9 01       		.byte	1
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccbAJkfz.s 			page 23
+
+
+ 1255 04ca 95       		.byte	-107
+ 1256 04cb 02       		.byte	2
+ 1257 04cc 9A       		.byte	-102
+ 1258 04cd 0E       		.byte	14
+ 1259 04ce 9B       		.byte	-101
+ 1260 04cf 0C       		.byte	12
+ 1261 04d0 9F       		.byte	-97
+ 1262 04d1 03       		.byte	3
+ 1263 04d2 A2       		.byte	-94
+ 1264 04d3 04       		.byte	4
+ 1265 04d4 A6       		.byte	-90
+ 1266 04d5 08       		.byte	8
+ 1267 04d6 AA       		.byte	-86
+ 1268 04d7 02       		.byte	2
+ 1269 04d8 B0       		.byte	-80
+ 1270 04d9 08       		.byte	8
+ 1271 04da B1       		.byte	-79
+ 1272 04db 04       		.byte	4
+ 1273 04dc B2       		.byte	-78
+ 1274 04dd 02       		.byte	2
+ 1275 04de B3       		.byte	-77
+ 1276 04df 01       		.byte	1
+ 1277 04e0 B4       		.byte	-76
+ 1278 04e1 01       		.byte	1
+ 1279 04e2 B5       		.byte	-75
+ 1280 04e3 08       		.byte	8
+ 1281 04e4 B6       		.byte	-74
+ 1282 04e5 04       		.byte	4
+ 1283 04e6 B7       		.byte	-73
+ 1284 04e7 02       		.byte	2
+ 1285 04e8 BE       		.byte	-66
+ 1286 04e9 04       		.byte	4
+ 1287 04ea C0       		.byte	-64
+ 1288 04eb 20       		.byte	32
+ 1289 04ec C1       		.byte	-63
+ 1290 04ed 06       		.byte	6
+ 1291 04ee C5       		.byte	-59
+ 1292 04ef D5       		.byte	-43
+ 1293 04f0 C6       		.byte	-58
+ 1294 04f1 01       		.byte	1
+ 1295 04f2 C7       		.byte	-57
+ 1296 04f3 02       		.byte	2
+ 1297 04f4 C8       		.byte	-56
+ 1298 04f5 17       		.byte	23
+ 1299 04f6 C9       		.byte	-55
+ 1300 04f7 FF       		.byte	-1
+ 1301 04f8 CA       		.byte	-54
+ 1302 04f9 FF       		.byte	-1
+ 1303 04fa CB       		.byte	-53
+ 1304 04fb FF       		.byte	-1
+ 1305 04fc CD       		.byte	-51
+ 1306 04fd AF       		.byte	-81
+ 1307 04fe CE       		.byte	-50
+ 1308 04ff 0F       		.byte	15
+ 1309 0500 CF       		.byte	-49
+ 1310 0501 04       		.byte	4
+ 1311 0502 D0       		.byte	-48
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccbAJkfz.s 			page 24
+
+
+ 1312 0503 18       		.byte	24
+ 1313 0504 D2       		.byte	-46
+ 1314 0505 80       		.byte	-128
+ 1315 0506 D4       		.byte	-44
+ 1316 0507 07       		.byte	7
+ 1317 0508 D8       		.byte	-40
+ 1318 0509 04       		.byte	4
+ 1319 050a D9       		.byte	-39
+ 1320 050b 04       		.byte	4
+ 1321 050c DA       		.byte	-38
+ 1322 050d 04       		.byte	4
+ 1323 050e DB       		.byte	-37
+ 1324 050f 04       		.byte	4
+ 1325 0510 DC       		.byte	-36
+ 1326 0511 77       		.byte	119
+ 1327 0512 DD       		.byte	-35
+ 1328 0513 77       		.byte	119
+ 1329 0514 DF       		.byte	-33
+ 1330 0515 01       		.byte	1
+ 1331 0516 E0       		.byte	-32
+ 1332 0517 40       		.byte	64
+ 1333 0518 E2       		.byte	-30
+ 1334 0519 C0       		.byte	-64
+ 1335 051a E4       		.byte	-28
+ 1336 051b 40       		.byte	64
+ 1337 051c E5       		.byte	-27
+ 1338 051d 40       		.byte	64
+ 1339 051e E6       		.byte	-26
+ 1340 051f C0       		.byte	-64
+ 1341 0520 E8       		.byte	-24
+ 1342 0521 C0       		.byte	-64
+ 1343 0522 EA       		.byte	-22
+ 1344 0523 C0       		.byte	-64
+ 1345 0524 EC       		.byte	-20
+ 1346 0525 C0       		.byte	-64
+ 1347 0526 EE       		.byte	-18
+ 1348 0527 C0       		.byte	-64
+ 1349 0528 0A       		.byte	10
+ 1350 0529 44       		.byte	68
+ 1351 052a 10       		.byte	16
+ 1352 052b A0       		.byte	-96
+ 1353 052c 12       		.byte	18
+ 1354 052d 04       		.byte	4
+ 1355 052e 18       		.byte	24
+ 1356 052f 01       		.byte	1
+ 1357 0530 19       		.byte	25
+ 1358 0531 04       		.byte	4
+ 1359 0532 1A       		.byte	26
+ 1360 0533 04       		.byte	4
+ 1361 0534 1B       		.byte	27
+ 1362 0535 12       		.byte	18
+ 1363 0536 20       		.byte	32
+ 1364 0537 42       		.byte	66
+ 1365 0538 21       		.byte	33
+ 1366 0539 08       		.byte	8
+ 1367 053a 22       		.byte	34
+ 1368 053b 10       		.byte	16
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccbAJkfz.s 			page 25
+
+
+ 1369 053c 30       		.byte	48
+ 1370 053d A0       		.byte	-96
+ 1371 053e 31       		.byte	49
+ 1372 053f 08       		.byte	8
+ 1373 0540 38       		.byte	56
+ 1374 0541 40       		.byte	64
+ 1375 0542 42       		.byte	66
+ 1376 0543 04       		.byte	4
+ 1377 0544 46       		.byte	70
+ 1378 0545 04       		.byte	4
+ 1379 0546 48       		.byte	72
+ 1380 0547 29       		.byte	41
+ 1381 0548 49       		.byte	73
+ 1382 0549 41       		.byte	65
+ 1383 054a 4F       		.byte	79
+ 1384 054b 20       		.byte	32
+ 1385 054c 50       		.byte	80
+ 1386 054d 88       		.byte	-120
+ 1387 054e 52       		.byte	82
+ 1388 054f 04       		.byte	4
+ 1389 0550 59       		.byte	89
+ 1390 0551 45       		.byte	69
+ 1391 0552 5A       		.byte	90
+ 1392 0553 20       		.byte	32
+ 1393 0554 72       		.byte	114
+ 1394 0555 40       		.byte	64
+ 1395 0556 80       		.byte	-128
+ 1396 0557 01       		.byte	1
+ 1397 0558 83       		.byte	-125
+ 1398 0559 02       		.byte	2
+ 1399 055a A5       		.byte	-91
+ 1400 055b 80       		.byte	-128
+ 1401 055c C2       		.byte	-62
+ 1402 055d 0A       		.byte	10
+ 1403 055e C4       		.byte	-60
+ 1404 055f 0E       		.byte	14
+ 1405 0560 CC       		.byte	-52
+ 1406 0561 0E       		.byte	14
+ 1407 0562 CE       		.byte	-50
+ 1408 0563 08       		.byte	8
+ 1409 0564 D0       		.byte	-48
+ 1410 0565 24       		.byte	36
+ 1411 0566 D2       		.byte	-46
+ 1412 0567 24       		.byte	36
+ 1413 0568 D6       		.byte	-42
+ 1414 0569 0F       		.byte	15
+ 1415 056a 40       		.byte	64
+ 1416 056b 60       		.byte	96
+ 1417 056c 41       		.byte	65
+ 1418 056d 02       		.byte	2
+ 1419 056e 49       		.byte	73
+ 1420 056f FF       		.byte	-1
+ 1421 0570 4A       		.byte	74
+ 1422 0571 FF       		.byte	-1
+ 1423 0572 4B       		.byte	75
+ 1424 0573 FF       		.byte	-1
+ 1425 0574 4D       		.byte	77
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccbAJkfz.s 			page 26
+
+
+ 1426 0575 A0       		.byte	-96
+ 1427 0576 4F       		.byte	79
+ 1428 0577 04       		.byte	4
+ 1429 0578 50       		.byte	80
+ 1430 0579 18       		.byte	24
+ 1431 057a 5A       		.byte	90
+ 1432 057b 04       		.byte	4
+ 1433 057c 5D       		.byte	93
+ 1434 057d 06       		.byte	6
+ 1435 057e 5F       		.byte	95
+ 1436 057f 01       		.byte	1
+ 1437 0580 60       		.byte	96
+ 1438 0581 40       		.byte	64
+ 1439 0582 62       		.byte	98
+ 1440 0583 C0       		.byte	-64
+ 1441 0584 64       		.byte	100
+ 1442 0585 40       		.byte	64
+ 1443 0586 65       		.byte	101
+ 1444 0587 40       		.byte	64
+ 1445 0588 66       		.byte	102
+ 1446 0589 C0       		.byte	-64
+ 1447 058a 68       		.byte	104
+ 1448 058b C0       		.byte	-64
+ 1449 058c 6A       		.byte	106
+ 1450 058d C0       		.byte	-64
+ 1451 058e 6C       		.byte	108
+ 1452 058f C0       		.byte	-64
+ 1453 0590 6E       		.byte	110
+ 1454 0591 C0       		.byte	-64
+ 1455 0592 8D       		.byte	-115
+ 1456 0593 08       		.byte	8
+ 1457 0594 92       		.byte	-110
+ 1458 0595 01       		.byte	1
+ 1459 0596 95       		.byte	-107
+ 1460 0597 02       		.byte	2
+ 1461 0598 9A       		.byte	-102
+ 1462 0599 0E       		.byte	14
+ 1463 059a 9B       		.byte	-101
+ 1464 059b 0C       		.byte	12
+ 1465 059c 9F       		.byte	-97
+ 1466 059d 03       		.byte	3
+ 1467 059e A2       		.byte	-94
+ 1468 059f 04       		.byte	4
+ 1469 05a0 A6       		.byte	-90
+ 1470 05a1 08       		.byte	8
+ 1471 05a2 AA       		.byte	-86
+ 1472 05a3 02       		.byte	2
+ 1473 05a4 B0       		.byte	-80
+ 1474 05a5 04       		.byte	4
+ 1475 05a6 B1       		.byte	-79
+ 1476 05a7 04       		.byte	4
+ 1477 05a8 B2       		.byte	-78
+ 1478 05a9 02       		.byte	2
+ 1479 05aa B3       		.byte	-77
+ 1480 05ab 01       		.byte	1
+ 1481 05ac B4       		.byte	-76
+ 1482 05ad 01       		.byte	1
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccbAJkfz.s 			page 27
+
+
+ 1483 05ae B5       		.byte	-75
+ 1484 05af 08       		.byte	8
+ 1485 05b0 B6       		.byte	-74
+ 1486 05b1 08       		.byte	8
+ 1487 05b2 B7       		.byte	-73
+ 1488 05b3 02       		.byte	2
+ 1489 05b4 BE       		.byte	-66
+ 1490 05b5 04       		.byte	4
+ 1491 05b6 C0       		.byte	-64
+ 1492 05b7 20       		.byte	32
+ 1493 05b8 C1       		.byte	-63
+ 1494 05b9 06       		.byte	6
+ 1495 05ba C5       		.byte	-59
+ 1496 05bb D5       		.byte	-43
+ 1497 05bc C6       		.byte	-58
+ 1498 05bd 01       		.byte	1
+ 1499 05be C7       		.byte	-57
+ 1500 05bf 02       		.byte	2
+ 1501 05c0 C8       		.byte	-56
+ 1502 05c1 17       		.byte	23
+ 1503 05c2 C9       		.byte	-55
+ 1504 05c3 FF       		.byte	-1
+ 1505 05c4 CA       		.byte	-54
+ 1506 05c5 FF       		.byte	-1
+ 1507 05c6 CB       		.byte	-53
+ 1508 05c7 FF       		.byte	-1
+ 1509 05c8 CD       		.byte	-51
+ 1510 05c9 AF       		.byte	-81
+ 1511 05ca CE       		.byte	-50
+ 1512 05cb 0F       		.byte	15
+ 1513 05cc CF       		.byte	-49
+ 1514 05cd 04       		.byte	4
+ 1515 05ce D0       		.byte	-48
+ 1516 05cf 18       		.byte	24
+ 1517 05d0 D2       		.byte	-46
+ 1518 05d1 80       		.byte	-128
+ 1519 05d2 D4       		.byte	-44
+ 1520 05d3 07       		.byte	7
+ 1521 05d4 D8       		.byte	-40
+ 1522 05d5 04       		.byte	4
+ 1523 05d6 D9       		.byte	-39
+ 1524 05d7 04       		.byte	4
+ 1525 05d8 DA       		.byte	-38
+ 1526 05d9 04       		.byte	4
+ 1527 05da DB       		.byte	-37
+ 1528 05db 04       		.byte	4
+ 1529 05dc DC       		.byte	-36
+ 1530 05dd 66       		.byte	102
+ 1531 05de DD       		.byte	-35
+ 1532 05df 66       		.byte	102
+ 1533 05e0 DF       		.byte	-33
+ 1534 05e1 01       		.byte	1
+ 1535 05e2 E0       		.byte	-32
+ 1536 05e3 40       		.byte	64
+ 1537 05e4 E2       		.byte	-30
+ 1538 05e5 C0       		.byte	-64
+ 1539 05e6 E4       		.byte	-28
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccbAJkfz.s 			page 28
+
+
+ 1540 05e7 40       		.byte	64
+ 1541 05e8 E5       		.byte	-27
+ 1542 05e9 40       		.byte	64
+ 1543 05ea E6       		.byte	-26
+ 1544 05eb C0       		.byte	-64
+ 1545 05ec E8       		.byte	-24
+ 1546 05ed C0       		.byte	-64
+ 1547 05ee EA       		.byte	-22
+ 1548 05ef C0       		.byte	-64
+ 1549 05f0 EC       		.byte	-20
+ 1550 05f1 C0       		.byte	-64
+ 1551 05f2 EE       		.byte	-18
+ 1552 05f3 C0       		.byte	-64
+ 1553 05f4 0A       		.byte	10
+ 1554 05f5 44       		.byte	68
+ 1555 05f6 10       		.byte	16
+ 1556 05f7 A0       		.byte	-96
+ 1557 05f8 12       		.byte	18
+ 1558 05f9 04       		.byte	4
+ 1559 05fa 19       		.byte	25
+ 1560 05fb 04       		.byte	4
+ 1561 05fc 1A       		.byte	26
+ 1562 05fd 04       		.byte	4
+ 1563 05fe 1B       		.byte	27
+ 1564 05ff 92       		.byte	-110
+ 1565 0600 20       		.byte	32
+ 1566 0601 40       		.byte	64
+ 1567 0602 21       		.byte	33
+ 1568 0603 08       		.byte	8
+ 1569 0604 22       		.byte	34
+ 1570 0605 50       		.byte	80
+ 1571 0606 30       		.byte	48
+ 1572 0607 A0       		.byte	-96
+ 1573 0608 31       		.byte	49
+ 1574 0609 08       		.byte	8
+ 1575 060a 38       		.byte	56
+ 1576 060b 40       		.byte	64
+ 1577 060c 42       		.byte	66
+ 1578 060d 04       		.byte	4
+ 1579 060e 46       		.byte	70
+ 1580 060f 04       		.byte	4
+ 1581 0610 48       		.byte	72
+ 1582 0611 28       		.byte	40
+ 1583 0612 49       		.byte	73
+ 1584 0613 01       		.byte	1
+ 1585 0614 4F       		.byte	79
+ 1586 0615 20       		.byte	32
+ 1587 0616 50       		.byte	80
+ 1588 0617 88       		.byte	-120
+ 1589 0618 52       		.byte	82
+ 1590 0619 04       		.byte	4
+ 1591 061a 59       		.byte	89
+ 1592 061b 05       		.byte	5
+ 1593 061c 5A       		.byte	90
+ 1594 061d A0       		.byte	-96
+ 1595 061e 72       		.byte	114
+ 1596 061f 40       		.byte	64
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccbAJkfz.s 			page 29
+
+
+ 1597 0620 A7       		.byte	-89
+ 1598 0621 80       		.byte	-128
+ 1599 0622 AB       		.byte	-85
+ 1600 0623 40       		.byte	64
+ 1601 0624 C2       		.byte	-62
+ 1602 0625 0A       		.byte	10
+ 1603 0626 C4       		.byte	-60
+ 1604 0627 0E       		.byte	14
+ 1605 0628 CC       		.byte	-52
+ 1606 0629 0E       		.byte	14
+ 1607 062a CE       		.byte	-50
+ 1608 062b 08       		.byte	8
+ 1609 062c D0       		.byte	-48
+ 1610 062d 24       		.byte	36
+ 1611 062e D2       		.byte	-46
+ 1612 062f 24       		.byte	36
+ 1613 0630 D6       		.byte	-42
+ 1614 0631 0F       		.byte	15
+ 1615 0632 E8       		.byte	-24
+ 1616 0633 04       		.byte	4
+ 1617 0634 40       		.byte	64
+ 1618 0635 30       		.byte	48
+ 1619 0636 41       		.byte	65
+ 1620 0637 02       		.byte	2
+ 1621 0638 49       		.byte	73
+ 1622 0639 FF       		.byte	-1
+ 1623 063a 4A       		.byte	74
+ 1624 063b FF       		.byte	-1
+ 1625 063c 4B       		.byte	75
+ 1626 063d FF       		.byte	-1
+ 1627 063e 4D       		.byte	77
+ 1628 063f A0       		.byte	-96
+ 1629 0640 4F       		.byte	79
+ 1630 0641 04       		.byte	4
+ 1631 0642 50       		.byte	80
+ 1632 0643 18       		.byte	24
+ 1633 0644 5A       		.byte	90
+ 1634 0645 04       		.byte	4
+ 1635 0646 5D       		.byte	93
+ 1636 0647 02       		.byte	2
+ 1637 0648 5F       		.byte	95
+ 1638 0649 01       		.byte	1
+ 1639 064a 60       		.byte	96
+ 1640 064b 40       		.byte	64
+ 1641 064c 62       		.byte	98
+ 1642 064d C0       		.byte	-64
+ 1643 064e 64       		.byte	100
+ 1644 064f 40       		.byte	64
+ 1645 0650 65       		.byte	101
+ 1646 0651 40       		.byte	64
+ 1647 0652 66       		.byte	102
+ 1648 0653 C0       		.byte	-64
+ 1649 0654 68       		.byte	104
+ 1650 0655 C0       		.byte	-64
+ 1651 0656 6A       		.byte	106
+ 1652 0657 C0       		.byte	-64
+ 1653 0658 6C       		.byte	108
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccbAJkfz.s 			page 30
+
+
+ 1654 0659 C0       		.byte	-64
+ 1655 065a 6E       		.byte	110
+ 1656 065b C0       		.byte	-64
+ 1657 065c 83       		.byte	-125
+ 1658 065d 0C       		.byte	12
+ 1659 065e 87       		.byte	-121
+ 1660 065f 03       		.byte	3
+ 1661 0660 8A       		.byte	-118
+ 1662 0661 0E       		.byte	14
+ 1663 0662 91       		.byte	-111
+ 1664 0663 02       		.byte	2
+ 1665 0664 96       		.byte	-106
+ 1666 0665 02       		.byte	2
+ 1667 0666 99       		.byte	-103
+ 1668 0667 08       		.byte	8
+ 1669 0668 9E       		.byte	-98
+ 1670 0669 08       		.byte	8
+ 1671 066a AA       		.byte	-86
+ 1672 066b 04       		.byte	4
+ 1673 066c AE       		.byte	-82
+ 1674 066d 01       		.byte	1
+ 1675 066e B0       		.byte	-80
+ 1676 066f 04       		.byte	4
+ 1677 0670 B1       		.byte	-79
+ 1678 0671 02       		.byte	2
+ 1679 0672 B2       		.byte	-78
+ 1680 0673 01       		.byte	1
+ 1681 0674 B3       		.byte	-77
+ 1682 0675 08       		.byte	8
+ 1683 0676 B4       		.byte	-76
+ 1684 0677 02       		.byte	2
+ 1685 0678 B5       		.byte	-75
+ 1686 0679 04       		.byte	4
+ 1687 067a B6       		.byte	-74
+ 1688 067b 08       		.byte	8
+ 1689 067c B7       		.byte	-73
+ 1690 067d 01       		.byte	1
+ 1691 067e BE       		.byte	-66
+ 1692 067f 10       		.byte	16
+ 1693 0680 C0       		.byte	-64
+ 1694 0681 30       		.byte	48
+ 1695 0682 C1       		.byte	-63
+ 1696 0683 02       		.byte	2
+ 1697 0684 C5       		.byte	-59
+ 1698 0685 D0       		.byte	-48
+ 1699 0686 C6       		.byte	-58
+ 1700 0687 20       		.byte	32
+ 1701 0688 C7       		.byte	-57
+ 1702 0689 51       		.byte	81
+ 1703 068a C8       		.byte	-56
+ 1704 068b 3A       		.byte	58
+ 1705 068c C9       		.byte	-55
+ 1706 068d FF       		.byte	-1
+ 1707 068e CA       		.byte	-54
+ 1708 068f FF       		.byte	-1
+ 1709 0690 CB       		.byte	-53
+ 1710 0691 FF       		.byte	-1
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccbAJkfz.s 			page 31
+
+
+ 1711 0692 CD       		.byte	-51
+ 1712 0693 AF       		.byte	-81
+ 1713 0694 CE       		.byte	-50
+ 1714 0695 0F       		.byte	15
+ 1715 0696 CF       		.byte	-49
+ 1716 0697 04       		.byte	4
+ 1717 0698 D0       		.byte	-48
+ 1718 0699 18       		.byte	24
+ 1719 069a D2       		.byte	-46
+ 1720 069b 80       		.byte	-128
+ 1721 069c D4       		.byte	-44
+ 1722 069d 07       		.byte	7
+ 1723 069e D8       		.byte	-40
+ 1724 069f 04       		.byte	4
+ 1725 06a0 D9       		.byte	-39
+ 1726 06a1 04       		.byte	4
+ 1727 06a2 DA       		.byte	-38
+ 1728 06a3 04       		.byte	4
+ 1729 06a4 DB       		.byte	-37
+ 1730 06a5 04       		.byte	4
+ 1731 06a6 DC       		.byte	-36
+ 1732 06a7 22       		.byte	34
+ 1733 06a8 DD       		.byte	-35
+ 1734 06a9 22       		.byte	34
+ 1735 06aa DF       		.byte	-33
+ 1736 06ab 01       		.byte	1
+ 1737 06ac E0       		.byte	-32
+ 1738 06ad 40       		.byte	64
+ 1739 06ae E2       		.byte	-30
+ 1740 06af C0       		.byte	-64
+ 1741 06b0 E4       		.byte	-28
+ 1742 06b1 40       		.byte	64
+ 1743 06b2 E5       		.byte	-27
+ 1744 06b3 40       		.byte	64
+ 1745 06b4 E6       		.byte	-26
+ 1746 06b5 C0       		.byte	-64
+ 1747 06b6 E8       		.byte	-24
+ 1748 06b7 C0       		.byte	-64
+ 1749 06b8 EA       		.byte	-22
+ 1750 06b9 C0       		.byte	-64
+ 1751 06ba EC       		.byte	-20
+ 1752 06bb C0       		.byte	-64
+ 1753 06bc EE       		.byte	-18
+ 1754 06bd C0       		.byte	-64
+ 1755 06be 04       		.byte	4
+ 1756 06bf 10       		.byte	16
+ 1757 06c0 0F       		.byte	15
+ 1758 06c1 22       		.byte	34
+ 1759 06c2 16       		.byte	22
+ 1760 06c3 08       		.byte	8
+ 1761 06c4 17       		.byte	23
+ 1762 06c5 40       		.byte	64
+ 1763 06c6 1C       		.byte	28
+ 1764 06c7 10       		.byte	16
+ 1765 06c8 1D       		.byte	29
+ 1766 06c9 88       		.byte	-120
+ 1767 06ca 1E       		.byte	30
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccbAJkfz.s 			page 32
+
+
+ 1768 06cb 08       		.byte	8
+ 1769 06cc 1F       		.byte	31
+ 1770 06cd 02       		.byte	2
+ 1771 06ce 24       		.byte	36
+ 1772 06cf 40       		.byte	64
+ 1773 06d0 26       		.byte	38
+ 1774 06d1 20       		.byte	32
+ 1775 06d2 27       		.byte	39
+ 1776 06d3 22       		.byte	34
+ 1777 06d4 36       		.byte	54
+ 1778 06d5 20       		.byte	32
+ 1779 06d6 37       		.byte	55
+ 1780 06d7 02       		.byte	2
+ 1781 06d8 3E       		.byte	62
+ 1782 06d9 08       		.byte	8
+ 1783 06da 3F       		.byte	63
+ 1784 06db 02       		.byte	2
+ 1785 06dc 40       		.byte	64
+ 1786 06dd 10       		.byte	16
+ 1787 06de 41       		.byte	65
+ 1788 06df 20       		.byte	32
+ 1789 06e0 45       		.byte	69
+ 1790 06e1 28       		.byte	40
+ 1791 06e2 4F       		.byte	79
+ 1792 06e3 01       		.byte	1
+ 1793 06e4 55       		.byte	85
+ 1794 06e5 20       		.byte	32
+ 1795 06e6 56       		.byte	86
+ 1796 06e7 08       		.byte	8
+ 1797 06e8 57       		.byte	87
+ 1798 06e9 11       		.byte	17
+ 1799 06ea 5C       		.byte	92
+ 1800 06eb 40       		.byte	64
+ 1801 06ec 5E       		.byte	94
+ 1802 06ed 08       		.byte	8
+ 1803 06ee 5F       		.byte	95
+ 1804 06ef 21       		.byte	33
+ 1805 06f0 77       		.byte	119
+ 1806 06f1 40       		.byte	64
+ 1807 06f2 85       		.byte	-123
+ 1808 06f3 80       		.byte	-128
+ 1809 06f4 87       		.byte	-121
+ 1810 06f5 02       		.byte	2
+ 1811 06f6 AF       		.byte	-81
+ 1812 06f7 02       		.byte	2
+ 1813 06f8 C0       		.byte	-64
+ 1814 06f9 40       		.byte	64
+ 1815 06fa C2       		.byte	-62
+ 1816 06fb A0       		.byte	-96
+ 1817 06fc C4       		.byte	-60
+ 1818 06fd C0       		.byte	-64
+ 1819 06fe CC       		.byte	-52
+ 1820 06ff A0       		.byte	-96
+ 1821 0700 CE       		.byte	-50
+ 1822 0701 C0       		.byte	-64
+ 1823 0702 D0       		.byte	-48
+ 1824 0703 66       		.byte	102
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccbAJkfz.s 			page 33
+
+
+ 1825 0704 D6       		.byte	-42
+ 1826 0705 F0       		.byte	-16
+ 1827 0706 E0       		.byte	-32
+ 1828 0707 08       		.byte	8
+ 1829 0708 E4       		.byte	-28
+ 1830 0709 02       		.byte	2
+ 1831 070a E8       		.byte	-24
+ 1832 070b 08       		.byte	8
+ 1833 070c 52       		.byte	82
+ 1834 070d 04       		.byte	4
+ 1835 070e 55       		.byte	85
+ 1836 070f 04       		.byte	4
+ 1837 0710 56       		.byte	86
+ 1838 0711 02       		.byte	2
+ 1839 0712 59       		.byte	89
+ 1840 0713 20       		.byte	32
+ 1841 0714 5B       		.byte	91
+ 1842 0715 08       		.byte	8
+ 1843 0716 60       		.byte	96
+ 1844 0717 20       		.byte	32
+ 1845 0718 66       		.byte	102
+ 1846 0719 40       		.byte	64
+ 1847 071a 67       		.byte	103
+ 1848 071b 20       		.byte	32
+ 1849 071c D4       		.byte	-44
+ 1850 071d E0       		.byte	-32
+ 1851 071e D6       		.byte	-42
+ 1852 071f E0       		.byte	-32
+ 1853 0720 D8       		.byte	-40
+ 1854 0721 C0       		.byte	-64
+ 1855 0722 80       		.byte	-128
+ 1856 0723 20       		.byte	32
+ 1857 0724 87       		.byte	-121
+ 1858 0725 10       		.byte	16
+ 1859 0726 97       		.byte	-105
+ 1860 0727 20       		.byte	32
+ 1861 0728 9C       		.byte	-100
+ 1862 0729 20       		.byte	32
+ 1863 072a 9D       		.byte	-99
+ 1864 072b 20       		.byte	32
+ 1865 072c 9E       		.byte	-98
+ 1866 072d 46       		.byte	70
+ 1867 072e 9F       		.byte	-97
+ 1868 072f 08       		.byte	8
+ 1869 0730 A5       		.byte	-91
+ 1870 0731 04       		.byte	4
+ 1871 0732 E6       		.byte	-26
+ 1872 0733 60       		.byte	96
+ 1873 0734 86       		.byte	-122
+ 1874 0735 40       		.byte	64
+ 1875 0736 89       		.byte	-119
+ 1876 0737 20       		.byte	32
+ 1877 0738 8F       		.byte	-113
+ 1878 0739 08       		.byte	8
+ 1879 073a 9D       		.byte	-99
+ 1880 073b 20       		.byte	32
+ 1881 073c 9E       		.byte	-98
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccbAJkfz.s 			page 34
+
+
+ 1882 073d 46       		.byte	70
+ 1883 073e 9F       		.byte	-97
+ 1884 073f 08       		.byte	8
+ 1885 0740 A5       		.byte	-91
+ 1886 0741 04       		.byte	4
+ 1887 0742 E2       		.byte	-30
+ 1888 0743 10       		.byte	16
+ 1889 0744 53       		.byte	83
+ 1890 0745 02       		.byte	2
+ 1891 0746 57       		.byte	87
+ 1892 0747 41       		.byte	65
+ 1893 0748 D4       		.byte	-44
+ 1894 0749 03       		.byte	3
+ 1895 074a D6       		.byte	-42
+ 1896 074b 04       		.byte	4
+ 1897 074c 87       		.byte	-121
+ 1898 074d 01       		.byte	1
+ 1899 074e A7       		.byte	-89
+ 1900 074f 43       		.byte	67
+ 1901 0750 83       		.byte	-125
+ 1902 0751 40       		.byte	64
+ 1903 0752 88       		.byte	-120
+ 1904 0753 08       		.byte	8
+ 1905 0754 92       		.byte	-110
+ 1906 0755 01       		.byte	1
+ 1907 0756 A7       		.byte	-89
+ 1908 0757 42       		.byte	66
+ 1909 0758 AE       		.byte	-82
+ 1910 0759 01       		.byte	1
+ 1911 075a E0       		.byte	-32
+ 1912 075b 01       		.byte	1
+ 1913 075c 81       		.byte	-127
+ 1914 075d 04       		.byte	4
+ 1915 075e 82       		.byte	-126
+ 1916 075f 04       		.byte	4
+ 1917 0760 9E       		.byte	-98
+ 1918 0761 06       		.byte	6
+ 1919 0762 A5       		.byte	-91
+ 1920 0763 04       		.byte	4
+ 1921 0764 E2       		.byte	-30
+ 1922 0765 A0       		.byte	-96
+ 1923 0766 8E       		.byte	-114
+ 1924 0767 02       		.byte	2
+ 1925 0768 9E       		.byte	-98
+ 1926 0769 02       		.byte	2
+ 1927 076a 56       		.byte	86
+ 1928 076b 20       		.byte	32
+ 1929 076c 5A       		.byte	90
+ 1930 076d 01       		.byte	1
+ 1931 076e 5F       		.byte	95
+ 1932 076f 08       		.byte	8
+ 1933 0770 60       		.byte	96
+ 1934 0771 08       		.byte	8
+ 1935 0772 67       		.byte	103
+ 1936 0773 20       		.byte	32
+ 1937 0774 92       		.byte	-110
+ 1938 0775 01       		.byte	1
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccbAJkfz.s 			page 35
+
+
+ 1939 0776 98       		.byte	-104
+ 1940 0777 08       		.byte	8
+ 1941 0778 AB       		.byte	-85
+ 1942 0779 02       		.byte	2
+ 1943 077a D4       		.byte	-44
+ 1944 077b 02       		.byte	2
+ 1945 077c D6       		.byte	-42
+ 1946 077d 03       		.byte	3
+ 1947 077e D8       		.byte	-40
+ 1948 077f 03       		.byte	3
+ 1949 0780 86       		.byte	-122
+ 1950 0781 20       		.byte	32
+ 1951 0782 87       		.byte	-121
+ 1952 0783 10       		.byte	16
+ 1953 0784 97       		.byte	-105
+ 1954 0785 20       		.byte	32
+ 1955 0786 9E       		.byte	-98
+ 1956 0787 20       		.byte	32
+ 1957 0788 AF       		.byte	-81
+ 1958 0789 08       		.byte	8
+ 1959 078a 00       		.byte	0
+ 1960 078b 2B       		.byte	43
+ 1961 078c 0A       		.byte	10
+ 1962 078d 0A       		.byte	10
+ 1963 078e 0C       		.byte	12
+ 1964 078f 21       		.byte	33
+ 1965 0790 10       		.byte	16
+ 1966 0791 D4       		.byte	-44
+ 1967 0792 1A       		.byte	26
+ 1968 0793 90       		.byte	-112
+ 1969 0794 1C       		.byte	28
+ 1970 0795 44       		.byte	68
+ 1971 0796 00       		.byte	0
+ 1972 0797 00       		.byte	0
+ 1973 0798 00       		.byte	0
+ 1974 0799 FF       		.byte	-1
+ 1975 079a FF       		.byte	-1
+ 1976 079b 00       		.byte	0
+ 1977 079c FF       		.byte	-1
+ 1978 079d 00       		.byte	0
+ 1979 079e 00       		.byte	0
+ 1980 079f 00       		.byte	0
+ 1981 07a0 00       		.byte	0
+ 1982 07a1 FF       		.byte	-1
+ 1983 07a2 FF       		.byte	-1
+ 1984 07a3 00       		.byte	0
+ 1985 07a4 F4       		.byte	-12
+ 1986 07a5 00       		.byte	0
+ 1987 07a6 00       		.byte	0
+ 1988 07a7 00       		.byte	0
+ 1989 07a8 00       		.byte	0
+ 1990 07a9 07       		.byte	7
+ 1991 07aa 07       		.byte	7
+ 1992 07ab 00       		.byte	0
+ 1993 07ac 07       		.byte	7
+ 1994 07ad 00       		.byte	0
+ 1995 07ae 00       		.byte	0
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccbAJkfz.s 			page 36
+
+
+ 1996 07af 00       		.byte	0
+ 1997              		.section	.cywolatch,"a",%progbits
+ 1998              		.align	2
+ 1999              		.type	cy_meta_wonvl, %object
+ 2000              		.size	cy_meta_wonvl, 4
+ 2001              	cy_meta_wonvl:
+ 2002 0000 BC       		.byte	-68
+ 2003 0001 90       		.byte	-112
+ 2004 0002 AC       		.byte	-84
+ 2005 0003 AF       		.byte	-81
+ 2006              		.section	.cycustnvl,"a",%progbits
+ 2007              		.align	2
+ 2008              		.type	cy_meta_custnvl, %object
+ 2009              		.size	cy_meta_custnvl, 4
+ 2010              	cy_meta_custnvl:
+ 2011 0000 00       		.byte	0
+ 2012 0001 00       		.byte	0
+ 2013 0002 40       		.byte	64
+ 2014 0003 05       		.byte	5
+ 2015              		.section	.cymeta,"a",%progbits
+ 2016              		.align	2
+ 2017              		.type	cy_metadata, %object
+ 2018              		.size	cy_metadata, 12
+ 2019              	cy_metadata:
+ 2020 0000 00       		.byte	0
+ 2021 0001 01       		.byte	1
+ 2022 0002 2E       		.byte	46
+ 2023 0003 12       		.byte	18
+ 2024 0004 70       		.byte	112
+ 2025 0005 69       		.byte	105
+ 2026 0006 00       		.byte	0
+ 2027 0007 01       		.byte	1
+ 2028 0008 00       		.byte	0
+ 2029 0009 00       		.byte	0
+ 2030 000a 00       		.byte	0
+ 2031 000b 00       		.byte	0
+ 2032              		.section	.cyflashprotect,"a",%progbits
+ 2033              		.align	2
+ 2034              		.type	cy_meta_flashprotect, %object
+ 2035              		.size	cy_meta_flashprotect, 256
+ 2036              	cy_meta_flashprotect:
+ 2037 0000 00000000 		.space	256
+ 2037      00000000 
+ 2037      00000000 
+ 2037      00000000 
+ 2037      00000000 
+ 2038              		.text
+ 2039              	.Letext0:
+ 2040              		.file 1 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
+ 2041              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
+ 2042              		.file 3 "Generated_Source\\PSoC5\\cymetadata.c"
+ 2043              		.section	.debug_info,"",%progbits
+ 2044              	.Ldebug_info0:
+ 2045 0000 35010000 		.4byte	0x135
+ 2046 0004 0400     		.2byte	0x4
+ 2047 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 2048 000a 04       		.byte	0x4
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccbAJkfz.s 			page 37
+
+
+ 2049 000b 01       		.uleb128 0x1
+ 2050 000c 24000000 		.4byte	.LASF17
+ 2051 0010 0C       		.byte	0xc
+ 2052 0011 D8010000 		.4byte	.LASF18
+ 2053 0015 D7000000 		.4byte	.LASF19
+ 2054 0019 00000000 		.4byte	.Ldebug_line0
+ 2055 001d 02       		.uleb128 0x2
+ 2056 001e 01       		.byte	0x1
+ 2057 001f 06       		.byte	0x6
+ 2058 0020 CC010000 		.4byte	.LASF0
+ 2059 0024 03       		.uleb128 0x3
+ 2060 0025 00000000 		.4byte	.LASF9
+ 2061 0029 01       		.byte	0x1
+ 2062 002a 1D       		.byte	0x1d
+ 2063 002b 2F000000 		.4byte	0x2f
+ 2064 002f 02       		.uleb128 0x2
+ 2065 0030 01       		.byte	0x1
+ 2066 0031 08       		.byte	0x8
+ 2067 0032 16000000 		.4byte	.LASF1
+ 2068 0036 02       		.uleb128 0x2
+ 2069 0037 02       		.byte	0x2
+ 2070 0038 05       		.byte	0x5
+ 2071 0039 B9010000 		.4byte	.LASF2
+ 2072 003d 02       		.uleb128 0x2
+ 2073 003e 02       		.byte	0x2
+ 2074 003f 07       		.byte	0x7
+ 2075 0040 C4000000 		.4byte	.LASF3
+ 2076 0044 02       		.uleb128 0x2
+ 2077 0045 04       		.byte	0x4
+ 2078 0046 05       		.byte	0x5
+ 2079 0047 C3010000 		.4byte	.LASF4
+ 2080 004b 02       		.uleb128 0x2
+ 2081 004c 04       		.byte	0x4
+ 2082 004d 07       		.byte	0x7
+ 2083 004e B2000000 		.4byte	.LASF5
+ 2084 0052 02       		.uleb128 0x2
+ 2085 0053 08       		.byte	0x8
+ 2086 0054 05       		.byte	0x5
+ 2087 0055 AB010000 		.4byte	.LASF6
+ 2088 0059 02       		.uleb128 0x2
+ 2089 005a 08       		.byte	0x8
+ 2090 005b 07       		.byte	0x7
+ 2091 005c 60010000 		.4byte	.LASF7
+ 2092 0060 04       		.uleb128 0x4
+ 2093 0061 04       		.byte	0x4
+ 2094 0062 05       		.byte	0x5
+ 2095 0063 696E7400 		.ascii	"int\000"
+ 2096 0067 02       		.uleb128 0x2
+ 2097 0068 04       		.byte	0x4
+ 2098 0069 07       		.byte	0x7
+ 2099 006a 53010000 		.4byte	.LASF8
+ 2100 006e 03       		.uleb128 0x3
+ 2101 006f 77010000 		.4byte	.LASF10
+ 2102 0073 02       		.byte	0x2
+ 2103 0074 18       		.byte	0x18
+ 2104 0075 24000000 		.4byte	0x24
+ 2105 0079 05       		.uleb128 0x5
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccbAJkfz.s 			page 38
+
+
+ 2106 007a 91000000 		.4byte	0x91
+ 2107 007e 8A000000 		.4byte	0x8a
+ 2108 0082 06       		.uleb128 0x6
+ 2109 0083 8A000000 		.4byte	0x8a
+ 2110 0087 AF07     		.2byte	0x7af
+ 2111 0089 00       		.byte	0
+ 2112 008a 02       		.uleb128 0x2
+ 2113 008b 04       		.byte	0x4
+ 2114 008c 07       		.byte	0x7
+ 2115 008d A2010000 		.4byte	.LASF11
+ 2116 0091 07       		.uleb128 0x7
+ 2117 0092 6E000000 		.4byte	0x6e
+ 2118 0096 08       		.uleb128 0x8
+ 2119 0097 41010000 		.4byte	.LASF12
+ 2120 009b 03       		.byte	0x3
+ 2121 009c 1F       		.byte	0x1f
+ 2122 009d A7000000 		.4byte	0xa7
+ 2123 00a1 05       		.uleb128 0x5
+ 2124 00a2 03       		.byte	0x3
+ 2125 00a3 00000000 		.4byte	cy_meta_configecc
+ 2126 00a7 07       		.uleb128 0x7
+ 2127 00a8 79000000 		.4byte	0x79
+ 2128 00ac 05       		.uleb128 0x5
+ 2129 00ad 91000000 		.4byte	0x91
+ 2130 00b1 BC000000 		.4byte	0xbc
+ 2131 00b5 09       		.uleb128 0x9
+ 2132 00b6 8A000000 		.4byte	0x8a
+ 2133 00ba 03       		.byte	0x3
+ 2134 00bb 00       		.byte	0
+ 2135 00bc 0A       		.uleb128 0xa
+ 2136 00bd 31010000 		.4byte	.LASF13
+ 2137 00c1 03       		.byte	0x3
+ 2138 00c2 2201     		.2byte	0x122
+ 2139 00c4 CE000000 		.4byte	0xce
+ 2140 00c8 05       		.uleb128 0x5
+ 2141 00c9 03       		.byte	0x3
+ 2142 00ca 00000000 		.4byte	cy_meta_custnvl
+ 2143 00ce 07       		.uleb128 0x7
+ 2144 00cf AC000000 		.4byte	0xac
+ 2145 00d3 0A       		.uleb128 0xa
+ 2146 00d4 94010000 		.4byte	.LASF14
+ 2147 00d8 03       		.byte	0x3
+ 2148 00d9 3001     		.2byte	0x130
+ 2149 00db E5000000 		.4byte	0xe5
+ 2150 00df 05       		.uleb128 0x5
+ 2151 00e0 03       		.byte	0x3
+ 2152 00e1 00000000 		.4byte	cy_meta_wonvl
+ 2153 00e5 07       		.uleb128 0x7
+ 2154 00e6 AC000000 		.4byte	0xac
+ 2155 00ea 05       		.uleb128 0x5
+ 2156 00eb 91000000 		.4byte	0x91
+ 2157 00ef FA000000 		.4byte	0xfa
+ 2158 00f3 09       		.uleb128 0x9
+ 2159 00f4 8A000000 		.4byte	0x8a
+ 2160 00f8 FF       		.byte	0xff
+ 2161 00f9 00       		.byte	0
+ 2162 00fa 0A       		.uleb128 0xa
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccbAJkfz.s 			page 39
+
+
+ 2163 00fb 7F010000 		.4byte	.LASF15
+ 2164 00ff 03       		.byte	0x3
+ 2165 0100 3E01     		.2byte	0x13e
+ 2166 0102 0C010000 		.4byte	0x10c
+ 2167 0106 05       		.uleb128 0x5
+ 2168 0107 03       		.byte	0x3
+ 2169 0108 00000000 		.4byte	cy_meta_flashprotect
+ 2170 010c 07       		.uleb128 0x7
+ 2171 010d EA000000 		.4byte	0xea
+ 2172 0111 05       		.uleb128 0x5
+ 2173 0112 91000000 		.4byte	0x91
+ 2174 0116 21010000 		.4byte	0x121
+ 2175 011a 09       		.uleb128 0x9
+ 2176 011b 8A000000 		.4byte	0x8a
+ 2177 011f 0B       		.byte	0xb
+ 2178 0120 00       		.byte	0
+ 2179 0121 0A       		.uleb128 0xa
+ 2180 0122 0A000000 		.4byte	.LASF16
+ 2181 0126 03       		.byte	0x3
+ 2182 0127 6B01     		.2byte	0x16b
+ 2183 0129 33010000 		.4byte	0x133
+ 2184 012d 05       		.uleb128 0x5
+ 2185 012e 03       		.byte	0x3
+ 2186 012f 00000000 		.4byte	cy_metadata
+ 2187 0133 07       		.uleb128 0x7
+ 2188 0134 11010000 		.4byte	0x111
+ 2189 0138 00       		.byte	0
+ 2190              		.section	.debug_abbrev,"",%progbits
+ 2191              	.Ldebug_abbrev0:
+ 2192 0000 01       		.uleb128 0x1
+ 2193 0001 11       		.uleb128 0x11
+ 2194 0002 01       		.byte	0x1
+ 2195 0003 25       		.uleb128 0x25
+ 2196 0004 0E       		.uleb128 0xe
+ 2197 0005 13       		.uleb128 0x13
+ 2198 0006 0B       		.uleb128 0xb
+ 2199 0007 03       		.uleb128 0x3
+ 2200 0008 0E       		.uleb128 0xe
+ 2201 0009 1B       		.uleb128 0x1b
+ 2202 000a 0E       		.uleb128 0xe
+ 2203 000b 10       		.uleb128 0x10
+ 2204 000c 17       		.uleb128 0x17
+ 2205 000d 00       		.byte	0
+ 2206 000e 00       		.byte	0
+ 2207 000f 02       		.uleb128 0x2
+ 2208 0010 24       		.uleb128 0x24
+ 2209 0011 00       		.byte	0
+ 2210 0012 0B       		.uleb128 0xb
+ 2211 0013 0B       		.uleb128 0xb
+ 2212 0014 3E       		.uleb128 0x3e
+ 2213 0015 0B       		.uleb128 0xb
+ 2214 0016 03       		.uleb128 0x3
+ 2215 0017 0E       		.uleb128 0xe
+ 2216 0018 00       		.byte	0
+ 2217 0019 00       		.byte	0
+ 2218 001a 03       		.uleb128 0x3
+ 2219 001b 16       		.uleb128 0x16
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccbAJkfz.s 			page 40
+
+
+ 2220 001c 00       		.byte	0
+ 2221 001d 03       		.uleb128 0x3
+ 2222 001e 0E       		.uleb128 0xe
+ 2223 001f 3A       		.uleb128 0x3a
+ 2224 0020 0B       		.uleb128 0xb
+ 2225 0021 3B       		.uleb128 0x3b
+ 2226 0022 0B       		.uleb128 0xb
+ 2227 0023 49       		.uleb128 0x49
+ 2228 0024 13       		.uleb128 0x13
+ 2229 0025 00       		.byte	0
+ 2230 0026 00       		.byte	0
+ 2231 0027 04       		.uleb128 0x4
+ 2232 0028 24       		.uleb128 0x24
+ 2233 0029 00       		.byte	0
+ 2234 002a 0B       		.uleb128 0xb
+ 2235 002b 0B       		.uleb128 0xb
+ 2236 002c 3E       		.uleb128 0x3e
+ 2237 002d 0B       		.uleb128 0xb
+ 2238 002e 03       		.uleb128 0x3
+ 2239 002f 08       		.uleb128 0x8
+ 2240 0030 00       		.byte	0
+ 2241 0031 00       		.byte	0
+ 2242 0032 05       		.uleb128 0x5
+ 2243 0033 01       		.uleb128 0x1
+ 2244 0034 01       		.byte	0x1
+ 2245 0035 49       		.uleb128 0x49
+ 2246 0036 13       		.uleb128 0x13
+ 2247 0037 01       		.uleb128 0x1
+ 2248 0038 13       		.uleb128 0x13
+ 2249 0039 00       		.byte	0
+ 2250 003a 00       		.byte	0
+ 2251 003b 06       		.uleb128 0x6
+ 2252 003c 21       		.uleb128 0x21
+ 2253 003d 00       		.byte	0
+ 2254 003e 49       		.uleb128 0x49
+ 2255 003f 13       		.uleb128 0x13
+ 2256 0040 2F       		.uleb128 0x2f
+ 2257 0041 05       		.uleb128 0x5
+ 2258 0042 00       		.byte	0
+ 2259 0043 00       		.byte	0
+ 2260 0044 07       		.uleb128 0x7
+ 2261 0045 26       		.uleb128 0x26
+ 2262 0046 00       		.byte	0
+ 2263 0047 49       		.uleb128 0x49
+ 2264 0048 13       		.uleb128 0x13
+ 2265 0049 00       		.byte	0
+ 2266 004a 00       		.byte	0
+ 2267 004b 08       		.uleb128 0x8
+ 2268 004c 34       		.uleb128 0x34
+ 2269 004d 00       		.byte	0
+ 2270 004e 03       		.uleb128 0x3
+ 2271 004f 0E       		.uleb128 0xe
+ 2272 0050 3A       		.uleb128 0x3a
+ 2273 0051 0B       		.uleb128 0xb
+ 2274 0052 3B       		.uleb128 0x3b
+ 2275 0053 0B       		.uleb128 0xb
+ 2276 0054 49       		.uleb128 0x49
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccbAJkfz.s 			page 41
+
+
+ 2277 0055 13       		.uleb128 0x13
+ 2278 0056 3F       		.uleb128 0x3f
+ 2279 0057 19       		.uleb128 0x19
+ 2280 0058 02       		.uleb128 0x2
+ 2281 0059 18       		.uleb128 0x18
+ 2282 005a 00       		.byte	0
+ 2283 005b 00       		.byte	0
+ 2284 005c 09       		.uleb128 0x9
+ 2285 005d 21       		.uleb128 0x21
+ 2286 005e 00       		.byte	0
+ 2287 005f 49       		.uleb128 0x49
+ 2288 0060 13       		.uleb128 0x13
+ 2289 0061 2F       		.uleb128 0x2f
+ 2290 0062 0B       		.uleb128 0xb
+ 2291 0063 00       		.byte	0
+ 2292 0064 00       		.byte	0
+ 2293 0065 0A       		.uleb128 0xa
+ 2294 0066 34       		.uleb128 0x34
+ 2295 0067 00       		.byte	0
+ 2296 0068 03       		.uleb128 0x3
+ 2297 0069 0E       		.uleb128 0xe
+ 2298 006a 3A       		.uleb128 0x3a
+ 2299 006b 0B       		.uleb128 0xb
+ 2300 006c 3B       		.uleb128 0x3b
+ 2301 006d 05       		.uleb128 0x5
+ 2302 006e 49       		.uleb128 0x49
+ 2303 006f 13       		.uleb128 0x13
+ 2304 0070 3F       		.uleb128 0x3f
+ 2305 0071 19       		.uleb128 0x19
+ 2306 0072 02       		.uleb128 0x2
+ 2307 0073 18       		.uleb128 0x18
+ 2308 0074 00       		.byte	0
+ 2309 0075 00       		.byte	0
+ 2310 0076 00       		.byte	0
+ 2311              		.section	.debug_aranges,"",%progbits
+ 2312 0000 14000000 		.4byte	0x14
+ 2313 0004 0200     		.2byte	0x2
+ 2314 0006 00000000 		.4byte	.Ldebug_info0
+ 2315 000a 04       		.byte	0x4
+ 2316 000b 00       		.byte	0
+ 2317 000c 0000     		.2byte	0
+ 2318 000e 0000     		.2byte	0
+ 2319 0010 00000000 		.4byte	0
+ 2320 0014 00000000 		.4byte	0
+ 2321              		.section	.debug_line,"",%progbits
+ 2322              	.Ldebug_line0:
+ 2323 0000 3D010000 		.section	.debug_str,"MS",%progbits,1
+ 2323      02003701 
+ 2323      00000201 
+ 2323      FB0E0D00 
+ 2323      01010101 
+ 2324              	.LASF9:
+ 2325 0000 5F5F7569 		.ascii	"__uint8_t\000"
+ 2325      6E74385F 
+ 2325      7400
+ 2326              	.LASF16:
+ 2327 000a 63795F6D 		.ascii	"cy_metadata\000"
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccbAJkfz.s 			page 42
+
+
+ 2327      65746164 
+ 2327      61746100 
+ 2328              	.LASF1:
+ 2329 0016 756E7369 		.ascii	"unsigned char\000"
+ 2329      676E6564 
+ 2329      20636861 
+ 2329      7200
+ 2330              	.LASF17:
+ 2331 0024 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 2331      43313120 
+ 2331      352E342E 
+ 2331      31203230 
+ 2331      31363036 
+ 2332 0057 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 2332      20726576 
+ 2332      6973696F 
+ 2332      6E203233 
+ 2332      37373135 
+ 2333 008a 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 2333      66756E63 
+ 2333      74696F6E 
+ 2333      2D736563 
+ 2333      74696F6E 
+ 2334              	.LASF5:
+ 2335 00b2 6C6F6E67 		.ascii	"long unsigned int\000"
+ 2335      20756E73 
+ 2335      69676E65 
+ 2335      6420696E 
+ 2335      7400
+ 2336              	.LASF3:
+ 2337 00c4 73686F72 		.ascii	"short unsigned int\000"
+ 2337      7420756E 
+ 2337      7369676E 
+ 2337      65642069 
+ 2337      6E7400
+ 2338              	.LASF19:
+ 2339 00d7 433A5C55 		.ascii	"C:\\Users\\Sandeep Nadella\\OneDrive\\Documents\\PS"
+ 2339      73657273 
+ 2339      5C53616E 
+ 2339      64656570 
+ 2339      204E6164 
+ 2340 0105 6F432043 		.ascii	"oC Creator\\SD_Workspace\\Robot_Control.cydsn\000"
+ 2340      72656174 
+ 2340      6F725C53 
+ 2340      445F576F 
+ 2340      726B7370 
+ 2341              	.LASF13:
+ 2342 0131 63795F6D 		.ascii	"cy_meta_custnvl\000"
+ 2342      6574615F 
+ 2342      63757374 
+ 2342      6E766C00 
+ 2343              	.LASF12:
+ 2344 0141 63795F6D 		.ascii	"cy_meta_configecc\000"
+ 2344      6574615F 
+ 2344      636F6E66 
+ 2344      69676563 
+ 2344      6300
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccbAJkfz.s 			page 43
+
+
+ 2345              	.LASF8:
+ 2346 0153 756E7369 		.ascii	"unsigned int\000"
+ 2346      676E6564 
+ 2346      20696E74 
+ 2346      00
+ 2347              	.LASF7:
+ 2348 0160 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 2348      206C6F6E 
+ 2348      6720756E 
+ 2348      7369676E 
+ 2348      65642069 
+ 2349              	.LASF10:
+ 2350 0177 75696E74 		.ascii	"uint8_t\000"
+ 2350      385F7400 
+ 2351              	.LASF15:
+ 2352 017f 63795F6D 		.ascii	"cy_meta_flashprotect\000"
+ 2352      6574615F 
+ 2352      666C6173 
+ 2352      6870726F 
+ 2352      74656374 
+ 2353              	.LASF14:
+ 2354 0194 63795F6D 		.ascii	"cy_meta_wonvl\000"
+ 2354      6574615F 
+ 2354      776F6E76 
+ 2354      6C00
+ 2355              	.LASF11:
+ 2356 01a2 73697A65 		.ascii	"sizetype\000"
+ 2356      74797065 
+ 2356      00
+ 2357              	.LASF6:
+ 2358 01ab 6C6F6E67 		.ascii	"long long int\000"
+ 2358      206C6F6E 
+ 2358      6720696E 
+ 2358      7400
+ 2359              	.LASF2:
+ 2360 01b9 73686F72 		.ascii	"short int\000"
+ 2360      7420696E 
+ 2360      7400
+ 2361              	.LASF4:
+ 2362 01c3 6C6F6E67 		.ascii	"long int\000"
+ 2362      20696E74 
+ 2362      00
+ 2363              	.LASF0:
+ 2364 01cc 7369676E 		.ascii	"signed char\000"
+ 2364      65642063 
+ 2364      68617200 
+ 2365              	.LASF18:
+ 2366 01d8 47656E65 		.ascii	"Generated_Source\\PSoC5\\cymetadata.c\000"
+ 2366      72617465 
+ 2366      645F536F 
+ 2366      75726365 
+ 2366      5C50536F 
+ 2367              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

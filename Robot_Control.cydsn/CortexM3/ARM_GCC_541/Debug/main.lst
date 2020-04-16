@@ -1,0 +1,2908 @@
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m3
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"main.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.section	.text.initializeAllComponenets,"ax",%progbits
+  20              		.align	2
+  21              		.global	initializeAllComponenets
+  22              		.thumb
+  23              		.thumb_func
+  24              		.type	initializeAllComponenets, %function
+  25              	initializeAllComponenets:
+  26              	.LFB63:
+  27              		.file 1 "main.c"
+   1:main.c        **** /* ========================================
+   2:main.c        ****  *
+   3:main.c        ****  * Copyright YOUR COMPANY, THE YEAR
+   4:main.c        ****  * All Rights Reserved
+   5:main.c        ****  * UNPUBLISHED, LICENSED SOFTWARE.
+   6:main.c        ****  *
+   7:main.c        ****  * CONFIDENTIAL AND PROPRIETARY INFORMATION
+   8:main.c        ****  * WHICH IS THE PROPERTY OF your company.
+   9:main.c        ****  *
+  10:main.c        ****  * ========================================
+  11:main.c        **** */
+  12:main.c        **** #include "project.h"
+  13:main.c        **** 
+  14:main.c        **** 
+  15:main.c        **** void initializeAllComponenets() {
+  28              		.loc 1 15 0
+  29              		.cfi_startproc
+  30              		@ args = 0, pretend = 0, frame = 0
+  31              		@ frame_needed = 0, uses_anonymous_args = 0
+  32 0000 08B5     		push	{r3, lr}
+  33              		.cfi_def_cfa_offset 8
+  34              		.cfi_offset 3, -8
+  35              		.cfi_offset 14, -4
+  16:main.c        ****     RightEyebrow_Start();
+  36              		.loc 1 16 0
+  37 0002 FFF7FEFF 		bl	RightEyebrow_Start
+  38              	.LVL0:
+  17:main.c        ****     LeftEyebrow_Start();
+  39              		.loc 1 17 0
+  40 0006 FFF7FEFF 		bl	LeftEyebrow_Start
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 2
+
+
+  41              	.LVL1:
+  18:main.c        ****     EyeBallVertical_Start();
+  42              		.loc 1 18 0
+  43 000a FFF7FEFF 		bl	EyeBallVertical_Start
+  44              	.LVL2:
+  19:main.c        ****     EyelidGroup_Start();
+  45              		.loc 1 19 0
+  46 000e FFF7FEFF 		bl	EyelidGroup_Start
+  47              	.LVL3:
+  20:main.c        ****     BaseJaw_Start();
+  48              		.loc 1 20 0
+  49 0012 FFF7FEFF 		bl	BaseJaw_Start
+  50              	.LVL4:
+  21:main.c        ****     LeftEyebrow_Start();
+  51              		.loc 1 21 0
+  52 0016 FFF7FEFF 		bl	LeftEyebrow_Start
+  53              	.LVL5:
+  22:main.c        ****     EyeBallHorizontal_Start();
+  54              		.loc 1 22 0
+  55 001a FFF7FEFF 		bl	EyeBallHorizontal_Start
+  56              	.LVL6:
+  23:main.c        ****     Neck_Start();
+  57              		.loc 1 23 0
+  58 001e FFF7FEFF 		bl	Neck_Start
+  59              	.LVL7:
+  24:main.c        ****     Lip_Start();
+  60              		.loc 1 24 0
+  61 0022 FFF7FEFF 		bl	Lip_Start
+  62              	.LVL8:
+  63 0026 08BD     		pop	{r3, pc}
+  64              		.cfi_endproc
+  65              	.LFE63:
+  66              		.size	initializeAllComponenets, .-initializeAllComponenets
+  67              		.section	.text.resetLeftEyebrow,"ax",%progbits
+  68              		.align	2
+  69              		.global	resetLeftEyebrow
+  70              		.thumb
+  71              		.thumb_func
+  72              		.type	resetLeftEyebrow, %function
+  73              	resetLeftEyebrow:
+  74              	.LFB64:
+  25:main.c        **** }
+  26:main.c        **** 
+  27:main.c        **** void resetLeftEyebrow() {
+  75              		.loc 1 27 0
+  76              		.cfi_startproc
+  77              		@ args = 0, pretend = 0, frame = 0
+  78              		@ frame_needed = 0, uses_anonymous_args = 0
+  79 0000 08B5     		push	{r3, lr}
+  80              		.cfi_def_cfa_offset 8
+  81              		.cfi_offset 3, -8
+  82              		.cfi_offset 14, -4
+  28:main.c        ****     LeftEyebrow_WriteCompare1(1000);
+  83              		.loc 1 28 0
+  84 0002 4FF47A70 		mov	r0, #1000
+  85 0006 FFF7FEFF 		bl	LeftEyebrow_WriteCompare1
+  86              	.LVL9:
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 3
+
+
+  29:main.c        ****     LeftEyebrow_WriteCompare2(1000);
+  87              		.loc 1 29 0
+  88 000a 4FF47A70 		mov	r0, #1000
+  89 000e FFF7FEFF 		bl	LeftEyebrow_WriteCompare2
+  90              	.LVL10:
+  91 0012 08BD     		pop	{r3, pc}
+  92              		.cfi_endproc
+  93              	.LFE64:
+  94              		.size	resetLeftEyebrow, .-resetLeftEyebrow
+  95              		.section	.text.sadLeftEyebrow,"ax",%progbits
+  96              		.align	2
+  97              		.global	sadLeftEyebrow
+  98              		.thumb
+  99              		.thumb_func
+ 100              		.type	sadLeftEyebrow, %function
+ 101              	sadLeftEyebrow:
+ 102              	.LFB65:
+  30:main.c        **** }
+  31:main.c        **** 
+  32:main.c        **** void sadLeftEyebrow() {
+ 103              		.loc 1 32 0
+ 104              		.cfi_startproc
+ 105              		@ args = 0, pretend = 0, frame = 0
+ 106              		@ frame_needed = 0, uses_anonymous_args = 0
+ 107 0000 08B5     		push	{r3, lr}
+ 108              		.cfi_def_cfa_offset 8
+ 109              		.cfi_offset 3, -8
+ 110              		.cfi_offset 14, -4
+  33:main.c        ****     LeftEyebrow_WriteCompare1(1600);
+ 111              		.loc 1 33 0
+ 112 0002 4FF4C860 		mov	r0, #1600
+ 113 0006 FFF7FEFF 		bl	LeftEyebrow_WriteCompare1
+ 114              	.LVL11:
+  34:main.c        ****     LeftEyebrow_WriteCompare2(1600);
+ 115              		.loc 1 34 0
+ 116 000a 4FF4C860 		mov	r0, #1600
+ 117 000e FFF7FEFF 		bl	LeftEyebrow_WriteCompare2
+ 118              	.LVL12:
+ 119 0012 08BD     		pop	{r3, pc}
+ 120              		.cfi_endproc
+ 121              	.LFE65:
+ 122              		.size	sadLeftEyebrow, .-sadLeftEyebrow
+ 123              		.section	.text.raisedLeftEyebrow,"ax",%progbits
+ 124              		.align	2
+ 125              		.global	raisedLeftEyebrow
+ 126              		.thumb
+ 127              		.thumb_func
+ 128              		.type	raisedLeftEyebrow, %function
+ 129              	raisedLeftEyebrow:
+ 130              	.LFB66:
+  35:main.c        **** }
+  36:main.c        **** 
+  37:main.c        **** void raisedLeftEyebrow() {
+ 131              		.loc 1 37 0
+ 132              		.cfi_startproc
+ 133              		@ args = 0, pretend = 0, frame = 0
+ 134              		@ frame_needed = 0, uses_anonymous_args = 0
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 4
+
+
+ 135 0000 08B5     		push	{r3, lr}
+ 136              		.cfi_def_cfa_offset 8
+ 137              		.cfi_offset 3, -8
+ 138              		.cfi_offset 14, -4
+  38:main.c        ****     LeftEyebrow_WriteCompare1(200);
+ 139              		.loc 1 38 0
+ 140 0002 C820     		movs	r0, #200
+ 141 0004 FFF7FEFF 		bl	LeftEyebrow_WriteCompare1
+ 142              	.LVL13:
+  39:main.c        ****     LeftEyebrow_WriteCompare2(200);
+ 143              		.loc 1 39 0
+ 144 0008 C820     		movs	r0, #200
+ 145 000a FFF7FEFF 		bl	LeftEyebrow_WriteCompare2
+ 146              	.LVL14:
+ 147 000e 08BD     		pop	{r3, pc}
+ 148              		.cfi_endproc
+ 149              	.LFE66:
+ 150              		.size	raisedLeftEyebrow, .-raisedLeftEyebrow
+ 151              		.section	.text.clearLeftEyebrow,"ax",%progbits
+ 152              		.align	2
+ 153              		.global	clearLeftEyebrow
+ 154              		.thumb
+ 155              		.thumb_func
+ 156              		.type	clearLeftEyebrow, %function
+ 157              	clearLeftEyebrow:
+ 158              	.LFB67:
+  40:main.c        **** }
+  41:main.c        **** 
+  42:main.c        **** void clearLeftEyebrow() {
+ 159              		.loc 1 42 0
+ 160              		.cfi_startproc
+ 161              		@ args = 0, pretend = 0, frame = 0
+ 162              		@ frame_needed = 0, uses_anonymous_args = 0
+ 163 0000 08B5     		push	{r3, lr}
+ 164              		.cfi_def_cfa_offset 8
+ 165              		.cfi_offset 3, -8
+ 166              		.cfi_offset 14, -4
+  43:main.c        ****     LeftEyebrow_WriteCompare1(0);
+ 167              		.loc 1 43 0
+ 168 0002 0020     		movs	r0, #0
+ 169 0004 FFF7FEFF 		bl	LeftEyebrow_WriteCompare1
+ 170              	.LVL15:
+  44:main.c        ****     LeftEyebrow_WriteCompare2(0);
+ 171              		.loc 1 44 0
+ 172 0008 0020     		movs	r0, #0
+ 173 000a FFF7FEFF 		bl	LeftEyebrow_WriteCompare2
+ 174              	.LVL16:
+ 175 000e 08BD     		pop	{r3, pc}
+ 176              		.cfi_endproc
+ 177              	.LFE67:
+ 178              		.size	clearLeftEyebrow, .-clearLeftEyebrow
+ 179              		.section	.text.resetRightEyebrow,"ax",%progbits
+ 180              		.align	2
+ 181              		.global	resetRightEyebrow
+ 182              		.thumb
+ 183              		.thumb_func
+ 184              		.type	resetRightEyebrow, %function
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 5
+
+
+ 185              	resetRightEyebrow:
+ 186              	.LFB68:
+  45:main.c        **** }
+  46:main.c        **** 
+  47:main.c        **** void resetRightEyebrow() {
+ 187              		.loc 1 47 0
+ 188              		.cfi_startproc
+ 189              		@ args = 0, pretend = 0, frame = 0
+ 190              		@ frame_needed = 0, uses_anonymous_args = 0
+ 191 0000 08B5     		push	{r3, lr}
+ 192              		.cfi_def_cfa_offset 8
+ 193              		.cfi_offset 3, -8
+ 194              		.cfi_offset 14, -4
+  48:main.c        ****     RightEyebrow_WriteCompare1(1000);
+ 195              		.loc 1 48 0
+ 196 0002 4FF47A70 		mov	r0, #1000
+ 197 0006 FFF7FEFF 		bl	RightEyebrow_WriteCompare1
+ 198              	.LVL17:
+  49:main.c        ****     RightEyebrow_WriteCompare2(1000);
+ 199              		.loc 1 49 0
+ 200 000a 4FF47A70 		mov	r0, #1000
+ 201 000e FFF7FEFF 		bl	RightEyebrow_WriteCompare2
+ 202              	.LVL18:
+ 203 0012 08BD     		pop	{r3, pc}
+ 204              		.cfi_endproc
+ 205              	.LFE68:
+ 206              		.size	resetRightEyebrow, .-resetRightEyebrow
+ 207              		.section	.text.raisedRightEyebrow,"ax",%progbits
+ 208              		.align	2
+ 209              		.global	raisedRightEyebrow
+ 210              		.thumb
+ 211              		.thumb_func
+ 212              		.type	raisedRightEyebrow, %function
+ 213              	raisedRightEyebrow:
+ 214              	.LFB69:
+  50:main.c        **** }
+  51:main.c        **** 
+  52:main.c        **** void raisedRightEyebrow() {
+ 215              		.loc 1 52 0
+ 216              		.cfi_startproc
+ 217              		@ args = 0, pretend = 0, frame = 0
+ 218              		@ frame_needed = 0, uses_anonymous_args = 0
+ 219 0000 08B5     		push	{r3, lr}
+ 220              		.cfi_def_cfa_offset 8
+ 221              		.cfi_offset 3, -8
+ 222              		.cfi_offset 14, -4
+  53:main.c        ****     RightEyebrow_WriteCompare1(1600);
+ 223              		.loc 1 53 0
+ 224 0002 4FF4C860 		mov	r0, #1600
+ 225 0006 FFF7FEFF 		bl	RightEyebrow_WriteCompare1
+ 226              	.LVL19:
+  54:main.c        ****     RightEyebrow_WriteCompare2(1600);
+ 227              		.loc 1 54 0
+ 228 000a 4FF4C860 		mov	r0, #1600
+ 229 000e FFF7FEFF 		bl	RightEyebrow_WriteCompare2
+ 230              	.LVL20:
+ 231 0012 08BD     		pop	{r3, pc}
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 6
+
+
+ 232              		.cfi_endproc
+ 233              	.LFE69:
+ 234              		.size	raisedRightEyebrow, .-raisedRightEyebrow
+ 235              		.section	.text.sadRightEyebrow,"ax",%progbits
+ 236              		.align	2
+ 237              		.global	sadRightEyebrow
+ 238              		.thumb
+ 239              		.thumb_func
+ 240              		.type	sadRightEyebrow, %function
+ 241              	sadRightEyebrow:
+ 242              	.LFB70:
+  55:main.c        **** }
+  56:main.c        **** 
+  57:main.c        **** void sadRightEyebrow() {
+ 243              		.loc 1 57 0
+ 244              		.cfi_startproc
+ 245              		@ args = 0, pretend = 0, frame = 0
+ 246              		@ frame_needed = 0, uses_anonymous_args = 0
+ 247 0000 08B5     		push	{r3, lr}
+ 248              		.cfi_def_cfa_offset 8
+ 249              		.cfi_offset 3, -8
+ 250              		.cfi_offset 14, -4
+  58:main.c        ****     RightEyebrow_WriteCompare1(200);
+ 251              		.loc 1 58 0
+ 252 0002 C820     		movs	r0, #200
+ 253 0004 FFF7FEFF 		bl	RightEyebrow_WriteCompare1
+ 254              	.LVL21:
+  59:main.c        ****     RightEyebrow_WriteCompare2(200);
+ 255              		.loc 1 59 0
+ 256 0008 C820     		movs	r0, #200
+ 257 000a FFF7FEFF 		bl	RightEyebrow_WriteCompare2
+ 258              	.LVL22:
+ 259 000e 08BD     		pop	{r3, pc}
+ 260              		.cfi_endproc
+ 261              	.LFE70:
+ 262              		.size	sadRightEyebrow, .-sadRightEyebrow
+ 263              		.section	.text.clearRightEyebrow,"ax",%progbits
+ 264              		.align	2
+ 265              		.global	clearRightEyebrow
+ 266              		.thumb
+ 267              		.thumb_func
+ 268              		.type	clearRightEyebrow, %function
+ 269              	clearRightEyebrow:
+ 270              	.LFB71:
+  60:main.c        **** }
+  61:main.c        **** 
+  62:main.c        **** void clearRightEyebrow() {
+ 271              		.loc 1 62 0
+ 272              		.cfi_startproc
+ 273              		@ args = 0, pretend = 0, frame = 0
+ 274              		@ frame_needed = 0, uses_anonymous_args = 0
+ 275 0000 08B5     		push	{r3, lr}
+ 276              		.cfi_def_cfa_offset 8
+ 277              		.cfi_offset 3, -8
+ 278              		.cfi_offset 14, -4
+  63:main.c        ****     RightEyebrow_WriteCompare1(0);
+ 279              		.loc 1 63 0
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 7
+
+
+ 280 0002 0020     		movs	r0, #0
+ 281 0004 FFF7FEFF 		bl	RightEyebrow_WriteCompare1
+ 282              	.LVL23:
+  64:main.c        ****     RightEyebrow_WriteCompare2(0);
+ 283              		.loc 1 64 0
+ 284 0008 0020     		movs	r0, #0
+ 285 000a FFF7FEFF 		bl	RightEyebrow_WriteCompare2
+ 286              	.LVL24:
+ 287 000e 08BD     		pop	{r3, pc}
+ 288              		.cfi_endproc
+ 289              	.LFE71:
+ 290              		.size	clearRightEyebrow, .-clearRightEyebrow
+ 291              		.section	.text.moveLowerJawUp,"ax",%progbits
+ 292              		.align	2
+ 293              		.global	moveLowerJawUp
+ 294              		.thumb
+ 295              		.thumb_func
+ 296              		.type	moveLowerJawUp, %function
+ 297              	moveLowerJawUp:
+ 298              	.LFB72:
+  65:main.c        **** }
+  66:main.c        **** 
+  67:main.c        **** void moveLowerJawUp() {
+ 299              		.loc 1 67 0
+ 300              		.cfi_startproc
+ 301              		@ args = 0, pretend = 0, frame = 0
+ 302              		@ frame_needed = 0, uses_anonymous_args = 0
+ 303 0000 08B5     		push	{r3, lr}
+ 304              		.cfi_def_cfa_offset 8
+ 305              		.cfi_offset 3, -8
+ 306              		.cfi_offset 14, -4
+  68:main.c        ****     BaseJaw_WriteCompare1(800);
+ 307              		.loc 1 68 0
+ 308 0002 4FF44870 		mov	r0, #800
+ 309 0006 FFF7FEFF 		bl	BaseJaw_WriteCompare1
+ 310              	.LVL25:
+ 311 000a 08BD     		pop	{r3, pc}
+ 312              		.cfi_endproc
+ 313              	.LFE72:
+ 314              		.size	moveLowerJawUp, .-moveLowerJawUp
+ 315              		.section	.text.moveNeckDown,"ax",%progbits
+ 316              		.align	2
+ 317              		.global	moveNeckDown
+ 318              		.thumb
+ 319              		.thumb_func
+ 320              		.type	moveNeckDown, %function
+ 321              	moveNeckDown:
+ 322              	.LFB73:
+  69:main.c        **** }
+  70:main.c        **** void moveNeckDown() {
+ 323              		.loc 1 70 0
+ 324              		.cfi_startproc
+ 325              		@ args = 0, pretend = 0, frame = 0
+ 326              		@ frame_needed = 0, uses_anonymous_args = 0
+ 327 0000 08B5     		push	{r3, lr}
+ 328              		.cfi_def_cfa_offset 8
+ 329              		.cfi_offset 3, -8
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 8
+
+
+ 330              		.cfi_offset 14, -4
+  71:main.c        ****     Neck_WriteCompare1(1500);
+ 331              		.loc 1 71 0
+ 332 0002 40F2DC50 		movw	r0, #1500
+ 333 0006 FFF7FEFF 		bl	Neck_WriteCompare1
+ 334              	.LVL26:
+  72:main.c        ****     Neck_WriteCompare2(500);
+ 335              		.loc 1 72 0
+ 336 000a 4FF4FA70 		mov	r0, #500
+ 337 000e FFF7FEFF 		bl	Neck_WriteCompare2
+ 338              	.LVL27:
+  73:main.c        ****     //Close the jaw
+  74:main.c        ****     moveLowerJawUp();
+ 339              		.loc 1 74 0
+ 340 0012 FFF7FEFF 		bl	moveLowerJawUp
+ 341              	.LVL28:
+ 342 0016 08BD     		pop	{r3, pc}
+ 343              		.cfi_endproc
+ 344              	.LFE73:
+ 345              		.size	moveNeckDown, .-moveNeckDown
+ 346              		.section	.text.moveNeckCenter,"ax",%progbits
+ 347              		.align	2
+ 348              		.global	moveNeckCenter
+ 349              		.thumb
+ 350              		.thumb_func
+ 351              		.type	moveNeckCenter, %function
+ 352              	moveNeckCenter:
+ 353              	.LFB74:
+  75:main.c        **** }
+  76:main.c        **** 
+  77:main.c        **** void moveNeckCenter() {
+ 354              		.loc 1 77 0
+ 355              		.cfi_startproc
+ 356              		@ args = 0, pretend = 0, frame = 0
+ 357              		@ frame_needed = 0, uses_anonymous_args = 0
+ 358 0000 08B5     		push	{r3, lr}
+ 359              		.cfi_def_cfa_offset 8
+ 360              		.cfi_offset 3, -8
+ 361              		.cfi_offset 14, -4
+  78:main.c        ****     Neck_WriteCompare1(1000);
+ 362              		.loc 1 78 0
+ 363 0002 4FF47A70 		mov	r0, #1000
+ 364 0006 FFF7FEFF 		bl	Neck_WriteCompare1
+ 365              	.LVL29:
+  79:main.c        ****     Neck_WriteCompare2(1000);
+ 366              		.loc 1 79 0
+ 367 000a 4FF47A70 		mov	r0, #1000
+ 368 000e FFF7FEFF 		bl	Neck_WriteCompare2
+ 369              	.LVL30:
+ 370 0012 08BD     		pop	{r3, pc}
+ 371              		.cfi_endproc
+ 372              	.LFE74:
+ 373              		.size	moveNeckCenter, .-moveNeckCenter
+ 374              		.section	.text.moveNeckUp,"ax",%progbits
+ 375              		.align	2
+ 376              		.global	moveNeckUp
+ 377              		.thumb
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 9
+
+
+ 378              		.thumb_func
+ 379              		.type	moveNeckUp, %function
+ 380              	moveNeckUp:
+ 381              	.LFB75:
+  80:main.c        **** }
+  81:main.c        **** 
+  82:main.c        **** void moveNeckUp() {
+ 382              		.loc 1 82 0
+ 383              		.cfi_startproc
+ 384              		@ args = 0, pretend = 0, frame = 0
+ 385              		@ frame_needed = 0, uses_anonymous_args = 0
+ 386 0000 08B5     		push	{r3, lr}
+ 387              		.cfi_def_cfa_offset 8
+ 388              		.cfi_offset 3, -8
+ 389              		.cfi_offset 14, -4
+  83:main.c        ****     Neck_WriteCompare1(500);
+ 390              		.loc 1 83 0
+ 391 0002 4FF4FA70 		mov	r0, #500
+ 392 0006 FFF7FEFF 		bl	Neck_WriteCompare1
+ 393              	.LVL31:
+  84:main.c        ****     Neck_WriteCompare2(1500);
+ 394              		.loc 1 84 0
+ 395 000a 40F2DC50 		movw	r0, #1500
+ 396 000e FFF7FEFF 		bl	Neck_WriteCompare2
+ 397              	.LVL32:
+ 398 0012 08BD     		pop	{r3, pc}
+ 399              		.cfi_endproc
+ 400              	.LFE75:
+ 401              		.size	moveNeckUp, .-moveNeckUp
+ 402              		.section	.text.resetJaw,"ax",%progbits
+ 403              		.align	2
+ 404              		.global	resetJaw
+ 405              		.thumb
+ 406              		.thumb_func
+ 407              		.type	resetJaw, %function
+ 408              	resetJaw:
+ 409              	.LFB76:
+  85:main.c        **** }
+  86:main.c        **** 
+  87:main.c        **** void resetJaw() {
+ 410              		.loc 1 87 0
+ 411              		.cfi_startproc
+ 412              		@ args = 0, pretend = 0, frame = 0
+ 413              		@ frame_needed = 0, uses_anonymous_args = 0
+ 414 0000 08B5     		push	{r3, lr}
+ 415              		.cfi_def_cfa_offset 8
+ 416              		.cfi_offset 3, -8
+ 417              		.cfi_offset 14, -4
+  88:main.c        ****     BaseJaw_WriteCompare1(200);
+ 418              		.loc 1 88 0
+ 419 0002 C820     		movs	r0, #200
+ 420 0004 FFF7FEFF 		bl	BaseJaw_WriteCompare1
+ 421              	.LVL33:
+ 422 0008 08BD     		pop	{r3, pc}
+ 423              		.cfi_endproc
+ 424              	.LFE76:
+ 425              		.size	resetJaw, .-resetJaw
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 10
+
+
+ 426 000a 00BF     		.section	.text.moveBaseCenter,"ax",%progbits
+ 427              		.align	2
+ 428              		.global	moveBaseCenter
+ 429              		.thumb
+ 430              		.thumb_func
+ 431              		.type	moveBaseCenter, %function
+ 432              	moveBaseCenter:
+ 433              	.LFB77:
+  89:main.c        **** }
+  90:main.c        **** 
+  91:main.c        **** void moveBaseCenter() {
+ 434              		.loc 1 91 0
+ 435              		.cfi_startproc
+ 436              		@ args = 0, pretend = 0, frame = 0
+ 437              		@ frame_needed = 0, uses_anonymous_args = 0
+ 438 0000 08B5     		push	{r3, lr}
+ 439              		.cfi_def_cfa_offset 8
+ 440              		.cfi_offset 3, -8
+ 441              		.cfi_offset 14, -4
+  92:main.c        ****     BaseJaw_Start();
+ 442              		.loc 1 92 0
+ 443 0002 FFF7FEFF 		bl	BaseJaw_Start
+ 444              	.LVL34:
+  93:main.c        ****     BaseJaw_WriteCompare2(1500);
+ 445              		.loc 1 93 0
+ 446 0006 40F2DC50 		movw	r0, #1500
+ 447 000a FFF7FEFF 		bl	BaseJaw_WriteCompare2
+ 448              	.LVL35:
+  94:main.c        ****     CyDelay(2000);
+ 449              		.loc 1 94 0
+ 450 000e 4FF4FA60 		mov	r0, #2000
+ 451 0012 FFF7FEFF 		bl	CyDelay
+ 452              	.LVL36:
+  95:main.c        ****     BaseJaw_Stop();
+ 453              		.loc 1 95 0
+ 454 0016 FFF7FEFF 		bl	BaseJaw_Stop
+ 455              	.LVL37:
+ 456 001a 08BD     		pop	{r3, pc}
+ 457              		.cfi_endproc
+ 458              	.LFE77:
+ 459              		.size	moveBaseCenter, .-moveBaseCenter
+ 460              		.section	.text.moveBaseRight,"ax",%progbits
+ 461              		.align	2
+ 462              		.global	moveBaseRight
+ 463              		.thumb
+ 464              		.thumb_func
+ 465              		.type	moveBaseRight, %function
+ 466              	moveBaseRight:
+ 467              	.LFB78:
+  96:main.c        **** }
+  97:main.c        **** 
+  98:main.c        **** void moveBaseRight() {
+ 468              		.loc 1 98 0
+ 469              		.cfi_startproc
+ 470              		@ args = 0, pretend = 0, frame = 0
+ 471              		@ frame_needed = 0, uses_anonymous_args = 0
+ 472 0000 08B5     		push	{r3, lr}
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 11
+
+
+ 473              		.cfi_def_cfa_offset 8
+ 474              		.cfi_offset 3, -8
+ 475              		.cfi_offset 14, -4
+  99:main.c        ****     BaseJaw_WriteCompare2(500);
+ 476              		.loc 1 99 0
+ 477 0002 4FF4FA70 		mov	r0, #500
+ 478 0006 FFF7FEFF 		bl	BaseJaw_WriteCompare2
+ 479              	.LVL38:
+ 480 000a 08BD     		pop	{r3, pc}
+ 481              		.cfi_endproc
+ 482              	.LFE78:
+ 483              		.size	moveBaseRight, .-moveBaseRight
+ 484              		.section	.text.moveBaseLeft,"ax",%progbits
+ 485              		.align	2
+ 486              		.global	moveBaseLeft
+ 487              		.thumb
+ 488              		.thumb_func
+ 489              		.type	moveBaseLeft, %function
+ 490              	moveBaseLeft:
+ 491              	.LFB79:
+ 100:main.c        **** }
+ 101:main.c        **** 
+ 102:main.c        **** void moveBaseLeft() {
+ 492              		.loc 1 102 0
+ 493              		.cfi_startproc
+ 494              		@ args = 0, pretend = 0, frame = 0
+ 495              		@ frame_needed = 0, uses_anonymous_args = 0
+ 496 0000 08B5     		push	{r3, lr}
+ 497              		.cfi_def_cfa_offset 8
+ 498              		.cfi_offset 3, -8
+ 499              		.cfi_offset 14, -4
+ 103:main.c        ****     BaseJaw_WriteCompare2(2500);
+ 500              		.loc 1 103 0
+ 501 0002 40F6C410 		movw	r0, #2500
+ 502 0006 FFF7FEFF 		bl	BaseJaw_WriteCompare2
+ 503              	.LVL39:
+ 504 000a 08BD     		pop	{r3, pc}
+ 505              		.cfi_endproc
+ 506              	.LFE79:
+ 507              		.size	moveBaseLeft, .-moveBaseLeft
+ 508              		.section	.text.moveLowerJawDown,"ax",%progbits
+ 509              		.align	2
+ 510              		.global	moveLowerJawDown
+ 511              		.thumb
+ 512              		.thumb_func
+ 513              		.type	moveLowerJawDown, %function
+ 514              	moveLowerJawDown:
+ 515              	.LFB80:
+ 104:main.c        **** }
+ 105:main.c        **** void moveLowerJawDown() {
+ 516              		.loc 1 105 0
+ 517              		.cfi_startproc
+ 518              		@ args = 0, pretend = 0, frame = 0
+ 519              		@ frame_needed = 0, uses_anonymous_args = 0
+ 520 0000 08B5     		push	{r3, lr}
+ 521              		.cfi_def_cfa_offset 8
+ 522              		.cfi_offset 3, -8
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 12
+
+
+ 523              		.cfi_offset 14, -4
+ 106:main.c        ****     BaseJaw_WriteCompare1(600);
+ 524              		.loc 1 106 0
+ 525 0002 4FF41670 		mov	r0, #600
+ 526 0006 FFF7FEFF 		bl	BaseJaw_WriteCompare1
+ 527              	.LVL40:
+ 528 000a 08BD     		pop	{r3, pc}
+ 529              		.cfi_endproc
+ 530              	.LFE80:
+ 531              		.size	moveLowerJawDown, .-moveLowerJawDown
+ 532              		.section	.text.moveHeadRight,"ax",%progbits
+ 533              		.align	2
+ 534              		.global	moveHeadRight
+ 535              		.thumb
+ 536              		.thumb_func
+ 537              		.type	moveHeadRight, %function
+ 538              	moveHeadRight:
+ 539              	.LFB81:
+ 107:main.c        **** }
+ 108:main.c        **** 
+ 109:main.c        **** void moveHeadRight() {
+ 540              		.loc 1 109 0
+ 541              		.cfi_startproc
+ 542              		@ args = 0, pretend = 0, frame = 0
+ 543              		@ frame_needed = 0, uses_anonymous_args = 0
+ 544 0000 08B5     		push	{r3, lr}
+ 545              		.cfi_def_cfa_offset 8
+ 546              		.cfi_offset 3, -8
+ 547              		.cfi_offset 14, -4
+ 110:main.c        ****     Neck_WriteCompare1(1500);
+ 548              		.loc 1 110 0
+ 549 0002 40F2DC50 		movw	r0, #1500
+ 550 0006 FFF7FEFF 		bl	Neck_WriteCompare1
+ 551              	.LVL41:
+ 111:main.c        ****     Neck_WriteCompare2(1500);
+ 552              		.loc 1 111 0
+ 553 000a 40F2DC50 		movw	r0, #1500
+ 554 000e FFF7FEFF 		bl	Neck_WriteCompare2
+ 555              	.LVL42:
+ 556 0012 08BD     		pop	{r3, pc}
+ 557              		.cfi_endproc
+ 558              	.LFE81:
+ 559              		.size	moveHeadRight, .-moveHeadRight
+ 560              		.section	.text.moveHeadLeft,"ax",%progbits
+ 561              		.align	2
+ 562              		.global	moveHeadLeft
+ 563              		.thumb
+ 564              		.thumb_func
+ 565              		.type	moveHeadLeft, %function
+ 566              	moveHeadLeft:
+ 567              	.LFB82:
+ 112:main.c        **** }
+ 113:main.c        **** 
+ 114:main.c        **** void moveHeadLeft() {
+ 568              		.loc 1 114 0
+ 569              		.cfi_startproc
+ 570              		@ args = 0, pretend = 0, frame = 0
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 13
+
+
+ 571              		@ frame_needed = 0, uses_anonymous_args = 0
+ 572 0000 08B5     		push	{r3, lr}
+ 573              		.cfi_def_cfa_offset 8
+ 574              		.cfi_offset 3, -8
+ 575              		.cfi_offset 14, -4
+ 115:main.c        ****     Neck_WriteCompare1(500);
+ 576              		.loc 1 115 0
+ 577 0002 4FF4FA70 		mov	r0, #500
+ 578 0006 FFF7FEFF 		bl	Neck_WriteCompare1
+ 579              	.LVL43:
+ 116:main.c        ****     Neck_WriteCompare2(500);
+ 580              		.loc 1 116 0
+ 581 000a 4FF4FA70 		mov	r0, #500
+ 582 000e FFF7FEFF 		bl	Neck_WriteCompare2
+ 583              	.LVL44:
+ 584 0012 08BD     		pop	{r3, pc}
+ 585              		.cfi_endproc
+ 586              	.LFE82:
+ 587              		.size	moveHeadLeft, .-moveHeadLeft
+ 588              		.section	.text.resetAllServoPositions,"ax",%progbits
+ 589              		.align	2
+ 590              		.global	resetAllServoPositions
+ 591              		.thumb
+ 592              		.thumb_func
+ 593              		.type	resetAllServoPositions, %function
+ 594              	resetAllServoPositions:
+ 595              	.LFB83:
+ 117:main.c        **** }
+ 118:main.c        **** 
+ 119:main.c        **** void resetAllServoPositions() {
+ 596              		.loc 1 119 0
+ 597              		.cfi_startproc
+ 598              		@ args = 0, pretend = 0, frame = 0
+ 599              		@ frame_needed = 0, uses_anonymous_args = 0
+ 600 0000 08B5     		push	{r3, lr}
+ 601              		.cfi_def_cfa_offset 8
+ 602              		.cfi_offset 3, -8
+ 603              		.cfi_offset 14, -4
+ 120:main.c        ****     raisedLeftEyebrow();
+ 604              		.loc 1 120 0
+ 605 0002 FFF7FEFF 		bl	raisedLeftEyebrow
+ 606              	.LVL45:
+ 121:main.c        ****     raisedRightEyebrow();
+ 607              		.loc 1 121 0
+ 608 0006 FFF7FEFF 		bl	raisedRightEyebrow
+ 609              	.LVL46:
+ 122:main.c        ****     
+ 123:main.c        ****     moveBaseCenter();
+ 610              		.loc 1 123 0
+ 611 000a FFF7FEFF 		bl	moveBaseCenter
+ 612              	.LVL47:
+ 124:main.c        ****     
+ 125:main.c        ****     moveNeckDown();
+ 613              		.loc 1 125 0
+ 614 000e FFF7FEFF 		bl	moveNeckDown
+ 615              	.LVL48:
+ 126:main.c        ****     
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 14
+
+
+ 127:main.c        ****     EyeBallVertical_WriteCompare1(200);
+ 616              		.loc 1 127 0
+ 617 0012 C820     		movs	r0, #200
+ 618 0014 FFF7FEFF 		bl	EyeBallVertical_WriteCompare1
+ 619              	.LVL49:
+ 128:main.c        ****     EyelidGroup_WriteCompare1(200);
+ 620              		.loc 1 128 0
+ 621 0018 C820     		movs	r0, #200
+ 622 001a FFF7FEFF 		bl	EyelidGroup_WriteCompare1
+ 623              	.LVL50:
+ 129:main.c        ****     LeftEyebrow_WriteCompare1(200);
+ 624              		.loc 1 129 0
+ 625 001e C820     		movs	r0, #200
+ 626 0020 FFF7FEFF 		bl	LeftEyebrow_WriteCompare1
+ 627              	.LVL51:
+ 130:main.c        ****     EyeBallHorizontal_WriteCompare1(200);
+ 628              		.loc 1 130 0
+ 629 0024 C820     		movs	r0, #200
+ 630 0026 FFF7FEFF 		bl	EyeBallHorizontal_WriteCompare1
+ 631              	.LVL52:
+ 131:main.c        ****     Lip_WriteCompare1(200);
+ 632              		.loc 1 131 0
+ 633 002a C820     		movs	r0, #200
+ 634 002c FFF7FEFF 		bl	Lip_WriteCompare1
+ 635              	.LVL53:
+ 132:main.c        ****     
+ 133:main.c        ****     EyeBallVertical_WriteCompare2(200);
+ 636              		.loc 1 133 0
+ 637 0030 C820     		movs	r0, #200
+ 638 0032 FFF7FEFF 		bl	EyeBallVertical_WriteCompare2
+ 639              	.LVL54:
+ 134:main.c        ****     EyelidGroup_WriteCompare2(200);
+ 640              		.loc 1 134 0
+ 641 0036 C820     		movs	r0, #200
+ 642 0038 FFF7FEFF 		bl	EyelidGroup_WriteCompare2
+ 643              	.LVL55:
+ 135:main.c        ****     LeftEyebrow_WriteCompare2(200);
+ 644              		.loc 1 135 0
+ 645 003c C820     		movs	r0, #200
+ 646 003e FFF7FEFF 		bl	LeftEyebrow_WriteCompare2
+ 647              	.LVL56:
+ 136:main.c        ****     EyeBallHorizontal_WriteCompare2(200);
+ 648              		.loc 1 136 0
+ 649 0042 C820     		movs	r0, #200
+ 650 0044 FFF7FEFF 		bl	EyeBallHorizontal_WriteCompare2
+ 651              	.LVL57:
+ 137:main.c        ****     Lip_WriteCompare2(200);
+ 652              		.loc 1 137 0
+ 653 0048 C820     		movs	r0, #200
+ 654 004a FFF7FEFF 		bl	Lip_WriteCompare2
+ 655              	.LVL58:
+ 656 004e 08BD     		pop	{r3, pc}
+ 657              		.cfi_endproc
+ 658              	.LFE83:
+ 659              		.size	resetAllServoPositions, .-resetAllServoPositions
+ 660              		.section	.text.stopAllComponents,"ax",%progbits
+ 661              		.align	2
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 15
+
+
+ 662              		.global	stopAllComponents
+ 663              		.thumb
+ 664              		.thumb_func
+ 665              		.type	stopAllComponents, %function
+ 666              	stopAllComponents:
+ 667              	.LFB84:
+ 138:main.c        **** }
+ 139:main.c        **** 
+ 140:main.c        **** void stopAllComponents() {
+ 668              		.loc 1 140 0
+ 669              		.cfi_startproc
+ 670              		@ args = 0, pretend = 0, frame = 0
+ 671              		@ frame_needed = 0, uses_anonymous_args = 0
+ 672 0000 08B5     		push	{r3, lr}
+ 673              		.cfi_def_cfa_offset 8
+ 674              		.cfi_offset 3, -8
+ 675              		.cfi_offset 14, -4
+ 141:main.c        ****     RightEyebrow_Stop();
+ 676              		.loc 1 141 0
+ 677 0002 FFF7FEFF 		bl	RightEyebrow_Stop
+ 678              	.LVL59:
+ 142:main.c        ****     LeftEyebrow_Stop();
+ 679              		.loc 1 142 0
+ 680 0006 FFF7FEFF 		bl	LeftEyebrow_Stop
+ 681              	.LVL60:
+ 143:main.c        ****     EyeBallVertical_Stop();
+ 682              		.loc 1 143 0
+ 683 000a FFF7FEFF 		bl	EyeBallVertical_Stop
+ 684              	.LVL61:
+ 144:main.c        ****     EyelidGroup_Stop();
+ 685              		.loc 1 144 0
+ 686 000e FFF7FEFF 		bl	EyelidGroup_Stop
+ 687              	.LVL62:
+ 145:main.c        ****     BaseJaw_Stop();
+ 688              		.loc 1 145 0
+ 689 0012 FFF7FEFF 		bl	BaseJaw_Stop
+ 690              	.LVL63:
+ 146:main.c        ****     LeftEyebrow_Stop();
+ 691              		.loc 1 146 0
+ 692 0016 FFF7FEFF 		bl	LeftEyebrow_Stop
+ 693              	.LVL64:
+ 147:main.c        ****     EyeBallHorizontal_Stop();
+ 694              		.loc 1 147 0
+ 695 001a FFF7FEFF 		bl	EyeBallHorizontal_Stop
+ 696              	.LVL65:
+ 148:main.c        ****     Neck_Stop();
+ 697              		.loc 1 148 0
+ 698 001e FFF7FEFF 		bl	Neck_Stop
+ 699              	.LVL66:
+ 149:main.c        ****     Lip_Stop();
+ 700              		.loc 1 149 0
+ 701 0022 FFF7FEFF 		bl	Lip_Stop
+ 702              	.LVL67:
+ 703 0026 08BD     		pop	{r3, pc}
+ 704              		.cfi_endproc
+ 705              	.LFE84:
+ 706              		.size	stopAllComponents, .-stopAllComponents
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 16
+
+
+ 707              		.section	.text.main,"ax",%progbits
+ 708              		.align	2
+ 709              		.global	main
+ 710              		.thumb
+ 711              		.thumb_func
+ 712              		.type	main, %function
+ 713              	main:
+ 714              	.LFB85:
+ 150:main.c        **** }
+ 151:main.c        **** 
+ 152:main.c        **** int main(void)
+ 153:main.c        **** {
+ 715              		.loc 1 153 0
+ 716              		.cfi_startproc
+ 717              		@ Volatile: function does not return.
+ 718              		@ args = 0, pretend = 0, frame = 0
+ 719              		@ frame_needed = 0, uses_anonymous_args = 0
+ 720 0000 08B5     		push	{r3, lr}
+ 721              		.cfi_def_cfa_offset 8
+ 722              		.cfi_offset 3, -8
+ 723              		.cfi_offset 14, -4
+ 154:main.c        ****     CyGlobalIntEnable; /* Enable global interrupts. */
+ 724              		.loc 1 154 0
+ 725              		.syntax unified
+ 726              	@ 154 "main.c" 1
+ 727 0002 62B6     		CPSIE   i
+ 728              	@ 0 "" 2
+ 155:main.c        **** 
+ 156:main.c        ****     // Initialize the Components
+ 157:main.c        ****     initializeAllComponenets();
+ 729              		.loc 1 157 0
+ 730              		.thumb
+ 731              		.syntax unified
+ 732 0004 FFF7FEFF 		bl	initializeAllComponenets
+ 733              	.LVL68:
+ 158:main.c        ****     
+ 159:main.c        ****     //resetAllServoPositions();
+ 160:main.c        ****     moveNeckCenter();
+ 734              		.loc 1 160 0
+ 735 0008 FFF7FEFF 		bl	moveNeckCenter
+ 736              	.LVL69:
+ 737              	.L46:
+ 161:main.c        ****     
+ 162:main.c        ****     // Actions
+ 163:main.c        ****     while(1) {
+ 164:main.c        ****         sadLeftEyebrow();
+ 738              		.loc 1 164 0 discriminator 1
+ 739 000c FFF7FEFF 		bl	sadLeftEyebrow
+ 740              	.LVL70:
+ 165:main.c        ****         sadRightEyebrow();
+ 741              		.loc 1 165 0 discriminator 1
+ 742 0010 FFF7FEFF 		bl	sadRightEyebrow
+ 743              	.LVL71:
+ 166:main.c        ****         CyDelay(3000);
+ 744              		.loc 1 166 0 discriminator 1
+ 745 0014 40F6B830 		movw	r0, #3000
+ 746 0018 FFF7FEFF 		bl	CyDelay
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 17
+
+
+ 747              	.LVL72:
+ 167:main.c        ****         raisedLeftEyebrow();
+ 748              		.loc 1 167 0 discriminator 1
+ 749 001c FFF7FEFF 		bl	raisedLeftEyebrow
+ 750              	.LVL73:
+ 168:main.c        ****         raisedRightEyebrow();
+ 751              		.loc 1 168 0 discriminator 1
+ 752 0020 FFF7FEFF 		bl	raisedRightEyebrow
+ 753              	.LVL74:
+ 169:main.c        ****         CyDelay(3000);
+ 754              		.loc 1 169 0 discriminator 1
+ 755 0024 40F6B830 		movw	r0, #3000
+ 756 0028 FFF7FEFF 		bl	CyDelay
+ 757              	.LVL75:
+ 170:main.c        ****         /*moveNeckDown();
+ 171:main.c        ****         CyDelay(5000);
+ 172:main.c        ****         moveNeckUp();
+ 173:main.c        ****         CyDelay(5000);
+ 174:main.c        ****         moveNeckCenter();
+ 175:main.c        ****         CyDelay(5000);*/
+ 176:main.c        ****         moveLowerJawDown();
+ 758              		.loc 1 176 0 discriminator 1
+ 759 002c FFF7FEFF 		bl	moveLowerJawDown
+ 760              	.LVL76:
+ 177:main.c        ****         CyDelay(6000);
+ 761              		.loc 1 177 0 discriminator 1
+ 762 0030 41F27070 		movw	r0, #6000
+ 763 0034 FFF7FEFF 		bl	CyDelay
+ 764              	.LVL77:
+ 178:main.c        ****         moveLowerJawUp();
+ 765              		.loc 1 178 0 discriminator 1
+ 766 0038 FFF7FEFF 		bl	moveLowerJawUp
+ 767              	.LVL78:
+ 179:main.c        ****         CyDelay(6000);
+ 768              		.loc 1 179 0 discriminator 1
+ 769 003c 41F27070 		movw	r0, #6000
+ 770 0040 FFF7FEFF 		bl	CyDelay
+ 771              	.LVL79:
+ 772 0044 E2E7     		b	.L46
+ 773              		.cfi_endproc
+ 774              	.LFE85:
+ 775              		.size	main, .-main
+ 776 0046 00BF     		.text
+ 777              	.Letext0:
+ 778              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
+ 779              		.file 3 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
+ 780              		.file 4 "Generated_Source\\PSoC5/RightEyebrow.h"
+ 781              		.file 5 "Generated_Source\\PSoC5/LeftEyebrow.h"
+ 782              		.file 6 "Generated_Source\\PSoC5/EyeBallVertical.h"
+ 783              		.file 7 "Generated_Source\\PSoC5/EyelidGroup.h"
+ 784              		.file 8 "Generated_Source\\PSoC5/BaseJaw.h"
+ 785              		.file 9 "Generated_Source\\PSoC5/EyeBallHorizontal.h"
+ 786              		.file 10 "Generated_Source\\PSoC5/Neck.h"
+ 787              		.file 11 "Generated_Source\\PSoC5/Lip.h"
+ 788              		.file 12 "Generated_Source\\PSoC5/CyLib.h"
+ 789              		.file 13 "Generated_Source\\PSoC5/core_cm3.h"
+ 790              		.section	.debug_info,"",%progbits
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 18
+
+
+ 791              	.Ldebug_info0:
+ 792 0000 BC080000 		.4byte	0x8bc
+ 793 0004 0400     		.2byte	0x4
+ 794 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 795 000a 04       		.byte	0x4
+ 796 000b 01       		.uleb128 0x1
+ 797 000c EC040000 		.4byte	.LASF71
+ 798 0010 0C       		.byte	0xc
+ 799 0011 3F040000 		.4byte	.LASF72
+ 800 0015 78030000 		.4byte	.LASF73
+ 801 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 802 001d 00000000 		.4byte	0
+ 803 0021 00000000 		.4byte	.Ldebug_line0
+ 804 0025 02       		.uleb128 0x2
+ 805 0026 01       		.byte	0x1
+ 806 0027 06       		.byte	0x6
+ 807 0028 84020000 		.4byte	.LASF0
+ 808 002c 02       		.uleb128 0x2
+ 809 002d 01       		.byte	0x1
+ 810 002e 08       		.byte	0x8
+ 811 002f 67020000 		.4byte	.LASF1
+ 812 0033 02       		.uleb128 0x2
+ 813 0034 02       		.byte	0x2
+ 814 0035 05       		.byte	0x5
+ 815 0036 FB000000 		.4byte	.LASF2
+ 816 003a 02       		.uleb128 0x2
+ 817 003b 02       		.byte	0x2
+ 818 003c 07       		.byte	0x7
+ 819 003d 46030000 		.4byte	.LASF3
+ 820 0041 03       		.uleb128 0x3
+ 821 0042 93040000 		.4byte	.LASF9
+ 822 0046 02       		.byte	0x2
+ 823 0047 3F       		.byte	0x3f
+ 824 0048 4C000000 		.4byte	0x4c
+ 825 004c 02       		.uleb128 0x2
+ 826 004d 04       		.byte	0x4
+ 827 004e 05       		.byte	0x5
+ 828 004f 6F030000 		.4byte	.LASF4
+ 829 0053 02       		.uleb128 0x2
+ 830 0054 04       		.byte	0x4
+ 831 0055 07       		.byte	0x7
+ 832 0056 18030000 		.4byte	.LASF5
+ 833 005a 02       		.uleb128 0x2
+ 834 005b 08       		.byte	0x8
+ 835 005c 05       		.byte	0x5
+ 836 005d A0010000 		.4byte	.LASF6
+ 837 0061 02       		.uleb128 0x2
+ 838 0062 08       		.byte	0x8
+ 839 0063 07       		.byte	0x7
+ 840 0064 98020000 		.4byte	.LASF7
+ 841 0068 04       		.uleb128 0x4
+ 842 0069 04       		.byte	0x4
+ 843 006a 05       		.byte	0x5
+ 844 006b 696E7400 		.ascii	"int\000"
+ 845 006f 02       		.uleb128 0x2
+ 846 0070 04       		.byte	0x4
+ 847 0071 07       		.byte	0x7
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 19
+
+
+ 848 0072 7A050000 		.4byte	.LASF8
+ 849 0076 03       		.uleb128 0x3
+ 850 0077 90020000 		.4byte	.LASF10
+ 851 007b 03       		.byte	0x3
+ 852 007c 2C       		.byte	0x2c
+ 853 007d 41000000 		.4byte	0x41
+ 854 0081 02       		.uleb128 0x2
+ 855 0082 04       		.byte	0x4
+ 856 0083 04       		.byte	0x4
+ 857 0084 9A010000 		.4byte	.LASF11
+ 858 0088 02       		.uleb128 0x2
+ 859 0089 08       		.byte	0x8
+ 860 008a 04       		.byte	0x4
+ 861 008b 6B040000 		.4byte	.LASF12
+ 862 008f 02       		.uleb128 0x2
+ 863 0090 01       		.byte	0x1
+ 864 0091 08       		.byte	0x8
+ 865 0092 6A030000 		.4byte	.LASF13
+ 866 0096 02       		.uleb128 0x2
+ 867 0097 08       		.byte	0x8
+ 868 0098 04       		.byte	0x4
+ 869 0099 52020000 		.4byte	.LASF14
+ 870 009d 02       		.uleb128 0x2
+ 871 009e 04       		.byte	0x4
+ 872 009f 07       		.byte	0x7
+ 873 00a0 B8000000 		.4byte	.LASF15
+ 874 00a4 05       		.uleb128 0x5
+ 875 00a5 2E020000 		.4byte	.LASF16
+ 876 00a9 01       		.byte	0x1
+ 877 00aa 0F       		.byte	0xf
+ 878 00ab 00000000 		.4byte	.LFB63
+ 879 00af 28000000 		.4byte	.LFE63-.LFB63
+ 880 00b3 01       		.uleb128 0x1
+ 881 00b4 9C       		.byte	0x9c
+ 882 00b5 0B010000 		.4byte	0x10b
+ 883 00b9 06       		.uleb128 0x6
+ 884 00ba 06000000 		.4byte	.LVL0
+ 885 00be 54070000 		.4byte	0x754
+ 886 00c2 06       		.uleb128 0x6
+ 887 00c3 0A000000 		.4byte	.LVL1
+ 888 00c7 5F070000 		.4byte	0x75f
+ 889 00cb 06       		.uleb128 0x6
+ 890 00cc 0E000000 		.4byte	.LVL2
+ 891 00d0 6A070000 		.4byte	0x76a
+ 892 00d4 06       		.uleb128 0x6
+ 893 00d5 12000000 		.4byte	.LVL3
+ 894 00d9 75070000 		.4byte	0x775
+ 895 00dd 06       		.uleb128 0x6
+ 896 00de 16000000 		.4byte	.LVL4
+ 897 00e2 80070000 		.4byte	0x780
+ 898 00e6 06       		.uleb128 0x6
+ 899 00e7 1A000000 		.4byte	.LVL5
+ 900 00eb 5F070000 		.4byte	0x75f
+ 901 00ef 06       		.uleb128 0x6
+ 902 00f0 1E000000 		.4byte	.LVL6
+ 903 00f4 8B070000 		.4byte	0x78b
+ 904 00f8 06       		.uleb128 0x6
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 20
+
+
+ 905 00f9 22000000 		.4byte	.LVL7
+ 906 00fd 96070000 		.4byte	0x796
+ 907 0101 06       		.uleb128 0x6
+ 908 0102 26000000 		.4byte	.LVL8
+ 909 0106 A1070000 		.4byte	0x7a1
+ 910 010a 00       		.byte	0
+ 911 010b 05       		.uleb128 0x5
+ 912 010c E9010000 		.4byte	.LASF17
+ 913 0110 01       		.byte	0x1
+ 914 0111 1B       		.byte	0x1b
+ 915 0112 00000000 		.4byte	.LFB64
+ 916 0116 14000000 		.4byte	.LFE64-.LFB64
+ 917 011a 01       		.uleb128 0x1
+ 918 011b 9C       		.byte	0x9c
+ 919 011c 47010000 		.4byte	0x147
+ 920 0120 07       		.uleb128 0x7
+ 921 0121 0A000000 		.4byte	.LVL9
+ 922 0125 AC070000 		.4byte	0x7ac
+ 923 0129 35010000 		.4byte	0x135
+ 924 012d 08       		.uleb128 0x8
+ 925 012e 01       		.uleb128 0x1
+ 926 012f 50       		.byte	0x50
+ 927 0130 03       		.uleb128 0x3
+ 928 0131 0A       		.byte	0xa
+ 929 0132 E803     		.2byte	0x3e8
+ 930 0134 00       		.byte	0
+ 931 0135 09       		.uleb128 0x9
+ 932 0136 12000000 		.4byte	.LVL10
+ 933 013a B7070000 		.4byte	0x7b7
+ 934 013e 08       		.uleb128 0x8
+ 935 013f 01       		.uleb128 0x1
+ 936 0140 50       		.byte	0x50
+ 937 0141 03       		.uleb128 0x3
+ 938 0142 0A       		.byte	0xa
+ 939 0143 E803     		.2byte	0x3e8
+ 940 0145 00       		.byte	0
+ 941 0146 00       		.byte	0
+ 942 0147 05       		.uleb128 0x5
+ 943 0148 46040000 		.4byte	.LASF18
+ 944 014c 01       		.byte	0x1
+ 945 014d 20       		.byte	0x20
+ 946 014e 00000000 		.4byte	.LFB65
+ 947 0152 14000000 		.4byte	.LFE65-.LFB65
+ 948 0156 01       		.uleb128 0x1
+ 949 0157 9C       		.byte	0x9c
+ 950 0158 83010000 		.4byte	0x183
+ 951 015c 07       		.uleb128 0x7
+ 952 015d 0A000000 		.4byte	.LVL11
+ 953 0161 AC070000 		.4byte	0x7ac
+ 954 0165 71010000 		.4byte	0x171
+ 955 0169 08       		.uleb128 0x8
+ 956 016a 01       		.uleb128 0x1
+ 957 016b 50       		.byte	0x50
+ 958 016c 03       		.uleb128 0x3
+ 959 016d 0A       		.byte	0xa
+ 960 016e 4006     		.2byte	0x640
+ 961 0170 00       		.byte	0
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 21
+
+
+ 962 0171 09       		.uleb128 0x9
+ 963 0172 12000000 		.4byte	.LVL12
+ 964 0176 B7070000 		.4byte	0x7b7
+ 965 017a 08       		.uleb128 0x8
+ 966 017b 01       		.uleb128 0x1
+ 967 017c 50       		.byte	0x50
+ 968 017d 03       		.uleb128 0x3
+ 969 017e 0A       		.byte	0xa
+ 970 017f 4006     		.2byte	0x640
+ 971 0181 00       		.byte	0
+ 972 0182 00       		.byte	0
+ 973 0183 05       		.uleb128 0x5
+ 974 0184 D7010000 		.4byte	.LASF19
+ 975 0188 01       		.byte	0x1
+ 976 0189 25       		.byte	0x25
+ 977 018a 00000000 		.4byte	.LFB66
+ 978 018e 10000000 		.4byte	.LFE66-.LFB66
+ 979 0192 01       		.uleb128 0x1
+ 980 0193 9C       		.byte	0x9c
+ 981 0194 BD010000 		.4byte	0x1bd
+ 982 0198 07       		.uleb128 0x7
+ 983 0199 08000000 		.4byte	.LVL13
+ 984 019d AC070000 		.4byte	0x7ac
+ 985 01a1 AC010000 		.4byte	0x1ac
+ 986 01a5 08       		.uleb128 0x8
+ 987 01a6 01       		.uleb128 0x1
+ 988 01a7 50       		.byte	0x50
+ 989 01a8 02       		.uleb128 0x2
+ 990 01a9 08       		.byte	0x8
+ 991 01aa C8       		.byte	0xc8
+ 992 01ab 00       		.byte	0
+ 993 01ac 09       		.uleb128 0x9
+ 994 01ad 0E000000 		.4byte	.LVL14
+ 995 01b1 B7070000 		.4byte	0x7b7
+ 996 01b5 08       		.uleb128 0x8
+ 997 01b6 01       		.uleb128 0x1
+ 998 01b7 50       		.byte	0x50
+ 999 01b8 02       		.uleb128 0x2
+ 1000 01b9 08       		.byte	0x8
+ 1001 01ba C8       		.byte	0xc8
+ 1002 01bb 00       		.byte	0
+ 1003 01bc 00       		.byte	0
+ 1004 01bd 05       		.uleb128 0x5
+ 1005 01be 05010000 		.4byte	.LASF20
+ 1006 01c2 01       		.byte	0x1
+ 1007 01c3 2A       		.byte	0x2a
+ 1008 01c4 00000000 		.4byte	.LFB67
+ 1009 01c8 10000000 		.4byte	.LFE67-.LFB67
+ 1010 01cc 01       		.uleb128 0x1
+ 1011 01cd 9C       		.byte	0x9c
+ 1012 01ce F5010000 		.4byte	0x1f5
+ 1013 01d2 07       		.uleb128 0x7
+ 1014 01d3 08000000 		.4byte	.LVL15
+ 1015 01d7 AC070000 		.4byte	0x7ac
+ 1016 01db E5010000 		.4byte	0x1e5
+ 1017 01df 08       		.uleb128 0x8
+ 1018 01e0 01       		.uleb128 0x1
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 22
+
+
+ 1019 01e1 50       		.byte	0x50
+ 1020 01e2 01       		.uleb128 0x1
+ 1021 01e3 30       		.byte	0x30
+ 1022 01e4 00       		.byte	0
+ 1023 01e5 09       		.uleb128 0x9
+ 1024 01e6 0E000000 		.4byte	.LVL16
+ 1025 01ea B7070000 		.4byte	0x7b7
+ 1026 01ee 08       		.uleb128 0x8
+ 1027 01ef 01       		.uleb128 0x1
+ 1028 01f0 50       		.byte	0x50
+ 1029 01f1 01       		.uleb128 0x1
+ 1030 01f2 30       		.byte	0x30
+ 1031 01f3 00       		.byte	0
+ 1032 01f4 00       		.byte	0
+ 1033 01f5 05       		.uleb128 0x5
+ 1034 01f6 43010000 		.4byte	.LASF21
+ 1035 01fa 01       		.byte	0x1
+ 1036 01fb 2F       		.byte	0x2f
+ 1037 01fc 00000000 		.4byte	.LFB68
+ 1038 0200 14000000 		.4byte	.LFE68-.LFB68
+ 1039 0204 01       		.uleb128 0x1
+ 1040 0205 9C       		.byte	0x9c
+ 1041 0206 31020000 		.4byte	0x231
+ 1042 020a 07       		.uleb128 0x7
+ 1043 020b 0A000000 		.4byte	.LVL17
+ 1044 020f C2070000 		.4byte	0x7c2
+ 1045 0213 1F020000 		.4byte	0x21f
+ 1046 0217 08       		.uleb128 0x8
+ 1047 0218 01       		.uleb128 0x1
+ 1048 0219 50       		.byte	0x50
+ 1049 021a 03       		.uleb128 0x3
+ 1050 021b 0A       		.byte	0xa
+ 1051 021c E803     		.2byte	0x3e8
+ 1052 021e 00       		.byte	0
+ 1053 021f 09       		.uleb128 0x9
+ 1054 0220 12000000 		.4byte	.LVL18
+ 1055 0224 CD070000 		.4byte	0x7cd
+ 1056 0228 08       		.uleb128 0x8
+ 1057 0229 01       		.uleb128 0x1
+ 1058 022a 50       		.byte	0x50
+ 1059 022b 03       		.uleb128 0x3
+ 1060 022c 0A       		.byte	0xa
+ 1061 022d E803     		.2byte	0x3e8
+ 1062 022f 00       		.byte	0
+ 1063 0230 00       		.byte	0
+ 1064 0231 05       		.uleb128 0x5
+ 1065 0232 84000000 		.4byte	.LASF22
+ 1066 0236 01       		.byte	0x1
+ 1067 0237 34       		.byte	0x34
+ 1068 0238 00000000 		.4byte	.LFB69
+ 1069 023c 14000000 		.4byte	.LFE69-.LFB69
+ 1070 0240 01       		.uleb128 0x1
+ 1071 0241 9C       		.byte	0x9c
+ 1072 0242 6D020000 		.4byte	0x26d
+ 1073 0246 07       		.uleb128 0x7
+ 1074 0247 0A000000 		.4byte	.LVL19
+ 1075 024b C2070000 		.4byte	0x7c2
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 23
+
+
+ 1076 024f 5B020000 		.4byte	0x25b
+ 1077 0253 08       		.uleb128 0x8
+ 1078 0254 01       		.uleb128 0x1
+ 1079 0255 50       		.byte	0x50
+ 1080 0256 03       		.uleb128 0x3
+ 1081 0257 0A       		.byte	0xa
+ 1082 0258 4006     		.2byte	0x640
+ 1083 025a 00       		.byte	0
+ 1084 025b 09       		.uleb128 0x9
+ 1085 025c 12000000 		.4byte	.LVL20
+ 1086 0260 CD070000 		.4byte	0x7cd
+ 1087 0264 08       		.uleb128 0x8
+ 1088 0265 01       		.uleb128 0x1
+ 1089 0266 50       		.byte	0x50
+ 1090 0267 03       		.uleb128 0x3
+ 1091 0268 0A       		.byte	0xa
+ 1092 0269 4006     		.2byte	0x640
+ 1093 026b 00       		.byte	0
+ 1094 026c 00       		.byte	0
+ 1095 026d 05       		.uleb128 0x5
+ 1096 026e CA000000 		.4byte	.LASF23
+ 1097 0272 01       		.byte	0x1
+ 1098 0273 39       		.byte	0x39
+ 1099 0274 00000000 		.4byte	.LFB70
+ 1100 0278 10000000 		.4byte	.LFE70-.LFB70
+ 1101 027c 01       		.uleb128 0x1
+ 1102 027d 9C       		.byte	0x9c
+ 1103 027e A7020000 		.4byte	0x2a7
+ 1104 0282 07       		.uleb128 0x7
+ 1105 0283 08000000 		.4byte	.LVL21
+ 1106 0287 C2070000 		.4byte	0x7c2
+ 1107 028b 96020000 		.4byte	0x296
+ 1108 028f 08       		.uleb128 0x8
+ 1109 0290 01       		.uleb128 0x1
+ 1110 0291 50       		.byte	0x50
+ 1111 0292 02       		.uleb128 0x2
+ 1112 0293 08       		.byte	0x8
+ 1113 0294 C8       		.byte	0xc8
+ 1114 0295 00       		.byte	0
+ 1115 0296 09       		.uleb128 0x9
+ 1116 0297 0E000000 		.4byte	.LVL22
+ 1117 029b CD070000 		.4byte	0x7cd
+ 1118 029f 08       		.uleb128 0x8
+ 1119 02a0 01       		.uleb128 0x1
+ 1120 02a1 50       		.byte	0x50
+ 1121 02a2 02       		.uleb128 0x2
+ 1122 02a3 08       		.byte	0x8
+ 1123 02a4 C8       		.byte	0xc8
+ 1124 02a5 00       		.byte	0
+ 1125 02a6 00       		.byte	0
+ 1126 02a7 05       		.uleb128 0x5
+ 1127 02a8 2D040000 		.4byte	.LASF24
+ 1128 02ac 01       		.byte	0x1
+ 1129 02ad 3E       		.byte	0x3e
+ 1130 02ae 00000000 		.4byte	.LFB71
+ 1131 02b2 10000000 		.4byte	.LFE71-.LFB71
+ 1132 02b6 01       		.uleb128 0x1
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 24
+
+
+ 1133 02b7 9C       		.byte	0x9c
+ 1134 02b8 DF020000 		.4byte	0x2df
+ 1135 02bc 07       		.uleb128 0x7
+ 1136 02bd 08000000 		.4byte	.LVL23
+ 1137 02c1 C2070000 		.4byte	0x7c2
+ 1138 02c5 CF020000 		.4byte	0x2cf
+ 1139 02c9 08       		.uleb128 0x8
+ 1140 02ca 01       		.uleb128 0x1
+ 1141 02cb 50       		.byte	0x50
+ 1142 02cc 01       		.uleb128 0x1
+ 1143 02cd 30       		.byte	0x30
+ 1144 02ce 00       		.byte	0
+ 1145 02cf 09       		.uleb128 0x9
+ 1146 02d0 0E000000 		.4byte	.LVL24
+ 1147 02d4 CD070000 		.4byte	0x7cd
+ 1148 02d8 08       		.uleb128 0x8
+ 1149 02d9 01       		.uleb128 0x1
+ 1150 02da 50       		.byte	0x50
+ 1151 02db 01       		.uleb128 0x1
+ 1152 02dc 30       		.byte	0x30
+ 1153 02dd 00       		.byte	0
+ 1154 02de 00       		.byte	0
+ 1155 02df 05       		.uleb128 0x5
+ 1156 02e0 75020000 		.4byte	.LASF25
+ 1157 02e4 01       		.byte	0x1
+ 1158 02e5 43       		.byte	0x43
+ 1159 02e6 00000000 		.4byte	.LFB72
+ 1160 02ea 0C000000 		.4byte	.LFE72-.LFB72
+ 1161 02ee 01       		.uleb128 0x1
+ 1162 02ef 9C       		.byte	0x9c
+ 1163 02f0 06030000 		.4byte	0x306
+ 1164 02f4 09       		.uleb128 0x9
+ 1165 02f5 0A000000 		.4byte	.LVL25
+ 1166 02f9 D8070000 		.4byte	0x7d8
+ 1167 02fd 08       		.uleb128 0x8
+ 1168 02fe 01       		.uleb128 0x1
+ 1169 02ff 50       		.byte	0x50
+ 1170 0300 03       		.uleb128 0x3
+ 1171 0301 0A       		.byte	0xa
+ 1172 0302 2003     		.2byte	0x320
+ 1173 0304 00       		.byte	0
+ 1174 0305 00       		.byte	0
+ 1175 0306 05       		.uleb128 0x5
+ 1176 0307 55010000 		.4byte	.LASF26
+ 1177 030b 01       		.byte	0x1
+ 1178 030c 46       		.byte	0x46
+ 1179 030d 00000000 		.4byte	.LFB73
+ 1180 0311 18000000 		.4byte	.LFE73-.LFB73
+ 1181 0315 01       		.uleb128 0x1
+ 1182 0316 9C       		.byte	0x9c
+ 1183 0317 4F030000 		.4byte	0x34f
+ 1184 031b 07       		.uleb128 0x7
+ 1185 031c 0A000000 		.4byte	.LVL26
+ 1186 0320 E3070000 		.4byte	0x7e3
+ 1187 0324 30030000 		.4byte	0x330
+ 1188 0328 08       		.uleb128 0x8
+ 1189 0329 01       		.uleb128 0x1
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 25
+
+
+ 1190 032a 50       		.byte	0x50
+ 1191 032b 03       		.uleb128 0x3
+ 1192 032c 0A       		.byte	0xa
+ 1193 032d DC05     		.2byte	0x5dc
+ 1194 032f 00       		.byte	0
+ 1195 0330 07       		.uleb128 0x7
+ 1196 0331 12000000 		.4byte	.LVL27
+ 1197 0335 EE070000 		.4byte	0x7ee
+ 1198 0339 45030000 		.4byte	0x345
+ 1199 033d 08       		.uleb128 0x8
+ 1200 033e 01       		.uleb128 0x1
+ 1201 033f 50       		.byte	0x50
+ 1202 0340 03       		.uleb128 0x3
+ 1203 0341 0A       		.byte	0xa
+ 1204 0342 F401     		.2byte	0x1f4
+ 1205 0344 00       		.byte	0
+ 1206 0345 06       		.uleb128 0x6
+ 1207 0346 16000000 		.4byte	.LVL28
+ 1208 034a DF020000 		.4byte	0x2df
+ 1209 034e 00       		.byte	0
+ 1210 034f 05       		.uleb128 0x5
+ 1211 0350 A9000000 		.4byte	.LASF27
+ 1212 0354 01       		.byte	0x1
+ 1213 0355 4D       		.byte	0x4d
+ 1214 0356 00000000 		.4byte	.LFB74
+ 1215 035a 14000000 		.4byte	.LFE74-.LFB74
+ 1216 035e 01       		.uleb128 0x1
+ 1217 035f 9C       		.byte	0x9c
+ 1218 0360 8B030000 		.4byte	0x38b
+ 1219 0364 07       		.uleb128 0x7
+ 1220 0365 0A000000 		.4byte	.LVL29
+ 1221 0369 E3070000 		.4byte	0x7e3
+ 1222 036d 79030000 		.4byte	0x379
+ 1223 0371 08       		.uleb128 0x8
+ 1224 0372 01       		.uleb128 0x1
+ 1225 0373 50       		.byte	0x50
+ 1226 0374 03       		.uleb128 0x3
+ 1227 0375 0A       		.byte	0xa
+ 1228 0376 E803     		.2byte	0x3e8
+ 1229 0378 00       		.byte	0
+ 1230 0379 09       		.uleb128 0x9
+ 1231 037a 12000000 		.4byte	.LVL30
+ 1232 037e EE070000 		.4byte	0x7ee
+ 1233 0382 08       		.uleb128 0x8
+ 1234 0383 01       		.uleb128 0x1
+ 1235 0384 50       		.byte	0x50
+ 1236 0385 03       		.uleb128 0x3
+ 1237 0386 0A       		.byte	0xa
+ 1238 0387 E803     		.2byte	0x3e8
+ 1239 0389 00       		.byte	0
+ 1240 038a 00       		.byte	0
+ 1241 038b 05       		.uleb128 0x5
+ 1242 038c DA000000 		.4byte	.LASF28
+ 1243 0390 01       		.byte	0x1
+ 1244 0391 52       		.byte	0x52
+ 1245 0392 00000000 		.4byte	.LFB75
+ 1246 0396 14000000 		.4byte	.LFE75-.LFB75
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 26
+
+
+ 1247 039a 01       		.uleb128 0x1
+ 1248 039b 9C       		.byte	0x9c
+ 1249 039c C7030000 		.4byte	0x3c7
+ 1250 03a0 07       		.uleb128 0x7
+ 1251 03a1 0A000000 		.4byte	.LVL31
+ 1252 03a5 E3070000 		.4byte	0x7e3
+ 1253 03a9 B5030000 		.4byte	0x3b5
+ 1254 03ad 08       		.uleb128 0x8
+ 1255 03ae 01       		.uleb128 0x1
+ 1256 03af 50       		.byte	0x50
+ 1257 03b0 03       		.uleb128 0x3
+ 1258 03b1 0A       		.byte	0xa
+ 1259 03b2 F401     		.2byte	0x1f4
+ 1260 03b4 00       		.byte	0
+ 1261 03b5 09       		.uleb128 0x9
+ 1262 03b6 12000000 		.4byte	.LVL32
+ 1263 03ba EE070000 		.4byte	0x7ee
+ 1264 03be 08       		.uleb128 0x8
+ 1265 03bf 01       		.uleb128 0x1
+ 1266 03c0 50       		.byte	0x50
+ 1267 03c1 03       		.uleb128 0x3
+ 1268 03c2 0A       		.byte	0xa
+ 1269 03c3 DC05     		.2byte	0x5dc
+ 1270 03c5 00       		.byte	0
+ 1271 03c6 00       		.byte	0
+ 1272 03c7 05       		.uleb128 0x5
+ 1273 03c8 C1000000 		.4byte	.LASF29
+ 1274 03cc 01       		.byte	0x1
+ 1275 03cd 57       		.byte	0x57
+ 1276 03ce 00000000 		.4byte	.LFB76
+ 1277 03d2 0A000000 		.4byte	.LFE76-.LFB76
+ 1278 03d6 01       		.uleb128 0x1
+ 1279 03d7 9C       		.byte	0x9c
+ 1280 03d8 ED030000 		.4byte	0x3ed
+ 1281 03dc 09       		.uleb128 0x9
+ 1282 03dd 08000000 		.4byte	.LVL33
+ 1283 03e1 D8070000 		.4byte	0x7d8
+ 1284 03e5 08       		.uleb128 0x8
+ 1285 03e6 01       		.uleb128 0x1
+ 1286 03e7 50       		.byte	0x50
+ 1287 03e8 02       		.uleb128 0x2
+ 1288 03e9 08       		.byte	0x8
+ 1289 03ea C8       		.byte	0xc8
+ 1290 03eb 00       		.byte	0
+ 1291 03ec 00       		.byte	0
+ 1292 03ed 05       		.uleb128 0x5
+ 1293 03ee D0040000 		.4byte	.LASF30
+ 1294 03f2 01       		.byte	0x1
+ 1295 03f3 5B       		.byte	0x5b
+ 1296 03f4 00000000 		.4byte	.LFB77
+ 1297 03f8 1C000000 		.4byte	.LFE77-.LFB77
+ 1298 03fc 01       		.uleb128 0x1
+ 1299 03fd 9C       		.byte	0x9c
+ 1300 03fe 3F040000 		.4byte	0x43f
+ 1301 0402 06       		.uleb128 0x6
+ 1302 0403 06000000 		.4byte	.LVL34
+ 1303 0407 80070000 		.4byte	0x780
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 27
+
+
+ 1304 040b 07       		.uleb128 0x7
+ 1305 040c 0E000000 		.4byte	.LVL35
+ 1306 0410 F9070000 		.4byte	0x7f9
+ 1307 0414 20040000 		.4byte	0x420
+ 1308 0418 08       		.uleb128 0x8
+ 1309 0419 01       		.uleb128 0x1
+ 1310 041a 50       		.byte	0x50
+ 1311 041b 03       		.uleb128 0x3
+ 1312 041c 0A       		.byte	0xa
+ 1313 041d DC05     		.2byte	0x5dc
+ 1314 041f 00       		.byte	0
+ 1315 0420 07       		.uleb128 0x7
+ 1316 0421 16000000 		.4byte	.LVL36
+ 1317 0425 04080000 		.4byte	0x804
+ 1318 0429 35040000 		.4byte	0x435
+ 1319 042d 08       		.uleb128 0x8
+ 1320 042e 01       		.uleb128 0x1
+ 1321 042f 50       		.byte	0x50
+ 1322 0430 03       		.uleb128 0x3
+ 1323 0431 0A       		.byte	0xa
+ 1324 0432 D007     		.2byte	0x7d0
+ 1325 0434 00       		.byte	0
+ 1326 0435 06       		.uleb128 0x6
+ 1327 0436 1A000000 		.4byte	.LVL37
+ 1328 043a 0F080000 		.4byte	0x80f
+ 1329 043e 00       		.byte	0
+ 1330 043f 05       		.uleb128 0x5
+ 1331 0440 C2040000 		.4byte	.LASF31
+ 1332 0444 01       		.byte	0x1
+ 1333 0445 62       		.byte	0x62
+ 1334 0446 00000000 		.4byte	.LFB78
+ 1335 044a 0C000000 		.4byte	.LFE78-.LFB78
+ 1336 044e 01       		.uleb128 0x1
+ 1337 044f 9C       		.byte	0x9c
+ 1338 0450 66040000 		.4byte	0x466
+ 1339 0454 09       		.uleb128 0x9
+ 1340 0455 0A000000 		.4byte	.LVL38
+ 1341 0459 F9070000 		.4byte	0x7f9
+ 1342 045d 08       		.uleb128 0x8
+ 1343 045e 01       		.uleb128 0x1
+ 1344 045f 50       		.byte	0x50
+ 1345 0460 03       		.uleb128 0x3
+ 1346 0461 0A       		.byte	0xa
+ 1347 0462 F401     		.2byte	0x1f4
+ 1348 0464 00       		.byte	0
+ 1349 0465 00       		.byte	0
+ 1350 0466 05       		.uleb128 0x5
+ 1351 0467 8F050000 		.4byte	.LASF32
+ 1352 046b 01       		.byte	0x1
+ 1353 046c 66       		.byte	0x66
+ 1354 046d 00000000 		.4byte	.LFB79
+ 1355 0471 0C000000 		.4byte	.LFE79-.LFB79
+ 1356 0475 01       		.uleb128 0x1
+ 1357 0476 9C       		.byte	0x9c
+ 1358 0477 8D040000 		.4byte	0x48d
+ 1359 047b 09       		.uleb128 0x9
+ 1360 047c 0A000000 		.4byte	.LVL39
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 28
+
+
+ 1361 0480 F9070000 		.4byte	0x7f9
+ 1362 0484 08       		.uleb128 0x8
+ 1363 0485 01       		.uleb128 0x1
+ 1364 0486 50       		.byte	0x50
+ 1365 0487 03       		.uleb128 0x3
+ 1366 0488 0A       		.byte	0xa
+ 1367 0489 C409     		.2byte	0x9c4
+ 1368 048b 00       		.byte	0
+ 1369 048c 00       		.byte	0
+ 1370 048d 05       		.uleb128 0x5
+ 1371 048e EA000000 		.4byte	.LASF33
+ 1372 0492 01       		.byte	0x1
+ 1373 0493 69       		.byte	0x69
+ 1374 0494 00000000 		.4byte	.LFB80
+ 1375 0498 0C000000 		.4byte	.LFE80-.LFB80
+ 1376 049c 01       		.uleb128 0x1
+ 1377 049d 9C       		.byte	0x9c
+ 1378 049e B4040000 		.4byte	0x4b4
+ 1379 04a2 09       		.uleb128 0x9
+ 1380 04a3 0A000000 		.4byte	.LVL40
+ 1381 04a7 D8070000 		.4byte	0x7d8
+ 1382 04ab 08       		.uleb128 0x8
+ 1383 04ac 01       		.uleb128 0x1
+ 1384 04ad 50       		.byte	0x50
+ 1385 04ae 03       		.uleb128 0x3
+ 1386 04af 0A       		.byte	0xa
+ 1387 04b0 5802     		.2byte	0x258
+ 1388 04b2 00       		.byte	0
+ 1389 04b3 00       		.byte	0
+ 1390 04b4 05       		.uleb128 0x5
+ 1391 04b5 E3030000 		.4byte	.LASF34
+ 1392 04b9 01       		.byte	0x1
+ 1393 04ba 6D       		.byte	0x6d
+ 1394 04bb 00000000 		.4byte	.LFB81
+ 1395 04bf 14000000 		.4byte	.LFE81-.LFB81
+ 1396 04c3 01       		.uleb128 0x1
+ 1397 04c4 9C       		.byte	0x9c
+ 1398 04c5 F0040000 		.4byte	0x4f0
+ 1399 04c9 07       		.uleb128 0x7
+ 1400 04ca 0A000000 		.4byte	.LVL41
+ 1401 04ce E3070000 		.4byte	0x7e3
+ 1402 04d2 DE040000 		.4byte	0x4de
+ 1403 04d6 08       		.uleb128 0x8
+ 1404 04d7 01       		.uleb128 0x1
+ 1405 04d8 50       		.byte	0x50
+ 1406 04d9 03       		.uleb128 0x3
+ 1407 04da 0A       		.byte	0xa
+ 1408 04db DC05     		.2byte	0x5dc
+ 1409 04dd 00       		.byte	0
+ 1410 04de 09       		.uleb128 0x9
+ 1411 04df 12000000 		.4byte	.LVL42
+ 1412 04e3 EE070000 		.4byte	0x7ee
+ 1413 04e7 08       		.uleb128 0x8
+ 1414 04e8 01       		.uleb128 0x1
+ 1415 04e9 50       		.byte	0x50
+ 1416 04ea 03       		.uleb128 0x3
+ 1417 04eb 0A       		.byte	0xa
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 29
+
+
+ 1418 04ec DC05     		.2byte	0x5dc
+ 1419 04ee 00       		.byte	0
+ 1420 04ef 00       		.byte	0
+ 1421 04f0 05       		.uleb128 0x5
+ 1422 04f1 9C050000 		.4byte	.LASF35
+ 1423 04f5 01       		.byte	0x1
+ 1424 04f6 72       		.byte	0x72
+ 1425 04f7 00000000 		.4byte	.LFB82
+ 1426 04fb 14000000 		.4byte	.LFE82-.LFB82
+ 1427 04ff 01       		.uleb128 0x1
+ 1428 0500 9C       		.byte	0x9c
+ 1429 0501 2C050000 		.4byte	0x52c
+ 1430 0505 07       		.uleb128 0x7
+ 1431 0506 0A000000 		.4byte	.LVL43
+ 1432 050a E3070000 		.4byte	0x7e3
+ 1433 050e 1A050000 		.4byte	0x51a
+ 1434 0512 08       		.uleb128 0x8
+ 1435 0513 01       		.uleb128 0x1
+ 1436 0514 50       		.byte	0x50
+ 1437 0515 03       		.uleb128 0x3
+ 1438 0516 0A       		.byte	0xa
+ 1439 0517 F401     		.2byte	0x1f4
+ 1440 0519 00       		.byte	0
+ 1441 051a 09       		.uleb128 0x9
+ 1442 051b 12000000 		.4byte	.LVL44
+ 1443 051f EE070000 		.4byte	0x7ee
+ 1444 0523 08       		.uleb128 0x8
+ 1445 0524 01       		.uleb128 0x1
+ 1446 0525 50       		.byte	0x50
+ 1447 0526 03       		.uleb128 0x3
+ 1448 0527 0A       		.byte	0xa
+ 1449 0528 F401     		.2byte	0x1f4
+ 1450 052a 00       		.byte	0
+ 1451 052b 00       		.byte	0
+ 1452 052c 05       		.uleb128 0x5
+ 1453 052d 62010000 		.4byte	.LASF36
+ 1454 0531 01       		.byte	0x1
+ 1455 0532 77       		.byte	0x77
+ 1456 0533 00000000 		.4byte	.LFB83
+ 1457 0537 50000000 		.4byte	.LFE83-.LFB83
+ 1458 053b 01       		.uleb128 0x1
+ 1459 053c 9C       		.byte	0x9c
+ 1460 053d 2A060000 		.4byte	0x62a
+ 1461 0541 06       		.uleb128 0x6
+ 1462 0542 06000000 		.4byte	.LVL45
+ 1463 0546 83010000 		.4byte	0x183
+ 1464 054a 06       		.uleb128 0x6
+ 1465 054b 0A000000 		.4byte	.LVL46
+ 1466 054f 31020000 		.4byte	0x231
+ 1467 0553 06       		.uleb128 0x6
+ 1468 0554 0E000000 		.4byte	.LVL47
+ 1469 0558 ED030000 		.4byte	0x3ed
+ 1470 055c 06       		.uleb128 0x6
+ 1471 055d 12000000 		.4byte	.LVL48
+ 1472 0561 06030000 		.4byte	0x306
+ 1473 0565 07       		.uleb128 0x7
+ 1474 0566 18000000 		.4byte	.LVL49
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 30
+
+
+ 1475 056a 1A080000 		.4byte	0x81a
+ 1476 056e 79050000 		.4byte	0x579
+ 1477 0572 08       		.uleb128 0x8
+ 1478 0573 01       		.uleb128 0x1
+ 1479 0574 50       		.byte	0x50
+ 1480 0575 02       		.uleb128 0x2
+ 1481 0576 08       		.byte	0x8
+ 1482 0577 C8       		.byte	0xc8
+ 1483 0578 00       		.byte	0
+ 1484 0579 07       		.uleb128 0x7
+ 1485 057a 1E000000 		.4byte	.LVL50
+ 1486 057e 25080000 		.4byte	0x825
+ 1487 0582 8D050000 		.4byte	0x58d
+ 1488 0586 08       		.uleb128 0x8
+ 1489 0587 01       		.uleb128 0x1
+ 1490 0588 50       		.byte	0x50
+ 1491 0589 02       		.uleb128 0x2
+ 1492 058a 08       		.byte	0x8
+ 1493 058b C8       		.byte	0xc8
+ 1494 058c 00       		.byte	0
+ 1495 058d 07       		.uleb128 0x7
+ 1496 058e 24000000 		.4byte	.LVL51
+ 1497 0592 AC070000 		.4byte	0x7ac
+ 1498 0596 A1050000 		.4byte	0x5a1
+ 1499 059a 08       		.uleb128 0x8
+ 1500 059b 01       		.uleb128 0x1
+ 1501 059c 50       		.byte	0x50
+ 1502 059d 02       		.uleb128 0x2
+ 1503 059e 08       		.byte	0x8
+ 1504 059f C8       		.byte	0xc8
+ 1505 05a0 00       		.byte	0
+ 1506 05a1 07       		.uleb128 0x7
+ 1507 05a2 2A000000 		.4byte	.LVL52
+ 1508 05a6 30080000 		.4byte	0x830
+ 1509 05aa B5050000 		.4byte	0x5b5
+ 1510 05ae 08       		.uleb128 0x8
+ 1511 05af 01       		.uleb128 0x1
+ 1512 05b0 50       		.byte	0x50
+ 1513 05b1 02       		.uleb128 0x2
+ 1514 05b2 08       		.byte	0x8
+ 1515 05b3 C8       		.byte	0xc8
+ 1516 05b4 00       		.byte	0
+ 1517 05b5 07       		.uleb128 0x7
+ 1518 05b6 30000000 		.4byte	.LVL53
+ 1519 05ba 3B080000 		.4byte	0x83b
+ 1520 05be C9050000 		.4byte	0x5c9
+ 1521 05c2 08       		.uleb128 0x8
+ 1522 05c3 01       		.uleb128 0x1
+ 1523 05c4 50       		.byte	0x50
+ 1524 05c5 02       		.uleb128 0x2
+ 1525 05c6 08       		.byte	0x8
+ 1526 05c7 C8       		.byte	0xc8
+ 1527 05c8 00       		.byte	0
+ 1528 05c9 07       		.uleb128 0x7
+ 1529 05ca 36000000 		.4byte	.LVL54
+ 1530 05ce 46080000 		.4byte	0x846
+ 1531 05d2 DD050000 		.4byte	0x5dd
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 31
+
+
+ 1532 05d6 08       		.uleb128 0x8
+ 1533 05d7 01       		.uleb128 0x1
+ 1534 05d8 50       		.byte	0x50
+ 1535 05d9 02       		.uleb128 0x2
+ 1536 05da 08       		.byte	0x8
+ 1537 05db C8       		.byte	0xc8
+ 1538 05dc 00       		.byte	0
+ 1539 05dd 07       		.uleb128 0x7
+ 1540 05de 3C000000 		.4byte	.LVL55
+ 1541 05e2 51080000 		.4byte	0x851
+ 1542 05e6 F1050000 		.4byte	0x5f1
+ 1543 05ea 08       		.uleb128 0x8
+ 1544 05eb 01       		.uleb128 0x1
+ 1545 05ec 50       		.byte	0x50
+ 1546 05ed 02       		.uleb128 0x2
+ 1547 05ee 08       		.byte	0x8
+ 1548 05ef C8       		.byte	0xc8
+ 1549 05f0 00       		.byte	0
+ 1550 05f1 07       		.uleb128 0x7
+ 1551 05f2 42000000 		.4byte	.LVL56
+ 1552 05f6 B7070000 		.4byte	0x7b7
+ 1553 05fa 05060000 		.4byte	0x605
+ 1554 05fe 08       		.uleb128 0x8
+ 1555 05ff 01       		.uleb128 0x1
+ 1556 0600 50       		.byte	0x50
+ 1557 0601 02       		.uleb128 0x2
+ 1558 0602 08       		.byte	0x8
+ 1559 0603 C8       		.byte	0xc8
+ 1560 0604 00       		.byte	0
+ 1561 0605 07       		.uleb128 0x7
+ 1562 0606 48000000 		.4byte	.LVL57
+ 1563 060a 5C080000 		.4byte	0x85c
+ 1564 060e 19060000 		.4byte	0x619
+ 1565 0612 08       		.uleb128 0x8
+ 1566 0613 01       		.uleb128 0x1
+ 1567 0614 50       		.byte	0x50
+ 1568 0615 02       		.uleb128 0x2
+ 1569 0616 08       		.byte	0x8
+ 1570 0617 C8       		.byte	0xc8
+ 1571 0618 00       		.byte	0
+ 1572 0619 09       		.uleb128 0x9
+ 1573 061a 4E000000 		.4byte	.LVL58
+ 1574 061e 67080000 		.4byte	0x867
+ 1575 0622 08       		.uleb128 0x8
+ 1576 0623 01       		.uleb128 0x1
+ 1577 0624 50       		.byte	0x50
+ 1578 0625 02       		.uleb128 0x2
+ 1579 0626 08       		.byte	0x8
+ 1580 0627 C8       		.byte	0xc8
+ 1581 0628 00       		.byte	0
+ 1582 0629 00       		.byte	0
+ 1583 062a 05       		.uleb128 0x5
+ 1584 062b 72000000 		.4byte	.LASF37
+ 1585 062f 01       		.byte	0x1
+ 1586 0630 8C       		.byte	0x8c
+ 1587 0631 00000000 		.4byte	.LFB84
+ 1588 0635 28000000 		.4byte	.LFE84-.LFB84
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 32
+
+
+ 1589 0639 01       		.uleb128 0x1
+ 1590 063a 9C       		.byte	0x9c
+ 1591 063b 91060000 		.4byte	0x691
+ 1592 063f 06       		.uleb128 0x6
+ 1593 0640 06000000 		.4byte	.LVL59
+ 1594 0644 72080000 		.4byte	0x872
+ 1595 0648 06       		.uleb128 0x6
+ 1596 0649 0A000000 		.4byte	.LVL60
+ 1597 064d 7D080000 		.4byte	0x87d
+ 1598 0651 06       		.uleb128 0x6
+ 1599 0652 0E000000 		.4byte	.LVL61
+ 1600 0656 88080000 		.4byte	0x888
+ 1601 065a 06       		.uleb128 0x6
+ 1602 065b 12000000 		.4byte	.LVL62
+ 1603 065f 93080000 		.4byte	0x893
+ 1604 0663 06       		.uleb128 0x6
+ 1605 0664 16000000 		.4byte	.LVL63
+ 1606 0668 0F080000 		.4byte	0x80f
+ 1607 066c 06       		.uleb128 0x6
+ 1608 066d 1A000000 		.4byte	.LVL64
+ 1609 0671 7D080000 		.4byte	0x87d
+ 1610 0675 06       		.uleb128 0x6
+ 1611 0676 1E000000 		.4byte	.LVL65
+ 1612 067a 9E080000 		.4byte	0x89e
+ 1613 067e 06       		.uleb128 0x6
+ 1614 067f 22000000 		.4byte	.LVL66
+ 1615 0683 A9080000 		.4byte	0x8a9
+ 1616 0687 06       		.uleb128 0x6
+ 1617 0688 26000000 		.4byte	.LVL67
+ 1618 068c B4080000 		.4byte	0x8b4
+ 1619 0690 00       		.byte	0
+ 1620 0691 0A       		.uleb128 0xa
+ 1621 0692 E5000000 		.4byte	.LASF74
+ 1622 0696 01       		.byte	0x1
+ 1623 0697 98       		.byte	0x98
+ 1624 0698 68000000 		.4byte	0x68
+ 1625 069c 00000000 		.4byte	.LFB85
+ 1626 06a0 46000000 		.4byte	.LFE85-.LFB85
+ 1627 06a4 01       		.uleb128 0x1
+ 1628 06a5 9C       		.byte	0x9c
+ 1629 06a6 43070000 		.4byte	0x743
+ 1630 06aa 06       		.uleb128 0x6
+ 1631 06ab 08000000 		.4byte	.LVL68
+ 1632 06af A4000000 		.4byte	0xa4
+ 1633 06b3 06       		.uleb128 0x6
+ 1634 06b4 0C000000 		.4byte	.LVL69
+ 1635 06b8 4F030000 		.4byte	0x34f
+ 1636 06bc 06       		.uleb128 0x6
+ 1637 06bd 10000000 		.4byte	.LVL70
+ 1638 06c1 47010000 		.4byte	0x147
+ 1639 06c5 06       		.uleb128 0x6
+ 1640 06c6 14000000 		.4byte	.LVL71
+ 1641 06ca 6D020000 		.4byte	0x26d
+ 1642 06ce 07       		.uleb128 0x7
+ 1643 06cf 1C000000 		.4byte	.LVL72
+ 1644 06d3 04080000 		.4byte	0x804
+ 1645 06d7 E3060000 		.4byte	0x6e3
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 33
+
+
+ 1646 06db 08       		.uleb128 0x8
+ 1647 06dc 01       		.uleb128 0x1
+ 1648 06dd 50       		.byte	0x50
+ 1649 06de 03       		.uleb128 0x3
+ 1650 06df 0A       		.byte	0xa
+ 1651 06e0 B80B     		.2byte	0xbb8
+ 1652 06e2 00       		.byte	0
+ 1653 06e3 06       		.uleb128 0x6
+ 1654 06e4 20000000 		.4byte	.LVL73
+ 1655 06e8 83010000 		.4byte	0x183
+ 1656 06ec 06       		.uleb128 0x6
+ 1657 06ed 24000000 		.4byte	.LVL74
+ 1658 06f1 31020000 		.4byte	0x231
+ 1659 06f5 07       		.uleb128 0x7
+ 1660 06f6 2C000000 		.4byte	.LVL75
+ 1661 06fa 04080000 		.4byte	0x804
+ 1662 06fe 0A070000 		.4byte	0x70a
+ 1663 0702 08       		.uleb128 0x8
+ 1664 0703 01       		.uleb128 0x1
+ 1665 0704 50       		.byte	0x50
+ 1666 0705 03       		.uleb128 0x3
+ 1667 0706 0A       		.byte	0xa
+ 1668 0707 B80B     		.2byte	0xbb8
+ 1669 0709 00       		.byte	0
+ 1670 070a 06       		.uleb128 0x6
+ 1671 070b 30000000 		.4byte	.LVL76
+ 1672 070f 8D040000 		.4byte	0x48d
+ 1673 0713 07       		.uleb128 0x7
+ 1674 0714 38000000 		.4byte	.LVL77
+ 1675 0718 04080000 		.4byte	0x804
+ 1676 071c 28070000 		.4byte	0x728
+ 1677 0720 08       		.uleb128 0x8
+ 1678 0721 01       		.uleb128 0x1
+ 1679 0722 50       		.byte	0x50
+ 1680 0723 03       		.uleb128 0x3
+ 1681 0724 0A       		.byte	0xa
+ 1682 0725 7017     		.2byte	0x1770
+ 1683 0727 00       		.byte	0
+ 1684 0728 06       		.uleb128 0x6
+ 1685 0729 3C000000 		.4byte	.LVL78
+ 1686 072d DF020000 		.4byte	0x2df
+ 1687 0731 09       		.uleb128 0x9
+ 1688 0732 44000000 		.4byte	.LVL79
+ 1689 0736 04080000 		.4byte	0x804
+ 1690 073a 08       		.uleb128 0x8
+ 1691 073b 01       		.uleb128 0x1
+ 1692 073c 50       		.byte	0x50
+ 1693 073d 03       		.uleb128 0x3
+ 1694 073e 0A       		.byte	0xa
+ 1695 073f 7017     		.2byte	0x1770
+ 1696 0741 00       		.byte	0
+ 1697 0742 00       		.byte	0
+ 1698 0743 0B       		.uleb128 0xb
+ 1699 0744 DF040000 		.4byte	.LASF75
+ 1700 0748 0D       		.byte	0xd
+ 1701 0749 1207     		.2byte	0x712
+ 1702 074b 4F070000 		.4byte	0x74f
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 34
+
+
+ 1703 074f 0C       		.uleb128 0xc
+ 1704 0750 76000000 		.4byte	0x76
+ 1705 0754 0D       		.uleb128 0xd
+ 1706 0755 C4010000 		.4byte	.LASF38
+ 1707 0759 C4010000 		.4byte	.LASF38
+ 1708 075d 04       		.byte	0x4
+ 1709 075e 92       		.byte	0x92
+ 1710 075f 0D       		.uleb128 0xd
+ 1711 0760 9D040000 		.4byte	.LASF39
+ 1712 0764 9D040000 		.4byte	.LASF39
+ 1713 0768 05       		.byte	0x5
+ 1714 0769 92       		.byte	0x92
+ 1715 076a 0D       		.uleb128 0xd
+ 1716 076b A9050000 		.4byte	.LASF40
+ 1717 076f A9050000 		.4byte	.LASF40
+ 1718 0773 06       		.byte	0x6
+ 1719 0774 92       		.byte	0x92
+ 1720 0775 0D       		.uleb128 0xd
+ 1721 0776 97000000 		.4byte	.LASF41
+ 1722 077a 97000000 		.4byte	.LASF41
+ 1723 077e 07       		.byte	0x7
+ 1724 077f 92       		.byte	0x92
+ 1725 0780 0D       		.uleb128 0xd
+ 1726 0781 72040000 		.4byte	.LASF42
+ 1727 0785 72040000 		.4byte	.LASF42
+ 1728 0789 08       		.byte	0x8
+ 1729 078a 92       		.byte	0x92
+ 1730 078b 0D       		.uleb128 0xd
+ 1731 078c 15040000 		.4byte	.LASF43
+ 1732 0790 15040000 		.4byte	.LASF43
+ 1733 0794 09       		.byte	0x9
+ 1734 0795 92       		.byte	0x92
+ 1735 0796 0D       		.uleb128 0xd
+ 1736 0797 47020000 		.4byte	.LASF44
+ 1737 079b 47020000 		.4byte	.LASF44
+ 1738 079f 0A       		.byte	0xa
+ 1739 07a0 92       		.byte	0x92
+ 1740 07a1 0D       		.uleb128 0xd
+ 1741 07a2 79010000 		.4byte	.LASF45
+ 1742 07a6 79010000 		.4byte	.LASF45
+ 1743 07aa 0B       		.byte	0xb
+ 1744 07ab 92       		.byte	0x92
+ 1745 07ac 0D       		.uleb128 0xd
+ 1746 07ad E4020000 		.4byte	.LASF46
+ 1747 07b1 E4020000 		.4byte	.LASF46
+ 1748 07b5 05       		.byte	0x5
+ 1749 07b6 C7       		.byte	0xc7
+ 1750 07b7 0D       		.uleb128 0xd
+ 1751 07b8 FE020000 		.4byte	.LASF47
+ 1752 07bc FE020000 		.4byte	.LASF47
+ 1753 07c0 05       		.byte	0x5
+ 1754 07c1 CA       		.byte	0xca
+ 1755 07c2 0D       		.uleb128 0xd
+ 1756 07c3 3C000000 		.4byte	.LASF48
+ 1757 07c7 3C000000 		.4byte	.LASF48
+ 1758 07cb 04       		.byte	0x4
+ 1759 07cc C7       		.byte	0xc7
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 35
+
+
+ 1760 07cd 0D       		.uleb128 0xd
+ 1761 07ce 57000000 		.4byte	.LASF49
+ 1762 07d2 57000000 		.4byte	.LASF49
+ 1763 07d6 04       		.byte	0x4
+ 1764 07d7 CA       		.byte	0xca
+ 1765 07d8 0D       		.uleb128 0xd
+ 1766 07d9 AE010000 		.4byte	.LASF50
+ 1767 07dd AE010000 		.4byte	.LASF50
+ 1768 07e1 08       		.byte	0x8
+ 1769 07e2 C7       		.byte	0xc7
+ 1770 07e3 0D       		.uleb128 0xd
+ 1771 07e4 AF040000 		.4byte	.LASF51
+ 1772 07e8 AF040000 		.4byte	.LASF51
+ 1773 07ec 0A       		.byte	0xa
+ 1774 07ed C7       		.byte	0xc7
+ 1775 07ee 0D       		.uleb128 0xd
+ 1776 07ef 80040000 		.4byte	.LASF52
+ 1777 07f3 80040000 		.4byte	.LASF52
+ 1778 07f7 0A       		.byte	0xa
+ 1779 07f8 CA       		.byte	0xca
+ 1780 07f9 0D       		.uleb128 0xd
+ 1781 07fa 55040000 		.4byte	.LASF53
+ 1782 07fe 55040000 		.4byte	.LASF53
+ 1783 0802 08       		.byte	0x8
+ 1784 0803 CA       		.byte	0xca
+ 1785 0804 0D       		.uleb128 0xd
+ 1786 0805 87050000 		.4byte	.LASF54
+ 1787 0809 87050000 		.4byte	.LASF54
+ 1788 080d 0C       		.byte	0xc
+ 1789 080e 76       		.byte	0x76
+ 1790 080f 0D       		.uleb128 0xd
+ 1791 0810 36010000 		.4byte	.LASF55
+ 1792 0814 36010000 		.4byte	.LASF55
+ 1793 0818 08       		.byte	0x8
+ 1794 0819 93       		.byte	0x93
+ 1795 081a 0D       		.uleb128 0xd
+ 1796 081b 00000000 		.4byte	.LASF56
+ 1797 081f 00000000 		.4byte	.LASF56
+ 1798 0823 06       		.byte	0x6
+ 1799 0824 C7       		.byte	0xc7
+ 1800 0825 0D       		.uleb128 0xd
+ 1801 0826 FA010000 		.4byte	.LASF57
+ 1802 082a FA010000 		.4byte	.LASF57
+ 1803 082e 07       		.byte	0x7
+ 1804 082f C7       		.byte	0xc7
+ 1805 0830 0D       		.uleb128 0xd
+ 1806 0831 16010000 		.4byte	.LASF58
+ 1807 0835 16010000 		.4byte	.LASF58
+ 1808 0839 09       		.byte	0x9
+ 1809 083a C7       		.byte	0xc7
+ 1810 083b 0D       		.uleb128 0xd
+ 1811 083c F1030000 		.4byte	.LASF59
+ 1812 0840 F1030000 		.4byte	.LASF59
+ 1813 0844 0B       		.byte	0xb
+ 1814 0845 C7       		.byte	0xc7
+ 1815 0846 0D       		.uleb128 0xd
+ 1816 0847 1E000000 		.4byte	.LASF60
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 36
+
+
+ 1817 084b 1E000000 		.4byte	.LASF60
+ 1818 084f 06       		.byte	0x6
+ 1819 0850 CA       		.byte	0xca
+ 1820 0851 0D       		.uleb128 0xd
+ 1821 0852 14020000 		.4byte	.LASF61
+ 1822 0856 14020000 		.4byte	.LASF61
+ 1823 085a 07       		.byte	0x7
+ 1824 085b CA       		.byte	0xca
+ 1825 085c 0D       		.uleb128 0xd
+ 1826 085d AF020000 		.4byte	.LASF62
+ 1827 0861 AF020000 		.4byte	.LASF62
+ 1828 0865 09       		.byte	0x9
+ 1829 0866 CA       		.byte	0xca
+ 1830 0867 0D       		.uleb128 0xd
+ 1831 0868 03040000 		.4byte	.LASF63
+ 1832 086c 03040000 		.4byte	.LASF63
+ 1833 0870 0B       		.byte	0xb
+ 1834 0871 CA       		.byte	0xca
+ 1835 0872 0D       		.uleb128 0xd
+ 1836 0873 34030000 		.4byte	.LASF64
+ 1837 0877 34030000 		.4byte	.LASF64
+ 1838 087b 04       		.byte	0x4
+ 1839 087c 93       		.byte	0x93
+ 1840 087d 0D       		.uleb128 0xd
+ 1841 087e 59030000 		.4byte	.LASF65
+ 1842 0882 59030000 		.4byte	.LASF65
+ 1843 0886 05       		.byte	0x5
+ 1844 0887 93       		.byte	0x93
+ 1845 0888 0D       		.uleb128 0xd
+ 1846 0889 CF020000 		.4byte	.LASF66
+ 1847 088d CF020000 		.4byte	.LASF66
+ 1848 0891 06       		.byte	0x6
+ 1849 0892 93       		.byte	0x93
+ 1850 0893 0D       		.uleb128 0xd
+ 1851 0894 D2030000 		.4byte	.LASF67
+ 1852 0898 D2030000 		.4byte	.LASF67
+ 1853 089c 07       		.byte	0x7
+ 1854 089d 93       		.byte	0x93
+ 1855 089e 0D       		.uleb128 0xd
+ 1856 089f 83010000 		.4byte	.LASF68
+ 1857 08a3 83010000 		.4byte	.LASF68
+ 1858 08a7 09       		.byte	0x9
+ 1859 08a8 93       		.byte	0x93
+ 1860 08a9 0D       		.uleb128 0xd
+ 1861 08aa 2A030000 		.4byte	.LASF69
+ 1862 08ae 2A030000 		.4byte	.LASF69
+ 1863 08b2 0A       		.byte	0xa
+ 1864 08b3 93       		.byte	0x93
+ 1865 08b4 0D       		.uleb128 0xd
+ 1866 08b5 5E020000 		.4byte	.LASF70
+ 1867 08b9 5E020000 		.4byte	.LASF70
+ 1868 08bd 0B       		.byte	0xb
+ 1869 08be 93       		.byte	0x93
+ 1870 08bf 00       		.byte	0
+ 1871              		.section	.debug_abbrev,"",%progbits
+ 1872              	.Ldebug_abbrev0:
+ 1873 0000 01       		.uleb128 0x1
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 37
+
+
+ 1874 0001 11       		.uleb128 0x11
+ 1875 0002 01       		.byte	0x1
+ 1876 0003 25       		.uleb128 0x25
+ 1877 0004 0E       		.uleb128 0xe
+ 1878 0005 13       		.uleb128 0x13
+ 1879 0006 0B       		.uleb128 0xb
+ 1880 0007 03       		.uleb128 0x3
+ 1881 0008 0E       		.uleb128 0xe
+ 1882 0009 1B       		.uleb128 0x1b
+ 1883 000a 0E       		.uleb128 0xe
+ 1884 000b 55       		.uleb128 0x55
+ 1885 000c 17       		.uleb128 0x17
+ 1886 000d 11       		.uleb128 0x11
+ 1887 000e 01       		.uleb128 0x1
+ 1888 000f 10       		.uleb128 0x10
+ 1889 0010 17       		.uleb128 0x17
+ 1890 0011 00       		.byte	0
+ 1891 0012 00       		.byte	0
+ 1892 0013 02       		.uleb128 0x2
+ 1893 0014 24       		.uleb128 0x24
+ 1894 0015 00       		.byte	0
+ 1895 0016 0B       		.uleb128 0xb
+ 1896 0017 0B       		.uleb128 0xb
+ 1897 0018 3E       		.uleb128 0x3e
+ 1898 0019 0B       		.uleb128 0xb
+ 1899 001a 03       		.uleb128 0x3
+ 1900 001b 0E       		.uleb128 0xe
+ 1901 001c 00       		.byte	0
+ 1902 001d 00       		.byte	0
+ 1903 001e 03       		.uleb128 0x3
+ 1904 001f 16       		.uleb128 0x16
+ 1905 0020 00       		.byte	0
+ 1906 0021 03       		.uleb128 0x3
+ 1907 0022 0E       		.uleb128 0xe
+ 1908 0023 3A       		.uleb128 0x3a
+ 1909 0024 0B       		.uleb128 0xb
+ 1910 0025 3B       		.uleb128 0x3b
+ 1911 0026 0B       		.uleb128 0xb
+ 1912 0027 49       		.uleb128 0x49
+ 1913 0028 13       		.uleb128 0x13
+ 1914 0029 00       		.byte	0
+ 1915 002a 00       		.byte	0
+ 1916 002b 04       		.uleb128 0x4
+ 1917 002c 24       		.uleb128 0x24
+ 1918 002d 00       		.byte	0
+ 1919 002e 0B       		.uleb128 0xb
+ 1920 002f 0B       		.uleb128 0xb
+ 1921 0030 3E       		.uleb128 0x3e
+ 1922 0031 0B       		.uleb128 0xb
+ 1923 0032 03       		.uleb128 0x3
+ 1924 0033 08       		.uleb128 0x8
+ 1925 0034 00       		.byte	0
+ 1926 0035 00       		.byte	0
+ 1927 0036 05       		.uleb128 0x5
+ 1928 0037 2E       		.uleb128 0x2e
+ 1929 0038 01       		.byte	0x1
+ 1930 0039 3F       		.uleb128 0x3f
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 38
+
+
+ 1931 003a 19       		.uleb128 0x19
+ 1932 003b 03       		.uleb128 0x3
+ 1933 003c 0E       		.uleb128 0xe
+ 1934 003d 3A       		.uleb128 0x3a
+ 1935 003e 0B       		.uleb128 0xb
+ 1936 003f 3B       		.uleb128 0x3b
+ 1937 0040 0B       		.uleb128 0xb
+ 1938 0041 11       		.uleb128 0x11
+ 1939 0042 01       		.uleb128 0x1
+ 1940 0043 12       		.uleb128 0x12
+ 1941 0044 06       		.uleb128 0x6
+ 1942 0045 40       		.uleb128 0x40
+ 1943 0046 18       		.uleb128 0x18
+ 1944 0047 9742     		.uleb128 0x2117
+ 1945 0049 19       		.uleb128 0x19
+ 1946 004a 01       		.uleb128 0x1
+ 1947 004b 13       		.uleb128 0x13
+ 1948 004c 00       		.byte	0
+ 1949 004d 00       		.byte	0
+ 1950 004e 06       		.uleb128 0x6
+ 1951 004f 898201   		.uleb128 0x4109
+ 1952 0052 00       		.byte	0
+ 1953 0053 11       		.uleb128 0x11
+ 1954 0054 01       		.uleb128 0x1
+ 1955 0055 31       		.uleb128 0x31
+ 1956 0056 13       		.uleb128 0x13
+ 1957 0057 00       		.byte	0
+ 1958 0058 00       		.byte	0
+ 1959 0059 07       		.uleb128 0x7
+ 1960 005a 898201   		.uleb128 0x4109
+ 1961 005d 01       		.byte	0x1
+ 1962 005e 11       		.uleb128 0x11
+ 1963 005f 01       		.uleb128 0x1
+ 1964 0060 31       		.uleb128 0x31
+ 1965 0061 13       		.uleb128 0x13
+ 1966 0062 01       		.uleb128 0x1
+ 1967 0063 13       		.uleb128 0x13
+ 1968 0064 00       		.byte	0
+ 1969 0065 00       		.byte	0
+ 1970 0066 08       		.uleb128 0x8
+ 1971 0067 8A8201   		.uleb128 0x410a
+ 1972 006a 00       		.byte	0
+ 1973 006b 02       		.uleb128 0x2
+ 1974 006c 18       		.uleb128 0x18
+ 1975 006d 9142     		.uleb128 0x2111
+ 1976 006f 18       		.uleb128 0x18
+ 1977 0070 00       		.byte	0
+ 1978 0071 00       		.byte	0
+ 1979 0072 09       		.uleb128 0x9
+ 1980 0073 898201   		.uleb128 0x4109
+ 1981 0076 01       		.byte	0x1
+ 1982 0077 11       		.uleb128 0x11
+ 1983 0078 01       		.uleb128 0x1
+ 1984 0079 31       		.uleb128 0x31
+ 1985 007a 13       		.uleb128 0x13
+ 1986 007b 00       		.byte	0
+ 1987 007c 00       		.byte	0
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 39
+
+
+ 1988 007d 0A       		.uleb128 0xa
+ 1989 007e 2E       		.uleb128 0x2e
+ 1990 007f 01       		.byte	0x1
+ 1991 0080 3F       		.uleb128 0x3f
+ 1992 0081 19       		.uleb128 0x19
+ 1993 0082 03       		.uleb128 0x3
+ 1994 0083 0E       		.uleb128 0xe
+ 1995 0084 3A       		.uleb128 0x3a
+ 1996 0085 0B       		.uleb128 0xb
+ 1997 0086 3B       		.uleb128 0x3b
+ 1998 0087 0B       		.uleb128 0xb
+ 1999 0088 27       		.uleb128 0x27
+ 2000 0089 19       		.uleb128 0x19
+ 2001 008a 49       		.uleb128 0x49
+ 2002 008b 13       		.uleb128 0x13
+ 2003 008c 8701     		.uleb128 0x87
+ 2004 008e 19       		.uleb128 0x19
+ 2005 008f 11       		.uleb128 0x11
+ 2006 0090 01       		.uleb128 0x1
+ 2007 0091 12       		.uleb128 0x12
+ 2008 0092 06       		.uleb128 0x6
+ 2009 0093 40       		.uleb128 0x40
+ 2010 0094 18       		.uleb128 0x18
+ 2011 0095 9742     		.uleb128 0x2117
+ 2012 0097 19       		.uleb128 0x19
+ 2013 0098 01       		.uleb128 0x1
+ 2014 0099 13       		.uleb128 0x13
+ 2015 009a 00       		.byte	0
+ 2016 009b 00       		.byte	0
+ 2017 009c 0B       		.uleb128 0xb
+ 2018 009d 34       		.uleb128 0x34
+ 2019 009e 00       		.byte	0
+ 2020 009f 03       		.uleb128 0x3
+ 2021 00a0 0E       		.uleb128 0xe
+ 2022 00a1 3A       		.uleb128 0x3a
+ 2023 00a2 0B       		.uleb128 0xb
+ 2024 00a3 3B       		.uleb128 0x3b
+ 2025 00a4 05       		.uleb128 0x5
+ 2026 00a5 49       		.uleb128 0x49
+ 2027 00a6 13       		.uleb128 0x13
+ 2028 00a7 3F       		.uleb128 0x3f
+ 2029 00a8 19       		.uleb128 0x19
+ 2030 00a9 3C       		.uleb128 0x3c
+ 2031 00aa 19       		.uleb128 0x19
+ 2032 00ab 00       		.byte	0
+ 2033 00ac 00       		.byte	0
+ 2034 00ad 0C       		.uleb128 0xc
+ 2035 00ae 35       		.uleb128 0x35
+ 2036 00af 00       		.byte	0
+ 2037 00b0 49       		.uleb128 0x49
+ 2038 00b1 13       		.uleb128 0x13
+ 2039 00b2 00       		.byte	0
+ 2040 00b3 00       		.byte	0
+ 2041 00b4 0D       		.uleb128 0xd
+ 2042 00b5 2E       		.uleb128 0x2e
+ 2043 00b6 00       		.byte	0
+ 2044 00b7 3F       		.uleb128 0x3f
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 40
+
+
+ 2045 00b8 19       		.uleb128 0x19
+ 2046 00b9 3C       		.uleb128 0x3c
+ 2047 00ba 19       		.uleb128 0x19
+ 2048 00bb 6E       		.uleb128 0x6e
+ 2049 00bc 0E       		.uleb128 0xe
+ 2050 00bd 03       		.uleb128 0x3
+ 2051 00be 0E       		.uleb128 0xe
+ 2052 00bf 3A       		.uleb128 0x3a
+ 2053 00c0 0B       		.uleb128 0xb
+ 2054 00c1 3B       		.uleb128 0x3b
+ 2055 00c2 0B       		.uleb128 0xb
+ 2056 00c3 00       		.byte	0
+ 2057 00c4 00       		.byte	0
+ 2058 00c5 00       		.byte	0
+ 2059              		.section	.debug_aranges,"",%progbits
+ 2060 0000 CC000000 		.4byte	0xcc
+ 2061 0004 0200     		.2byte	0x2
+ 2062 0006 00000000 		.4byte	.Ldebug_info0
+ 2063 000a 04       		.byte	0x4
+ 2064 000b 00       		.byte	0
+ 2065 000c 0000     		.2byte	0
+ 2066 000e 0000     		.2byte	0
+ 2067 0010 00000000 		.4byte	.LFB63
+ 2068 0014 28000000 		.4byte	.LFE63-.LFB63
+ 2069 0018 00000000 		.4byte	.LFB64
+ 2070 001c 14000000 		.4byte	.LFE64-.LFB64
+ 2071 0020 00000000 		.4byte	.LFB65
+ 2072 0024 14000000 		.4byte	.LFE65-.LFB65
+ 2073 0028 00000000 		.4byte	.LFB66
+ 2074 002c 10000000 		.4byte	.LFE66-.LFB66
+ 2075 0030 00000000 		.4byte	.LFB67
+ 2076 0034 10000000 		.4byte	.LFE67-.LFB67
+ 2077 0038 00000000 		.4byte	.LFB68
+ 2078 003c 14000000 		.4byte	.LFE68-.LFB68
+ 2079 0040 00000000 		.4byte	.LFB69
+ 2080 0044 14000000 		.4byte	.LFE69-.LFB69
+ 2081 0048 00000000 		.4byte	.LFB70
+ 2082 004c 10000000 		.4byte	.LFE70-.LFB70
+ 2083 0050 00000000 		.4byte	.LFB71
+ 2084 0054 10000000 		.4byte	.LFE71-.LFB71
+ 2085 0058 00000000 		.4byte	.LFB72
+ 2086 005c 0C000000 		.4byte	.LFE72-.LFB72
+ 2087 0060 00000000 		.4byte	.LFB73
+ 2088 0064 18000000 		.4byte	.LFE73-.LFB73
+ 2089 0068 00000000 		.4byte	.LFB74
+ 2090 006c 14000000 		.4byte	.LFE74-.LFB74
+ 2091 0070 00000000 		.4byte	.LFB75
+ 2092 0074 14000000 		.4byte	.LFE75-.LFB75
+ 2093 0078 00000000 		.4byte	.LFB76
+ 2094 007c 0A000000 		.4byte	.LFE76-.LFB76
+ 2095 0080 00000000 		.4byte	.LFB77
+ 2096 0084 1C000000 		.4byte	.LFE77-.LFB77
+ 2097 0088 00000000 		.4byte	.LFB78
+ 2098 008c 0C000000 		.4byte	.LFE78-.LFB78
+ 2099 0090 00000000 		.4byte	.LFB79
+ 2100 0094 0C000000 		.4byte	.LFE79-.LFB79
+ 2101 0098 00000000 		.4byte	.LFB80
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 41
+
+
+ 2102 009c 0C000000 		.4byte	.LFE80-.LFB80
+ 2103 00a0 00000000 		.4byte	.LFB81
+ 2104 00a4 14000000 		.4byte	.LFE81-.LFB81
+ 2105 00a8 00000000 		.4byte	.LFB82
+ 2106 00ac 14000000 		.4byte	.LFE82-.LFB82
+ 2107 00b0 00000000 		.4byte	.LFB83
+ 2108 00b4 50000000 		.4byte	.LFE83-.LFB83
+ 2109 00b8 00000000 		.4byte	.LFB84
+ 2110 00bc 28000000 		.4byte	.LFE84-.LFB84
+ 2111 00c0 00000000 		.4byte	.LFB85
+ 2112 00c4 46000000 		.4byte	.LFE85-.LFB85
+ 2113 00c8 00000000 		.4byte	0
+ 2114 00cc 00000000 		.4byte	0
+ 2115              		.section	.debug_ranges,"",%progbits
+ 2116              	.Ldebug_ranges0:
+ 2117 0000 00000000 		.4byte	.LFB63
+ 2118 0004 28000000 		.4byte	.LFE63
+ 2119 0008 00000000 		.4byte	.LFB64
+ 2120 000c 14000000 		.4byte	.LFE64
+ 2121 0010 00000000 		.4byte	.LFB65
+ 2122 0014 14000000 		.4byte	.LFE65
+ 2123 0018 00000000 		.4byte	.LFB66
+ 2124 001c 10000000 		.4byte	.LFE66
+ 2125 0020 00000000 		.4byte	.LFB67
+ 2126 0024 10000000 		.4byte	.LFE67
+ 2127 0028 00000000 		.4byte	.LFB68
+ 2128 002c 14000000 		.4byte	.LFE68
+ 2129 0030 00000000 		.4byte	.LFB69
+ 2130 0034 14000000 		.4byte	.LFE69
+ 2131 0038 00000000 		.4byte	.LFB70
+ 2132 003c 10000000 		.4byte	.LFE70
+ 2133 0040 00000000 		.4byte	.LFB71
+ 2134 0044 10000000 		.4byte	.LFE71
+ 2135 0048 00000000 		.4byte	.LFB72
+ 2136 004c 0C000000 		.4byte	.LFE72
+ 2137 0050 00000000 		.4byte	.LFB73
+ 2138 0054 18000000 		.4byte	.LFE73
+ 2139 0058 00000000 		.4byte	.LFB74
+ 2140 005c 14000000 		.4byte	.LFE74
+ 2141 0060 00000000 		.4byte	.LFB75
+ 2142 0064 14000000 		.4byte	.LFE75
+ 2143 0068 00000000 		.4byte	.LFB76
+ 2144 006c 0A000000 		.4byte	.LFE76
+ 2145 0070 00000000 		.4byte	.LFB77
+ 2146 0074 1C000000 		.4byte	.LFE77
+ 2147 0078 00000000 		.4byte	.LFB78
+ 2148 007c 0C000000 		.4byte	.LFE78
+ 2149 0080 00000000 		.4byte	.LFB79
+ 2150 0084 0C000000 		.4byte	.LFE79
+ 2151 0088 00000000 		.4byte	.LFB80
+ 2152 008c 0C000000 		.4byte	.LFE80
+ 2153 0090 00000000 		.4byte	.LFB81
+ 2154 0094 14000000 		.4byte	.LFE81
+ 2155 0098 00000000 		.4byte	.LFB82
+ 2156 009c 14000000 		.4byte	.LFE82
+ 2157 00a0 00000000 		.4byte	.LFB83
+ 2158 00a4 50000000 		.4byte	.LFE83
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 42
+
+
+ 2159 00a8 00000000 		.4byte	.LFB84
+ 2160 00ac 28000000 		.4byte	.LFE84
+ 2161 00b0 00000000 		.4byte	.LFB85
+ 2162 00b4 46000000 		.4byte	.LFE85
+ 2163 00b8 00000000 		.4byte	0
+ 2164 00bc 00000000 		.4byte	0
+ 2165              		.section	.debug_line,"",%progbits
+ 2166              	.Ldebug_line0:
+ 2167 0000 B0030000 		.section	.debug_str,"MS",%progbits,1
+ 2167      0200CA01 
+ 2167      00000201 
+ 2167      FB0E0D00 
+ 2167      01010101 
+ 2168              	.LASF56:
+ 2169 0000 45796542 		.ascii	"EyeBallVertical_WriteCompare1\000"
+ 2169      616C6C56 
+ 2169      65727469 
+ 2169      63616C5F 
+ 2169      57726974 
+ 2170              	.LASF60:
+ 2171 001e 45796542 		.ascii	"EyeBallVertical_WriteCompare2\000"
+ 2171      616C6C56 
+ 2171      65727469 
+ 2171      63616C5F 
+ 2171      57726974 
+ 2172              	.LASF48:
+ 2173 003c 52696768 		.ascii	"RightEyebrow_WriteCompare1\000"
+ 2173      74457965 
+ 2173      62726F77 
+ 2173      5F577269 
+ 2173      7465436F 
+ 2174              	.LASF49:
+ 2175 0057 52696768 		.ascii	"RightEyebrow_WriteCompare2\000"
+ 2175      74457965 
+ 2175      62726F77 
+ 2175      5F577269 
+ 2175      7465436F 
+ 2176              	.LASF37:
+ 2177 0072 73746F70 		.ascii	"stopAllComponents\000"
+ 2177      416C6C43 
+ 2177      6F6D706F 
+ 2177      6E656E74 
+ 2177      7300
+ 2178              	.LASF22:
+ 2179 0084 72616973 		.ascii	"raisedRightEyebrow\000"
+ 2179      65645269 
+ 2179      67687445 
+ 2179      79656272 
+ 2179      6F7700
+ 2180              	.LASF41:
+ 2181 0097 4579656C 		.ascii	"EyelidGroup_Start\000"
+ 2181      69644772 
+ 2181      6F75705F 
+ 2181      53746172 
+ 2181      7400
+ 2182              	.LASF27:
+ 2183 00a9 6D6F7665 		.ascii	"moveNeckCenter\000"
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 43
+
+
+ 2183      4E65636B 
+ 2183      43656E74 
+ 2183      657200
+ 2184              	.LASF15:
+ 2185 00b8 73697A65 		.ascii	"sizetype\000"
+ 2185      74797065 
+ 2185      00
+ 2186              	.LASF29:
+ 2187 00c1 72657365 		.ascii	"resetJaw\000"
+ 2187      744A6177 
+ 2187      00
+ 2188              	.LASF23:
+ 2189 00ca 73616452 		.ascii	"sadRightEyebrow\000"
+ 2189      69676874 
+ 2189      45796562 
+ 2189      726F7700 
+ 2190              	.LASF28:
+ 2191 00da 6D6F7665 		.ascii	"moveNeckUp\000"
+ 2191      4E65636B 
+ 2191      557000
+ 2192              	.LASF74:
+ 2193 00e5 6D61696E 		.ascii	"main\000"
+ 2193      00
+ 2194              	.LASF33:
+ 2195 00ea 6D6F7665 		.ascii	"moveLowerJawDown\000"
+ 2195      4C6F7765 
+ 2195      724A6177 
+ 2195      446F776E 
+ 2195      00
+ 2196              	.LASF2:
+ 2197 00fb 73686F72 		.ascii	"short int\000"
+ 2197      7420696E 
+ 2197      7400
+ 2198              	.LASF20:
+ 2199 0105 636C6561 		.ascii	"clearLeftEyebrow\000"
+ 2199      724C6566 
+ 2199      74457965 
+ 2199      62726F77 
+ 2199      00
+ 2200              	.LASF58:
+ 2201 0116 45796542 		.ascii	"EyeBallHorizontal_WriteCompare1\000"
+ 2201      616C6C48 
+ 2201      6F72697A 
+ 2201      6F6E7461 
+ 2201      6C5F5772 
+ 2202              	.LASF55:
+ 2203 0136 42617365 		.ascii	"BaseJaw_Stop\000"
+ 2203      4A61775F 
+ 2203      53746F70 
+ 2203      00
+ 2204              	.LASF21:
+ 2205 0143 72657365 		.ascii	"resetRightEyebrow\000"
+ 2205      74526967 
+ 2205      68744579 
+ 2205      6562726F 
+ 2205      7700
+ 2206              	.LASF26:
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 44
+
+
+ 2207 0155 6D6F7665 		.ascii	"moveNeckDown\000"
+ 2207      4E65636B 
+ 2207      446F776E 
+ 2207      00
+ 2208              	.LASF36:
+ 2209 0162 72657365 		.ascii	"resetAllServoPositions\000"
+ 2209      74416C6C 
+ 2209      53657276 
+ 2209      6F506F73 
+ 2209      6974696F 
+ 2210              	.LASF45:
+ 2211 0179 4C69705F 		.ascii	"Lip_Start\000"
+ 2211      53746172 
+ 2211      7400
+ 2212              	.LASF68:
+ 2213 0183 45796542 		.ascii	"EyeBallHorizontal_Stop\000"
+ 2213      616C6C48 
+ 2213      6F72697A 
+ 2213      6F6E7461 
+ 2213      6C5F5374 
+ 2214              	.LASF11:
+ 2215 019a 666C6F61 		.ascii	"float\000"
+ 2215      7400
+ 2216              	.LASF6:
+ 2217 01a0 6C6F6E67 		.ascii	"long long int\000"
+ 2217      206C6F6E 
+ 2217      6720696E 
+ 2217      7400
+ 2218              	.LASF50:
+ 2219 01ae 42617365 		.ascii	"BaseJaw_WriteCompare1\000"
+ 2219      4A61775F 
+ 2219      57726974 
+ 2219      65436F6D 
+ 2219      70617265 
+ 2220              	.LASF38:
+ 2221 01c4 52696768 		.ascii	"RightEyebrow_Start\000"
+ 2221      74457965 
+ 2221      62726F77 
+ 2221      5F537461 
+ 2221      727400
+ 2222              	.LASF19:
+ 2223 01d7 72616973 		.ascii	"raisedLeftEyebrow\000"
+ 2223      65644C65 
+ 2223      66744579 
+ 2223      6562726F 
+ 2223      7700
+ 2224              	.LASF17:
+ 2225 01e9 72657365 		.ascii	"resetLeftEyebrow\000"
+ 2225      744C6566 
+ 2225      74457965 
+ 2225      62726F77 
+ 2225      00
+ 2226              	.LASF57:
+ 2227 01fa 4579656C 		.ascii	"EyelidGroup_WriteCompare1\000"
+ 2227      69644772 
+ 2227      6F75705F 
+ 2227      57726974 
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 45
+
+
+ 2227      65436F6D 
+ 2228              	.LASF61:
+ 2229 0214 4579656C 		.ascii	"EyelidGroup_WriteCompare2\000"
+ 2229      69644772 
+ 2229      6F75705F 
+ 2229      57726974 
+ 2229      65436F6D 
+ 2230              	.LASF16:
+ 2231 022e 696E6974 		.ascii	"initializeAllComponenets\000"
+ 2231      69616C69 
+ 2231      7A65416C 
+ 2231      6C436F6D 
+ 2231      706F6E65 
+ 2232              	.LASF44:
+ 2233 0247 4E65636B 		.ascii	"Neck_Start\000"
+ 2233      5F537461 
+ 2233      727400
+ 2234              	.LASF14:
+ 2235 0252 6C6F6E67 		.ascii	"long double\000"
+ 2235      20646F75 
+ 2235      626C6500 
+ 2236              	.LASF70:
+ 2237 025e 4C69705F 		.ascii	"Lip_Stop\000"
+ 2237      53746F70 
+ 2237      00
+ 2238              	.LASF1:
+ 2239 0267 756E7369 		.ascii	"unsigned char\000"
+ 2239      676E6564 
+ 2239      20636861 
+ 2239      7200
+ 2240              	.LASF25:
+ 2241 0275 6D6F7665 		.ascii	"moveLowerJawUp\000"
+ 2241      4C6F7765 
+ 2241      724A6177 
+ 2241      557000
+ 2242              	.LASF0:
+ 2243 0284 7369676E 		.ascii	"signed char\000"
+ 2243      65642063 
+ 2243      68617200 
+ 2244              	.LASF10:
+ 2245 0290 696E7433 		.ascii	"int32_t\000"
+ 2245      325F7400 
+ 2246              	.LASF7:
+ 2247 0298 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 2247      206C6F6E 
+ 2247      6720756E 
+ 2247      7369676E 
+ 2247      65642069 
+ 2248              	.LASF62:
+ 2249 02af 45796542 		.ascii	"EyeBallHorizontal_WriteCompare2\000"
+ 2249      616C6C48 
+ 2249      6F72697A 
+ 2249      6F6E7461 
+ 2249      6C5F5772 
+ 2250              	.LASF66:
+ 2251 02cf 45796542 		.ascii	"EyeBallVertical_Stop\000"
+ 2251      616C6C56 
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 46
+
+
+ 2251      65727469 
+ 2251      63616C5F 
+ 2251      53746F70 
+ 2252              	.LASF46:
+ 2253 02e4 4C656674 		.ascii	"LeftEyebrow_WriteCompare1\000"
+ 2253      45796562 
+ 2253      726F775F 
+ 2253      57726974 
+ 2253      65436F6D 
+ 2254              	.LASF47:
+ 2255 02fe 4C656674 		.ascii	"LeftEyebrow_WriteCompare2\000"
+ 2255      45796562 
+ 2255      726F775F 
+ 2255      57726974 
+ 2255      65436F6D 
+ 2256              	.LASF5:
+ 2257 0318 6C6F6E67 		.ascii	"long unsigned int\000"
+ 2257      20756E73 
+ 2257      69676E65 
+ 2257      6420696E 
+ 2257      7400
+ 2258              	.LASF69:
+ 2259 032a 4E65636B 		.ascii	"Neck_Stop\000"
+ 2259      5F53746F 
+ 2259      7000
+ 2260              	.LASF64:
+ 2261 0334 52696768 		.ascii	"RightEyebrow_Stop\000"
+ 2261      74457965 
+ 2261      62726F77 
+ 2261      5F53746F 
+ 2261      7000
+ 2262              	.LASF3:
+ 2263 0346 73686F72 		.ascii	"short unsigned int\000"
+ 2263      7420756E 
+ 2263      7369676E 
+ 2263      65642069 
+ 2263      6E7400
+ 2264              	.LASF65:
+ 2265 0359 4C656674 		.ascii	"LeftEyebrow_Stop\000"
+ 2265      45796562 
+ 2265      726F775F 
+ 2265      53746F70 
+ 2265      00
+ 2266              	.LASF13:
+ 2267 036a 63686172 		.ascii	"char\000"
+ 2267      00
+ 2268              	.LASF4:
+ 2269 036f 6C6F6E67 		.ascii	"long int\000"
+ 2269      20696E74 
+ 2269      00
+ 2270              	.LASF73:
+ 2271 0378 433A5C55 		.ascii	"C:\\Users\\Sandeep Nadella\\OneDrive\\Documents\\PS"
+ 2271      73657273 
+ 2271      5C53616E 
+ 2271      64656570 
+ 2271      204E6164 
+ 2272 03a6 6F432043 		.ascii	"oC Creator\\SD_Workspace\\Robot_Control.cydsn\000"
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 47
+
+
+ 2272      72656174 
+ 2272      6F725C53 
+ 2272      445F576F 
+ 2272      726B7370 
+ 2273              	.LASF67:
+ 2274 03d2 4579656C 		.ascii	"EyelidGroup_Stop\000"
+ 2274      69644772 
+ 2274      6F75705F 
+ 2274      53746F70 
+ 2274      00
+ 2275              	.LASF34:
+ 2276 03e3 6D6F7665 		.ascii	"moveHeadRight\000"
+ 2276      48656164 
+ 2276      52696768 
+ 2276      7400
+ 2277              	.LASF59:
+ 2278 03f1 4C69705F 		.ascii	"Lip_WriteCompare1\000"
+ 2278      57726974 
+ 2278      65436F6D 
+ 2278      70617265 
+ 2278      3100
+ 2279              	.LASF63:
+ 2280 0403 4C69705F 		.ascii	"Lip_WriteCompare2\000"
+ 2280      57726974 
+ 2280      65436F6D 
+ 2280      70617265 
+ 2280      3200
+ 2281              	.LASF43:
+ 2282 0415 45796542 		.ascii	"EyeBallHorizontal_Start\000"
+ 2282      616C6C48 
+ 2282      6F72697A 
+ 2282      6F6E7461 
+ 2282      6C5F5374 
+ 2283              	.LASF24:
+ 2284 042d 636C6561 		.ascii	"clearRightEyebrow\000"
+ 2284      72526967 
+ 2284      68744579 
+ 2284      6562726F 
+ 2284      7700
+ 2285              	.LASF72:
+ 2286 043f 6D61696E 		.ascii	"main.c\000"
+ 2286      2E6300
+ 2287              	.LASF18:
+ 2288 0446 7361644C 		.ascii	"sadLeftEyebrow\000"
+ 2288      65667445 
+ 2288      79656272 
+ 2288      6F7700
+ 2289              	.LASF53:
+ 2290 0455 42617365 		.ascii	"BaseJaw_WriteCompare2\000"
+ 2290      4A61775F 
+ 2290      57726974 
+ 2290      65436F6D 
+ 2290      70617265 
+ 2291              	.LASF12:
+ 2292 046b 646F7562 		.ascii	"double\000"
+ 2292      6C6500
+ 2293              	.LASF42:
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 48
+
+
+ 2294 0472 42617365 		.ascii	"BaseJaw_Start\000"
+ 2294      4A61775F 
+ 2294      53746172 
+ 2294      7400
+ 2295              	.LASF52:
+ 2296 0480 4E65636B 		.ascii	"Neck_WriteCompare2\000"
+ 2296      5F577269 
+ 2296      7465436F 
+ 2296      6D706172 
+ 2296      653200
+ 2297              	.LASF9:
+ 2298 0493 5F5F696E 		.ascii	"__int32_t\000"
+ 2298      7433325F 
+ 2298      7400
+ 2299              	.LASF39:
+ 2300 049d 4C656674 		.ascii	"LeftEyebrow_Start\000"
+ 2300      45796562 
+ 2300      726F775F 
+ 2300      53746172 
+ 2300      7400
+ 2301              	.LASF51:
+ 2302 04af 4E65636B 		.ascii	"Neck_WriteCompare1\000"
+ 2302      5F577269 
+ 2302      7465436F 
+ 2302      6D706172 
+ 2302      653100
+ 2303              	.LASF31:
+ 2304 04c2 6D6F7665 		.ascii	"moveBaseRight\000"
+ 2304      42617365 
+ 2304      52696768 
+ 2304      7400
+ 2305              	.LASF30:
+ 2306 04d0 6D6F7665 		.ascii	"moveBaseCenter\000"
+ 2306      42617365 
+ 2306      43656E74 
+ 2306      657200
+ 2307              	.LASF75:
+ 2308 04df 49544D5F 		.ascii	"ITM_RxBuffer\000"
+ 2308      52784275 
+ 2308      66666572 
+ 2308      00
+ 2309              	.LASF71:
+ 2310 04ec 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 2310      43313120 
+ 2310      352E342E 
+ 2310      31203230 
+ 2310      31363036 
+ 2311 051f 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 2311      20726576 
+ 2311      6973696F 
+ 2311      6E203233 
+ 2311      37373135 
+ 2312 0552 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 2312      66756E63 
+ 2312      74696F6E 
+ 2312      2D736563 
+ 2312      74696F6E 
+ARM GAS  C:\Users\SANDEE~1\AppData\Local\Temp\ccxpgTaX.s 			page 49
+
+
+ 2313              	.LASF8:
+ 2314 057a 756E7369 		.ascii	"unsigned int\000"
+ 2314      676E6564 
+ 2314      20696E74 
+ 2314      00
+ 2315              	.LASF54:
+ 2316 0587 43794465 		.ascii	"CyDelay\000"
+ 2316      6C617900 
+ 2317              	.LASF32:
+ 2318 058f 6D6F7665 		.ascii	"moveBaseLeft\000"
+ 2318      42617365 
+ 2318      4C656674 
+ 2318      00
+ 2319              	.LASF35:
+ 2320 059c 6D6F7665 		.ascii	"moveHeadLeft\000"
+ 2320      48656164 
+ 2320      4C656674 
+ 2320      00
+ 2321              	.LASF40:
+ 2322 05a9 45796542 		.ascii	"EyeBallVertical_Start\000"
+ 2322      616C6C56 
+ 2322      65727469 
+ 2322      63616C5F 
+ 2322      53746172 
+ 2323              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

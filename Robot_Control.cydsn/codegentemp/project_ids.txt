@@ -1,0 +1,6 @@
+C:\Users\Sandeep Nadella\OneDrive\Documents\PSoC Creator\SD_Workspace\Robot_Control.cydsn\Robot_Control.cyprj|c092bb96-b656-40c2-9f0e-d4555710d2d8
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|03159743-de23-40d4-b3af-774f1e21359d
+C:\Users\Sandeep Nadella\OneDrive\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|3c34ed72-91a6-48ce-9b46-fe567f06bd15
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|9344fa52-9542-480d-b587-3bc73e70d2d7
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|e2ed4327-4d93-4791-a6b3-0404f45c6c5a
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|3827689b-bb9e-4827-b6fa-912a414b03ff
